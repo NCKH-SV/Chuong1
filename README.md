@@ -5,9 +5,8 @@ Abcdsdkhskfhvuidfvh
 <<<<<<< HEAD
 ## Mục Kevin
 hdhdgdggdg
+Ngọc là của tôi 
 =======
 
 ## Bang dchinh ne
 >>>>>>> main
-## Kevin
-Ngọc là của tôi 

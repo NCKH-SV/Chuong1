@@ -5,3 +5,5 @@ Abcdsdkhskfhvuidfvh
 ## Kevin
 Nghiên Cứu Khoa Học
 Tối Ưu Tuyến Tính có Tham Số
+## Ngọc
+Lê Đức Anh  3122480001

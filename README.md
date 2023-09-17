@@ -4,8 +4,7 @@
 Abcdsdkhskfhvuidfvh
 <<<<<<< HEAD
 ## Mục Kevin
-hdhdgdggdg
-Ngọc là của tôi 
+Nghiên cứu khoa học
 =======
 
 ## Bang dchinh ne

@@ -3,5 +3,5 @@
 ## Nội dung
 Abcdsdkhskfhvuidfvh
 ## Kevin
-Nghiên cứu khoa học 
-đbdbđg
+Nghiên Cứu Khoa Học
+Tối Ưu Tuyến Tính có Tham Số

@@ -187,8 +187,4 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sy
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 OUTPUT bia (1).pdf
-INPUT C:\Users\ASUS\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\vntex\t5.enc
 INPUT bia (1).aux
-INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmr8v.pfb
-INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmr8v.pfb

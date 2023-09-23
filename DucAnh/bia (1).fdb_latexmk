@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1695433680 "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia.tex" "bia.pdf" "bia" 1695433683 0
+["pdflatex"] 1695434433 "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" "bia (1).pdf" "bia (1)" 1695434434 0
   "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1695370057 92061 67001b53484733d4f6739a0524c0a7e1 ""
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695433676 24141564 97ba139caa9dc67915bab09f688f98d0 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc" 1368738347 7824 21ade6c3c7fd67cb4ace8dbc91c53118 ""
@@ -66,7 +66,6 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg" 1616067285 584 2a1075dd71571459f59146da9f7502ad ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1687174146 20144 fbcf51733730d8f1a62143512ff5b1fe ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty" 1687174146 5119 50695b8f743569fbac71a83f7ef51fe2 ""
-  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty" 1687174146 5319 5435f8f7051e23a851a1c665c5b84e22 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty" 1687174146 5048 4a74b0804469fbfae7849704c4687a07 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1687174146 8448 74078c4a887f2cdcd57c3ec111622740 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
@@ -104,14 +103,12 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5enc.def" 1368738347 21986 ccb3b8f7cc27fbd61b3daabbbb82ad3f ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5enc.dfu" 1368738347 13949 387dd4fa58aea5f873839c93430fffed ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5ptm.fd" 1368738347 1100 803888e7a6edcd8c143317c75deceb08 ""
-  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/vietnam.sty" 1368738347 2477 91784aa2c9213f74609391e3cae65a13 ""
-  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/vncaps.tex" 1368738347 3273 a55ebdb07413d2fea580f210e3c0b252 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "bia.aux" 1695433682 68 c01c43be3301a04d69858e464df432c6 "pdflatex"
-  "bia.tex" 1695433590 1013 ab1c89dae138c3dd63287c0cd7767507 ""
-  "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia.tex" 1695433590 1013 ab1c89dae138c3dd63287c0cd7767507 ""
+  "bia (1).aux" 1695434434 68 c01c43be3301a04d69858e464df432c6 "pdflatex"
+  "bia (1).tex" 1695433761 971 90dc000a7d846f2a5dc7d7aacfca6c22 ""
+  "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" 1695433761 971 90dc000a7d846f2a5dc7d7aacfca6c22 ""
   (generated)
-  "bia.aux"
-  "bia.log"
-  "bia.pdf"
+  "bia (1).aux"
+  "bia (1).log"
+  "bia (1).pdf"
   (rewritten before read)

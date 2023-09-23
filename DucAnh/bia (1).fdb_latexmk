@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1695438675 "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" "bia (1).pdf" "bia (1)" 1695438676 0
+["pdflatex"] 1695439548 "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" "bia (1).pdf" "bia (1)" 1695439549 0
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695433676 24141564 97ba139caa9dc67915bab09f688f98d0 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/vntex/urwvn/utmr8v.tfm" 1124904812 9148 527b0537918dbea3d17ce87083d502f6 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/vntex/vnr/vnr10.tfm" 1644004041 3980 a378198bbdb2c6fcd4b722396a62ad27 ""
@@ -101,9 +101,10 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5enc.dfu" 1368738347 13949 387dd4fa58aea5f873839c93430fffed ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5ptm.fd" 1368738347 1100 803888e7a6edcd8c143317c75deceb08 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "bia (1).aux" 1695438675 111 413f02f01b0b13ee6ebc58bdcca05b4b "pdflatex"
-  "bia (1).tex" 1695438674 1023 f1e56b89f22c1c1e015bfb4152100c8d ""
-  "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" 1695438674 1023 f1e56b89f22c1c1e015bfb4152100c8d ""
+  "bia (1).aux" 1695439549 111 413f02f01b0b13ee6ebc58bdcca05b4b "pdflatex"
+  "bia (1).tex" 1695439547 1145 057bc4dfabb56f701b6d50277be6e522 ""
+  "bianckh.png" 1695372564 708876 dda5edae8537ca5c7e4c3da744fd6971 ""
+  "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" 1695439547 1145 057bc4dfabb56f701b6d50277be6e522 ""
   (generated)
   "bia (1).aux"
   "bia (1).log"

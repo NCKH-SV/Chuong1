@@ -186,5 +186,12 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT .\bianckh.png
+INPUT .\bianckh.png
+INPUT .\bianckh.png
+INPUT .\bianckh.png
 OUTPUT bia (1).pdf
+INPUT .\bianckh.png
+INPUT .\bianckh.png
+INPUT .\bianckh.png
 INPUT bia (1).aux

@@ -1,12 +1,6 @@
-<<<<<<< HEAD:DucAnh/bia (1).fls
 PWD c:\Users\ASUS\OneDrive\Documents\GitHub\nckh\Chuong1\DucAnh
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\Users\ASUS\OneDrive\Documents\GitHub\nckh\Chuong1\DucAnh\bia (1).tex
-=======
-PWD c:\Users\ASUS\OneDrive\Documents\GitHub\Chuong1\Ducanh
-INPUT C:\Users\ASUS\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ASUS\OneDrive\Documents\GitHub\Chuong1\Ducanh\bia (1).tex
->>>>>>> 5c9ffaa8ca1cacccd1862304dfb4adf87d8568aa:Ducanh/bia (1).fls
 OUTPUT bia (1).log
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

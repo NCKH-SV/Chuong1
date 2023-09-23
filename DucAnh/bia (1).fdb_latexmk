@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1695474374 "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" "bia (1).pdf" "bia (1)" 1695474375 0
+["pdflatex"] 1695475615 "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" "bia (1).pdf" "bia (1)" 1695475617 2
   "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1695370057 92061 67001b53484733d4f6739a0524c0a7e1 ""
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695433676 24141564 97ba139caa9dc67915bab09f688f98d0 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -23,6 +23,7 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmbi8v.pfb" 1124904812 72494 cf825f19d8ec4210c2772fe32c09927e ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb" 1124904812 74601 af4f6d57b2187e967dc73a57a6dbee86 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb" 1124904812 74127 d6f34be4a9a064416728f1ae622f3a22 ""
+  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb" 1644004041 40319 02110ade360715fbba33c66db50ef607 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmr8c.vf" 1136747054 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
@@ -129,13 +130,13 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5enc.dfu" 1368738347 13949 387dd4fa58aea5f873839c93430fffed ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5ptm.fd" 1368738347 1100 803888e7a6edcd8c143317c75deceb08 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "bia (1).aux" 1695474375 1977 da035c21b2056ed100d39264d6fb5883 "pdflatex"
-  "bia (1).lof" 1695474375 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "bia (1).lot" 1695474375 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "bia (1).tex" 1695474313 11740 789235c4797b737387384da2a97b2597 ""
-  "bia (1).toc" 1695474375 1230 bb40d25cca6cee83fefdad6bd7553a6b "pdflatex"
+  "bia (1).aux" 1695475616 1977 33c37248a1511fbd313ceea8fee8e815 "pdflatex"
+  "bia (1).lof" 1695475616 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "bia (1).lot" 1695475616 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "bia (1).tex" 1695475524 11738 92578b613dfa766974d4433f9f0e54b8 ""
+  "bia (1).toc" 1695475616 1230 bb40d25cca6cee83fefdad6bd7553a6b "pdflatex"
   "bianckh.png" 1695372564 708876 dda5edae8537ca5c7e4c3da744fd6971 ""
-  "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" 1695474313 11740 789235c4797b737387384da2a97b2597 ""
+  "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" 1695475524 11738 92578b613dfa766974d4433f9f0e54b8 ""
   (generated)
   "bia (1).aux"
   "bia (1).lof"

@@ -1,8 +1,9 @@
-<<<<<<< HEAD
-# Chuong 1
-# Chương 2
-# Chương 3
-=======
-# Phân chia công việc
-Nam 
->>>>>>> d1b2eb11c9c33351a8ef04a3f80364fabcaa340f
+# Ghi chú
+Cách gõ Markdown [[here]](https://www.markdownguide.org/)
+# Phân nội dung - Chương 1 - Cơ sở lý thuyết quy hoạch tuyến tính
+| Thành viên | Nội dung |
+|------------|----------|
+| Thư | Đơn hình (2 pha, M) |
+| Nam | Đối ngẫu |
+| ĐA | Đơn hình cải biên |
+| Bằng | Đơn hình đối ngẫu |

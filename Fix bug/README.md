@@ -5,5 +5,5 @@ Type `Open User Settings JSON` and open the first item (as shown below).
 
 Copy and paste the following two snippets into your `json` file (inside the brackets `{}` of your file).
 
-[[1]](https://github.com/Bancie/NCKH/blob/57e5e4893ae14e94e2d5e1c8a494aff1ae2d66f0/fixbug)
-[[2]](https://github.com/Bancie/NCKH/blob/57e5e4893ae14e94e2d5e1c8a494aff1ae2d66f0/fixbug2)
+[[1]](https://github.com/NCKH-SV/Chuong1/blob/c80e7db6e81ac78fe0913ca524aa2c982858c2f1/Fix%20bug/ver1)
+[[2]](https://github.com/NCKH-SV/Chuong1/blob/c80e7db6e81ac78fe0913ca524aa2c982858c2f1/Fix%20bug/ver2)

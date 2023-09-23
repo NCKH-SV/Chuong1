@@ -8,6 +8,23 @@
 \usepackage{float} % Set vị trì chèn ảnh 
 \usepackage{tikz} % Thư viện tạo khung bìa 
 \usetikzlibrary{calc} % Thư viện tikz
+\usepackage{indentfirst} % Thư viện thụt đầu dòng 
+\renewcommand{\baselinestretch}{1.2} % Giản dòng 1.2
+\setlength{\parskip}{6pt} % Spacing after
+\setlength{\parindent}{1cm} % Set khoảng cách thụt đầu dòng mỗi đoạn 
+\usepackage{titlesec} % Thư viện để set up các kiểu chữ
+\setcounter{secnumdepth}{4} % 4 Heading 
+\titlespacing*{\section}{0pt}{0pt}{30pt} % Heading 1
+\titleformat*{\section}{\fontsize{16pt}{0pt}\selectfont \bfseries \centering}
+
+\titlespacing*{\subsection}{0pt}{10pt}{0pt} % Heading 2 
+\titleformat*{\subsection}{\fontsize{14pt}{0pt}\selectfont \bfseries}
+
+\titlespacing*{\subsubsection}{0pt}{10pt}{30pt} % Heading 3
+\titleformat*{\subsubsection}{\fontsize{13pt}{0pt}\selectfont \bfseries \itshape}
+
+\titlespacing*{\paragraph}{0pt}{10pt}{0pt} % Heading 4
+\titleformat*{\paragraph}{\fontsize{13pt}{0pt}\selectfont \itshape}
 \begin{document}
 \begin{titlepage}
 \begin{tikzpicture}[overlay,remember picture]
@@ -108,4 +125,91 @@ Chúng em gồm: NGUYỄN THÀNH NAM, mã số sinh viên 3122480034, sinh viên
 \vspace{2cm}
 \hspace{4cm}\textbf{LÊ ĐỨC ANH} \hspace{3.5cm}\textbf{NGUYỄN THÀNH NAM} 
 \cleardoublepage
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents % Tạo mục lục tự động 
+\thispagestyle{empty}
+\cleardoublepage
+
+\pagenumbering{roman} % Đánh số thứ tự la mã 
+\section*{DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT}
+\addcontentsline{toc}{section}{\numberline {} DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT}
+\cleardoublepage
+
+\listoffigures % Tạo danh mục hình vẽ tự động
+\addcontentsline{toc}{section}{\numberline {} DANH MỤC HÌNH VỄ}
+\cleardoublepage
+
+\listoftables % Tạo danh mục hình vẽ tự động
+\addcontentsline{toc}{section}{\numberline {} DANH MỤC BẢNG BIỂU}
+\cleardoublepage
+\section*{TÓM TẮT BÁO CÁO}
+\addcontentsline{toc}{section}{\numberline {} TÓM TẮT BÁO CÁO}
+Phần này trình bày những mục đích và các kết luận quan trọng nhất của báo cáo bằng cả Tiếng Việt và Tiếng Anh. 
+\cleardoublepage
+ 
+\pagenumbering{arabic} % Đánh số thứ tự 1,2,3,... 
+\section*{CHƯƠNG 1. CHƯƠNG MỞ ĐẦU}
+\addcontentsline{toc}{section}{\numberline {} CHƯƠNG 1. CHƯƠNG MỞ ĐẦU}
+Phần mở đầu giới thiệu vấn đề mà báo cáo cần giải quyết, mô tả được các phương pháp hiện có để giải quyết vấn đề,
+trình bày mục đích của báo cáo song song với việc giới hạn phạm vi của vấn đề mà báo cáo sẽ tập trung giải quyết.
+Phần này cũng sẽ giới thiệu tóm tắt cấu trúc báo cáo và nội dung tương ứng của các phần sẽ lần lượt được trình bày
+ở các chương tiếp theo.
+
+Nội dung chính của một báo cáo thường bao gồm: 
+\begin{itemize}
+    \item Phần mở đầu giới thiệu đề tài.
+    \item Một chương giới thiệu cơ sở lý thuyết.
+    \item Một hoặc nhiều chương trình bày các vấn đề về tính toán và thiết kế.
+    \item Một chương mô tả các thí nghiệm và kết quả thu được.
+\end{itemize}
+\newpage
+
+\section*{CHƯƠNG 2. CƠ SỞ LÝ THUYẾT}
+\addcontentsline{toc}{section}{\numberline {} CHƯƠNG 2. CƠ SỞ LÝ THUYẾT}
+\setcounter{section}{2}
+\setcounter{subsection}{0}
+Mỗi chương sẽ bắt đầu bằng một đoạn giới thiệu các phần chính được trình bày  trong chương đó, dài khoảng từ 5 đến 10
+dòng và kết thúc bằng một đoạn tóm tắt các kết luận chính của chương. Chú ý phân bố chiều dài của mỗi chương cho cân
+đối và hợp lý.
+\subsection{Một số lưu ý khi trình bày báo cáo}
+Sau đây là một vài chú ý khi làm báo cáo cần nhớ:
+\subsubsection{Nộp báo cáo}
+\vspace{-35pt}
+Sinh viên (hoặc nhóm sinh viên tối đa 3 thành viên làm chung một đề tài) nộp 2 quyển báo cáo nghiên cứu khoa học tại
+văn phòng bộ môn của giảng viên hướng dẫn trước ngày phản biện ít nhất 1 tuần. Một quyển báo cáo cần có các đặc điểm
+sau:
+\begin{itemize}
+    \item Được \textbf{in hai mặt} nhằm tiết kiệm không gian lưu trữ.
+    \item Đóng bìa mềm, bên ngoài là bóng kính.
+    \item Số trang: 50 - 150 trang, không kể phần phục lục.
+    \item Phải có chữ ký của sinh viên sau LỜI CAM ĐOAN và của giảng viên hướng dẫn.
+\end{itemize}
+\subsubsection{Phụ lục}
+\vspace{-35pt}
+Phụ lục (nếu có) chứa các thông tin có liên quan đến báo cáo nhưng nếu để ở trong phần chính sẽ gây rườm rà. Thông
+thường các chi tiết được để trong phần phụ lục là: kết quả thô (chưa qua xử lý), mã nguồn phần mềm, thông số kỹ thuật
+chi tiết của linh kiện, hình ảnh minh họa thêm,...vv.
+
+\subsubsection{Tài liệu tham khảo}
+\vspace{-35pt}
+\paragraph{Cách liệt kê}\mbox{}
+
+Áp dụng cách liệt kê theo quy định của IEEE. Theo đó, tài liệu tham khảo được đánh số thứ tự trong ngoặc vuông. Thứ
+tự liệt kê là thứ tự xuất hiện của tài liệu tham khảo được trích dẫn trong báo cáo. Tài liệu tham khảo đã liệt kê
+bắt buộc phải được trích dẫn trong phần nội dung của báo cáo. Tài liệu tham khảo cần có nguồn gốc rõ ràng và phải
+từ nguồn đáng tin cậy. Hạn chế trích dẫn tài liệu tham khảo từ các website, từ wikipedia.
+\paragraph{Các loại tài liệu tham khảo}\mbox{}
+
+Các nguồn tài liệu tham khảo chính là sách, bài báo trong các hội nghị khoa học và các tài liệu tham khảo khác trên
+internet.
+
+ \subsubsection{Đánh số phương trình}
+ \vspace{-30pt}
+ Phương trình được đánh số theo số của chương, như hình vẽ và bảng biểu.
+ \subsubsection{Đánh số định nghĩa, định lý, hệ quả}
+ \vspace{-30pt}
+ Các định nghĩa, định lý, hệ quả sẽ được đánh số theo số của chương và được sử dụng chung một chỉ số. Ví dụ trong
+ chương 3, các định nghĩa, định lý, hệ quả sẽ được đánh số theo thứ tự như sau: Định lý 3.1, Định nghĩa 3.2, Hệ quả
+ 3.3, Định lý 3.4,...
 \end{document}

@@ -1,12 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1695434266 "c:/Users/ASUS/OneDrive/Documents/GitHub/Chuong1/Ducanh/bia (1).tex" "bia (1).pdf" "bia (1)" 1695434269 0
-  "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1695370057 92061 67001b53484733d4f6739a0524c0a7e1 ""
+["pdflatex"] 1695438675 "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" "bia (1).pdf" "bia (1)" 1695438676 0
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695433676 24141564 97ba139caa9dc67915bab09f688f98d0 ""
-  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc" 1368738347 7824 21ade6c3c7fd67cb4ace8dbc91c53118 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/vntex/urwvn/utmr8v.tfm" 1124904812 9148 527b0537918dbea3d17ce87083d502f6 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/vntex/vnr/vnr10.tfm" 1644004041 3980 a378198bbdb2c6fcd4b722396a62ad27 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/vntex/vnr/vnr12.tfm" 1644004041 3984 be7b630197255361b12d153ce5e1bc5b ""
-  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb" 1124904812 74601 af4f6d57b2187e967dc73a57a6dbee86 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1643997108 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -104,9 +101,9 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5enc.dfu" 1368738347 13949 387dd4fa58aea5f873839c93430fffed ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/vntex/t5ptm.fd" 1368738347 1100 803888e7a6edcd8c143317c75deceb08 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "bia (1).aux" 1695434269 68 c01c43be3301a04d69858e464df432c6 "pdflatex"
-  "bia (1).tex" 1695433761 971 90dc000a7d846f2a5dc7d7aacfca6c22 ""
-  "c:/Users/ASUS/OneDrive/Documents/GitHub/Chuong1/Ducanh/bia (1).tex" 1695433761 971 90dc000a7d846f2a5dc7d7aacfca6c22 ""
+  "bia (1).aux" 1695438675 111 413f02f01b0b13ee6ebc58bdcca05b4b "pdflatex"
+  "bia (1).tex" 1695438674 1023 f1e56b89f22c1c1e015bfb4152100c8d ""
+  "c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/DucAnh/bia (1).tex" 1695438674 1023 f1e56b89f22c1c1e015bfb4152100c8d ""
   (generated)
   "bia (1).aux"
   "bia (1).log"

@@ -196,6 +196,9 @@ OUTPUT bia (1).pdf
 INPUT .\bianckh.png
 INPUT .\bianckh.png
 INPUT .\bianckh.png
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmb8v.tfm
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmb8v.tfm
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\vntex\t5.enc
 INPUT bia (1).aux

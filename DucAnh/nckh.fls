@@ -1,7 +1,7 @@
-PWD c:\Users\ASUS\OneDrive\Documents\GitHub\nckh\Chuong1\DucAnh
+PWD c:\Users\ASUS\OneDrive\Documents\GitHub\nckh\Chuong1\Ducanh
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ASUS\OneDrive\Documents\GitHub\nckh\Chuong1\DucAnh\bia (1).tex
-OUTPUT bia (1).log
+INPUT c:\Users\ASUS\OneDrive\Documents\GitHub\nckh\Chuong1\Ducanh\nckh.tex
+OUTPUT nckh.log
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -168,16 +168,20 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5ptm.fd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5ptm.fd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5ptm.fd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\bia (1).aux
-INPUT .\bia (1).aux
-INPUT bia (1).aux
-OUTPUT bia (1).aux
+INPUT .\nckh.aux
+INPUT .\nckh.aux
+INPUT nckh.aux
+OUTPUT nckh.aux
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -188,14 +192,10 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sy
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmb8v.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmb8v.tfm
-INPUT .\bianckh.png
-INPUT .\bianckh.png
-INPUT .\bianckh.png
-INPUT .\bianckh.png
-OUTPUT bia (1).pdf
-INPUT .\bianckh.png
-INPUT .\bianckh.png
-INPUT .\bianckh.png
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmtt.fd
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmtt.fd
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmtt.fd
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vntt12.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmb8v.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmb8v.tfm
@@ -235,16 +235,32 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
+OUTPUT nckh.pdf
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\vntex\t5.enc
-INPUT .\bianckh.png
-INPUT .\bianckh.png
-INPUT .\bianckh.png
-INPUT .\bianckh.png
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
-INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmb8v.tfm
-INPUT bia (1).aux
+OUTPUT nckh.toc
+OUTPUT nckh.lof
+OUTPUT nckh.lot
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmbi8v.tfm
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmri8v.tfm
+INPUT nckh.aux
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmb8v.pfb
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmb8v.pfb
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmbi8v.pfb
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmbi8v.pfb
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmr8v.pfb
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmr8v.pfb
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmri8v.pfb
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\utmri8v.pfb
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vntt12.pfb
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vntt12.pfb

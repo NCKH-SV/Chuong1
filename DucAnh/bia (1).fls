@@ -246,8 +246,17 @@ INPUT .\bianckh.png
 INPUT .\bianckh.png
 INPUT .\bianckh.png
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
+INPUT .\bia (1).toc
+INPUT .\bia (1).toc
+INPUT bia (1).toc
 OUTPUT bia (1).toc
+INPUT .\bia (1).lof
+INPUT .\bia (1).lof
+INPUT bia (1).lof
 OUTPUT bia (1).lof
+INPUT .\bia (1).lot
+INPUT .\bia (1).lot
+INPUT bia (1).lot
 OUTPUT bia (1).lot
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd

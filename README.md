@@ -1,6 +1,6 @@
 # Ghi chú
 Cách gõ Markdown [[here]](https://www.markdownguide.org/)
-# Phân nội dung - Chương 1 - Cơ sở lý thuyết quy hoạch tuyến tính
+## Phân nội dung - Chương 1 - Cơ sở lý thuyết quy hoạch tuyến tính
 | Thành viên | Nội dung |
 |------------|----------|
 | Thư | Đơn hình (2 pha, M) |

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  25 SEP 2023 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  25 SEP 2023 15:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -713,8 +713,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:133: Misplaced alignment tab character &.
-l.133 ...{j \in J}x_jA_j=b, \quad \quad \Delta_k &
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:135: Misplaced alignment tab character &.
+l.135 ...{j \in J}x_jA_j=b, \quad \quad \Delta_k &
                                                   = \sum_{j \in J}z_{jk}c_j-...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -723,107 +723,122 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--147
+
+ []
+
 [3]
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:149: Double subscript.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Double subscript.
 <argument> ...&=c_j\overline {\rm Z_k}-c_k=c_{jA}_
                                                   j^{-1}A_k-c_k \\ A_{jx}_j&...
-l.149                                 \end{split}
+l.152                                 \end{split}
                                                  
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:149: Double subscript.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Double subscript.
 <argument> ...-c_k=c_{jA}_j^{-1}A_k-c_k \\ A_{jx}_
                                                   j&=b \rightarrow x_j=A_j^{...
-l.149                                 \end{split}
+l.152                                 \end{split}
                                                  
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:149: Double subscript.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Double subscript.
 <argument> ...&=c_j\overline {\rm Z_k}-c_k=c_{jA}_
                                                   j^{-1}A_k-c_k \\ A_{jx}_j&...
-l.149                                 \end{split}
+l.152                                 \end{split}
                                                  
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:149: Double subscript.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Double subscript.
 <argument> ...-c_k=c_{jA}_j^{-1}A_k-c_k \\ A_{jx}_
                                                   j&=b \rightarrow x_j=A_j^{...
-l.149                                 \end{split}
+l.152                                 \end{split}
                                                  
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:165: Double subscript.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Double subscript.
 <argument> \split@tag \begin {split} A_{jA}_
                                             j^{-1}&=V \\ \Rightarrow \sum _{...
-l.165 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:165: Double subscript.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Double subscript.
 <argument> \split@tag \begin {split} A_{jA}_
                                             j^{-1}&=V \\ \Rightarrow \sum _{...
-l.165 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
 
 [4]
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:232: Double subscript.
-l.232 ...     (q_{m+1,1},\ldots,q_{m+1,m})=c_{jA}_
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:235: Double subscript.
+l.235 ...     (q_{m+1,1},\ldots,q_{m+1,m})=c_{jA}_
                                                   j^{-1}
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 275--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--293
+Underfull \hbox (badness 10000) in paragraph at lines 293--296
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 325--327
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--350
+Underfull \hbox (badness 10000) in paragraph at lines 349--353
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--389
+Underfull \hbox (badness 10000) in paragraph at lines 389--392
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
@@ -839,13 +854,13 @@ Package rerunfilecheck Info: File `Chuong1.out' has not changed.
 Here is how much of TeX's memory you used:
  14592 strings out of 475248
  233633 string characters out of 5758285
- 1936801 words of memory out of 5000000
+ 1937801 words of memory out of 5000000
  35838 multiletter control sequences out of 15000+600000
  576495 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,79p,650b,570s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,644b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Chuong1.pdf (10 pages, 283718 bytes).
+Output written on Chuong1.pdf (10 pages, 284028 bytes).
 PDF statistics:
  299 PDF objects out of 1000 (max. 8388607)
  77 named destinations out of 1000 (max. 500000)

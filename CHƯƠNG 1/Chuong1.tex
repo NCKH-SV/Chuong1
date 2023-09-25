@@ -118,7 +118,8 @@
                         Từ đây, bài toán\eqref{2.1} được giải với $u_0$ cơ sở chấp nhận được vừa tìm.
                     \item \textbf{Ví dụ minh hoạ} \\
                 \end{enumerate}
-    \subsection{Thuật toán cải biên và đối ngẫu}
+    \vspace{-1.0cm}
+        \subsection{Thuật toán cải biên và đối ngẫu}
             \subsubsection{Phương pháp đơn hình cải biên}
                 \begin{enumerate}
                     \item \textbf{Giới thiệu} \\
@@ -128,10 +129,12 @@
                             \end{equation}
                         Trong đó $A$ là ma trận $m \times n$ và giả sử rằng hạng của ma trận $A$ là $m$. Ta đã nghiên cứu phương pháp đơn hình để giải bài toán này. Giả sử ta có phương án cực biên
                         $x=(x_1,x_2,\ldots,x_m,0,\ldots,0)$ với $x_j>0,j=1,\ldots,m$ và cơ sở $A_j, j \in J=\{1,2,\ldots,m \}$. Ta đã có các công thức:
-                            \centering
+                            \vspace{-0.5cm}
+                            \begin{center}
                             \begin{equation}
                                 A_k = \sum_{j\in J}z_{jk}A_j, \quad \sum_{j \in J}x_jA_j=b, \quad \quad \Delta_k &= \sum_{j \in J}z_{jk}c_j-c_k \quad
                             \end{equation}
+                            \end{center}
                         Và ta đã chứng minh rằng phương án cực biên $x$ là tối ưu khi và chỉ khi $\Delta_k \geq 0, \forall k \notin J$.
                     \item \textbf{Nội dung} \\
                         Ochard và Hays lợi dụng tính chất và cơ sở bước lặp sau $A_j,j\in J^{'}=J \setminus \{r\} \cup \{s\}$ chỉ khác cơ sở ở bước $A_j,j \in J$ bằng việc thay thế một vector cơ sở, đã đưa ra thuật toán đơn hình cải biên để giám sát khối lượng tính toán và các thông tin cần lưu trữ trong mỗi bước lặp. \\

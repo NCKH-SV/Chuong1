@@ -30,7 +30,7 @@
 
 
 \title{Quy hoạch tuyến tính và cơ sở lý thuyết}
-\author{Nguyễn Chí Bằng, Đỗ Thư, Lê Đức Anh, Nguyễn Thành Nam} 
+\author{Nguyễn Chí Bằng, Đỗ Ngọc Minh  Thư, Lê Đức Anh, Nguyễn Thành Nam} 
 
 \begin{document}
 
@@ -38,7 +38,6 @@
 
 \begin{abstract}
     Đề tài gồm
-    Thư đã chỉnh sửa
 \end{abstract}
 
 \tableofcontents
@@ -58,10 +57,10 @@
                                     x_j &\geq 0 , j = \overline{\rm 1,n} \\
                                 \end{split}
                             \end{equation}
-                        Từ đó ta xét BT có ẩn giả tạo sau (gọi là BTM) \eqref{**}
+                        Từ đó ta xét BT có ẩn giả tạo sau (gọi là Bài toán M) \eqref{**}
                             \begin{equation} \label{**}
                                 \begin{split}
-                                    Min \: \sum_{j=1}^n c_jx_j+M \\
+                                    Min \: \sum_{j=1}^n c_jx_j+M(\sum_{i=1}^m x_{n+i}) \\
                                     \sum_{j=1}^n a_{ij}x_j + x_{n+i}&=b_i , i = \overline{\rm 1,m} \\
                                     x_j &\geq 0 , j= \overline{\rm 1,{n+m}}
                                 \end{split}
@@ -72,15 +71,13 @@
                                 \item BT \eqref{*}  có PATU X khi và chỉ khi BT \eqref{**} có PATU $\overline{\rm X} = (X,0)$.
                                 \item Nếu BT \eqref{**} có PATU $\overline{\rm X}$ mà trong đó có chứa $x_{m+i}>0$ thì tập PATU của BT \eqref{*} là rỗng.
                             \end{dl}
-                            \begin{cy}
-                                Đối với bài toán M, $\Delta_j$ có dạng $\Delta_j=\alpha_j+\beta_jM$. Vì thế dòng thứ $m+1$ của bảng đơn hình, ta nên tách thành hai dòng ghi $\alpha _j$ và $\beta_j$. Để đánh giá $\Delta_j$ ta cần chú ý tới $B_j$, sau đó mới chú ý đến $\alpha_j$.
-                            \end{cy} 
+                        
                     \item \textbf{Ví dụ minh hoạ} \\          
                 \end{enumerate}
             \subsubsection{Bài toán 2 pha}
                 \begin{enumerate}
                     \item \textbf{Nội dung} \\
-                        Nếu 1 bài toán quy hoạch tuyến tính có hệ ràng buộc theo dạng
+                        Nếu một bài toán quy hoạch tuyến tính có hệ ràng buộc theo dạng
                             \begin{equation}
                                 \begin{split}
                                     Ax &\leq b \\

@@ -51,7 +51,7 @@
                         Giả sử ta có bài toán có ma trận $A$ chưa xác định được hệ cơ sở
                             \begin{equation} \label{*}
                                 \begin{split}
-                                    Min \: \sum_{j=1}^n c_jx_j \\
+                                    Min \: \sum_{j=1}^n c_{jx}_j \\
                                     \sum_{j=1}^n a_{ij}x_j&=b_i , i = \overline{\rm 1,m} \\
                                     x_j &\geq 0 , j = \overline{\rm 1,n} \\
                                 \end{split}
@@ -59,7 +59,7 @@
                         Từ đó ta xét BT có ẩn giả tạo sau (gọi là BTM)
                             \begin{equation} \label{**}
                                 \begin{split}
-                                    Min \: \sum_{j=1}^n c_jx_j+M \\
+                                    Min \: \sum_{j=1}^n c_{jx}_j+M \\
                                     \sum_{j=1}^n a_{ij}x_j + x_{n+i}&=b_i , i = \overline{\rm 1,m} \\
                                     x_j &\geq 0 , j= \overline{\rm 1,{n+m}}
                                 \end{split}
@@ -67,8 +67,8 @@
                         Với M là số thực dương lớn tuỳ ý, các ẩn $x_{n+i} , i=\overline{\rm 1,m}$ là các ẩn giả tạo. Việc đưa các ẩn giả tạo nhằm tạo ra 1 cơ sở. Vì vậy, không nhất thiết phải có đủ $m$ ẩn giả tạo.
                             \begin{dl}
                                 Với M đủ lớn thì
-                                \item BT \eqref{*}  có PATU X khi và chỉ khi BT \eqref{**} có PATU $\overline{\rm X} = (X,0)$.
-                                \item Nếu BT \eqref{**} có PATU $\overline{\rm X}$ mà trong đó có chứa $x_{m+i}>0$ thì tập PATU của BT \eqref{*} là rỗng.
+                                \item BT\eqref{*} có PATU X khi và chỉ khi BT\eqref{**} có PATU $\overline{\rm X} = (X,0)$.
+                                \item Nếu BT\eqref{**} có PATU $\overline{\rm X}$ mà trong đó có chứa $x_{m+i}>0$ thì tập PATU của BT\eqref{*} là rỗng.
                             \end{dl}
                             \begin{cy}
                                 Đối với bài toán M, $\Delta_j$ có dạng $\Delta_j=\alpha_j+\beta_jM$. Vì thế dòng thứ $m+1$ của bảng đơn hình, ta nên tách thành hai dòng ghi $\alpha _j$ và $\beta_j$. Để đánh giá $\Delta_j$ ta cần chú ý tới $B_j$, sau đó mới chú ý đến $\alpha_j$.
@@ -104,18 +104,18 @@
                             \end{equation} 
                             \begin{equation} \label{2.2}
                                 \begin{split}
-                                    \text{Ta xét } Min \: \sum_{i=1}^my \\
+                                    \text{Ta xét } Min \: \sum_{i=1}^{my} \\
                                     Ax+y&=b \\
                                     x,y &\geq 0
                                 \end{split}
                             \end{equation}
                         \begin{enumerate}
-                            \item[$\blacksquare$] Nếu bài toán \eqref{2.1} có $x_0$ chấp nhận được thì bài toán \eqref{2.2} đạt giá trị tối ưu với $u_0 \: y=0$\\
-                            \item[$\blacksquare$] Nếu bài toán \eqref{2.1} ta có $u_0$ chấp nhận được tức là $A_x\neq 0$ với mọi $x \geq 0$ thì bài toán \eqref{2.2} sẽ có $u_0$ chấp nhận được với $y\neq 0$ tức là giá trị tối ưu của bài toán \eqref{2.2} là số dương.
-                            \item[$\blacksquare$] Dùng thuật toán đơn hình cho bài toán \eqref{2.2} ở mỗi bước của thuật giải ta nhận được $u_0$ chấp nhận được.
+                            \item[$\blacksquare$] Nếu bài toán\eqref{2.1} có $x_0$ chấp nhận được thì bài toán\eqref{2.2} đạt giá trị tối ưu với $u_0 \: y=0$\\
+                            \item[$\blacksquare$] Nếu bài toán\eqref{2.1} ta có $u_0$ chấp nhận được tức là $A_x\neq 0$ với mọi $x \geq 0$ thì bài toán\eqref{2.2} sẽ có $u_0$ chấp nhận được với $y\neq 0$ tức là giá trị tối ưu của bài toán\eqref{2.2} là số dương.
+                            \item[$\blacksquare$] Dùng thuật toán đơn hình cho bài toán\eqref{2.2} ở mỗi bước của thuật giải ta nhận được $u_0$ chấp nhận được.
                             \item[$\blacksquare$] Nếu đến bước mà bài toán có giá trị tối ưu $=0$ thì ta sẽ nhận được $u_0$ cơ bản chấp nhận được cuối cùng với các ẩn $y_i=0 , i=1,2,\ldots,m$. \\
                         \end{enumerate}
-                        Từ đây, bài toán \eqref{2.1} được giải với $u_0$ cơ sở chấp nhận được vừa tìm.
+                        Từ đây, bài toán\eqref{2.1} được giải với $u_0$ cơ sở chấp nhận được vừa tìm.
                     \item \textbf{Ví dụ minh hoạ} \\
                 \end{enumerate}
     \subsection{Thuật toán cải biên và đối ngẫu}
@@ -131,7 +131,7 @@
                             \begin{equation}
                                 \begin{split}
                                     A_k&=\sum_{j\in J}z_{jk}A_j \\
-                                    \sum_{j \in J}x_jA_j&=b \\
+                                    \sum_{j \in J}x_{jA}_j&=b \\
                                     \Delta k &= \sum_{j \in J}z_{jk}c_j-c_k
                                 \end{split}
                             \end{equation}
@@ -147,8 +147,8 @@
                             \begin{equation} \label{3da}
                                 \begin{split}
                                     A_k&=A_j \overline{\rm Z_k} \rightarrow \overline{\rm Z_k}=A_j^{-1}A_k \\
-                                    \Delta_k&=c_j\overline{\rm Z_k}-c_k=c_jA_j^{-1}A_k-c_k \\
-                                    A_jx_j&=b \rightarrow x_j=A_j^{-1}b
+                                    \Delta_k&=c_j\overline{\rm Z_k}-c_k=c_{jA}_j^{-1}A_k-c_k \\
+                                    A_{jx}_j&=b \rightarrow x_j=A_j^{-1}b
                                 \end{split}
                             \end{equation}
                             Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_j^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_j$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_j^{-1}$ và bây giờ ta có $x^{'},J^{'},A_j^{-1}$. Ta xét ma trận đơn vị $V=(v_{ij})_{m \times n}$ \\
@@ -162,8 +162,8 @@
                             Ta có:
                                 \begin{equation} \label{4}
                                     \begin{split}
-                                        A_jA_j^{-1}&=V \\
-                                        \Rightarrow \sum_{j \in J}a_{ij}q_{jk}&=v_ik \\
+                                        A_{jA}_j^{-1}&=V \\
+                                        \Rightarrow \sum_{j \in J}a_{ij}q_{jk}&=v_{ik} \\
                                         \Rightarrow \sum_{j \in J}q_{jk}A_j&=V_k
                                     \end{split}
                                 \end{equation}
@@ -172,15 +172,15 @@
                                 A_j,A_{j^{'}}^{-1}=V \Rightarrow \sum q_{jk}^{'}A_j=V_k
                             \end{equation}  
                             Do $J^{'}=J \setminus \{r\} \cup \{s\}$ và $A_s=\sum_{j \in J}z_{js}A_j$ với $z_{rk}\neq 0$ nên ta có đẳng thức \\
-                            $$A_r=\frac{1}{z_{rs}}A_s - \frac{1}{z_{rs}} \sum_{j \in J \setminus \{r\}}z_{js}A_j$$  
-                            Thay biểu thức này vào \eqref{4} ta được
+                            \[A_r=\frac{1}{z_{rs}}A_s - \frac{1}{z_{rs}} \sum_{j \in J \setminus \{r\}}z_{js}A_j\]  
+                            Thay biểu thức này vào\eqref{4} ta được
                                 \begin{equation}
                                     \begin{split}
                                         V_k&=\sum_{j \in J \setminus \{r\}}q_{jk}A_j+(\frac{q_{rk}}{z_{rs}}A_s-\frac{q_{rk}}{z_{rs}}\sum_{j \in J \setminus \{r\}}z_{js}A_j) \\
                                         &=\sum_{j \in J \setminus \{r\}}(q_{jk}-\frac{q_{rk}}{z_{rs}}z_{js})A_j + \frac{q_{rk}}{z_{rs}}A_s
                                     \end{split}
                                 \end{equation}
-                            Từ hệ thức này và \eqref{5} ta suy ra
+                            Từ hệ thức này và\eqref{5} ta suy ra
                             \begin{equation} \label{6da}
                                 q_{jk}^{'}=
                                 \begin{cases}
@@ -232,7 +232,7 @@
                             \end{figure}  
                         Dòng cuối cùng chứa phương án của bài toán đối ngẫu được tính theo công thức:
                             \begin{equation} \label{7da}
-                                (q_{m+1,1},\ldots,q_{m+1,m})=c_jA_j^{-1}
+                                (q_{m+1,1},\ldots,q_{m+1,m})=c_{jA}_j^{-1}
                             \end{equation}
                         \textbf{Thuật toán đơn hình gồm các bước sau:} \\
                             \textbf{Bước 1 (xây dựng bản đơn hình xuất phát)}\\

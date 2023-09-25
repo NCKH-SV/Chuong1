@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  25 SEP 2023 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  25 SEP 2023 09:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -28,7 +28,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2023/08/29 v3.93 The Babel package
+Package: babel 2023/09/12 v3.94 The Babel package
 \babel@savecnt=\count193
 \U@D=\dimen141
 \l@unhyphenated=\language79
@@ -352,28 +352,32 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
 
-! LaTeX Error: File `kvsetkeys.sty' not found.
+! LaTeX Error: File `pdfescape.sty' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 
 Enter file name: 
-C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty:114: Emergency stop.
+C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty:116: Emergency stop.
 <read *> 
          
-l.114 \RequirePackage{kvsetkeys}[2007/09/29]
+l.116 \RequirePackage{pdfescape}[2007/11/11]
                                             ^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 5151 strings out of 475248
- 83762 string characters out of 5758285
- 1917801 words of memory out of 5000000
- 26661 multiletter control sequences out of 15000+600000
+ 5263 strings out of 475248
+ 86083 string characters out of 5758285
+ 1917785 words of memory out of 5000000
+ 26765 multiletter control sequences out of 15000+600000
  558069 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,0n,77p,431b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
-C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty:114:  ==> Fatal error occurred, no output PDF file produced!
+C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty:116:  ==> Fatal error occurred, no output PDF file produced!

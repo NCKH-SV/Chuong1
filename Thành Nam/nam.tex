@@ -1,6 +1,91 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage[utf8]{vietnam}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usetikzlibrary{calc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multicol}
+\usepackage{enumerate} %thư viện liệt kê,đánh số có cấp độ
+\usepackage{fontawesome}% thư viện kí tự đặc biệt của Latex
 \begin{document}
-helo 
+\Large\section{Mathematical formulas and explanations in ViệtNam}
+\large $\setminus$quad là khoảng cách trắng\\
+
+$\setminus$ qquad là double khoảng cách trắng,chấm phẩy và phẩy cũng là khoảng cách trắng\\
+
+$\setminus$allowdisplaybreaks là cho phép ngắt công thức toán nếu đã dài quá trang sang trang mới\\
+
+$\setminus$colorbox\{màu\}\{văn bản\} là tô màu nền bạn thích cho phần \{văn bản\}.
+
+\colorbox{pink}{1}$\quad x^2=0$  \quad     mũ\\
+
+\colorbox{red}{2}$\quad x^{100}$ \quad ,mũ lớn bỏ trong ngoặc nhọn\\
+
+\colorbox{yellow}{3}$\quad x_{11}$ \quad chỉ số dưới bỏ ngoặc nhọn\\
+
+\colorbox{green}{4}$\quad  x-2=0 \Rightarrow x=2 $\quad viết hoa là mũi tên to\\
+
+\colorbox{brown}{5}$\quad x-2=0 \rightarrow x=2  $\quad  ko viết hoa là mũi tên nhỏ\\
+
+\colorbox{red}{6}$\quad x-2=0 \Leftrightarrow x=2 $\quad mũi tên hai chiều\\
+
+\colorbox{red}{7}$\quad\dfrac{2x^2-5}{x^5-3}$\quad frac là chia,dfrac là phóng to phân số\\
+
+\colorbox{red}{8}$\quad \displaystyle\int_a^bf(x)$ \quad ko kéo cận dãn ra,thêm limits là kéo cận dãn ra\\
+
+\colorbox{red}{9}$\quad\displaystyle\int\limits_a^bf(x)$ (với limits là kéo cận lên trên và dưới của dấu tích phân,display là phóng to,int là tích phân)\\
+
+\colorbox{red}{10}$\quad\displaystyle\sum\limits_a^b$\quad sum là tổng,limits là chỉ số trên dưới như tích phân\\
+
+\colorbox{red}{11}$\quad\left(\dfrac{1}{2}\right)$ \quad lệnh left(...right) là giúp cho dấu ngoặc (tròn) bao hết phân số,tương tự với ngoặc vuông,ngoặc nhọn.\\
+
+\colorbox{red}{12}$\quad\cos x$\quad hàm lượng giác phải thêm dấu khai báo\ vào trước tên của hàm đó\\
+
+ \colorbox{red}{13}$\quad\begin{array}{cr}
+ x-2=0 & 2x-5=0\\
+ x-1=0 & x=0\\
+ \end{array}$\\
+ array là tạo bảng nhưng ko có viền, c là căn giữa,r là căn phải, cr theo thứ tự là cột 1 cột 2, dấu 'và' ngăn cách 2 cột c và r\\
+ \colorbox{red}{14}\begin{align*}
+ x-2=0\\
+ x^2=4
+ \end{align*}\\
+ align* căn giữa công thức toán .ko đánh số pt ct toán\\
+\colorbox{red}{15} $\quad\begin{aligned}
+ &x-2=0\\
+ &x^2=4
+ \end{aligned}$\\
+ aligned là căn trái công thức toán, dấu'và' đứng trc vị trí nào thì sẽ căn hàng tiếp theo đúng tại vị trí đó\\
+ 
+ \colorbox{red}{16} Ta có hệ phương trình: $\left\{\begin{aligned}
+     & 2x-3y=0\\
+     & 5x-8y=4
+ \end{aligned}\right.$\\
+ cách viết hệ pt hoặc hệ hoặc,nếu ngoặc nhọn thì thêm dấu $\setminus$ vào sau chữ left,còn ngoặc [ ] thì bỏ dấu $\setminus$ đi.\\
+\colorbox{red}{17} Đánh số liệt kê
+ \begin{enumerate}
+ \item Nội dung ý thứ nhất.
+ \begin{enumerate}[i.]
+ \item nội dung nhỏ ý 1
+ \item nội dung nhỏ ý 1
+ \end{enumerate}
+ \item Nội dung ý thứ hai.
+ \end{enumerate}
+\colorbox{red}{18}  Dấu [ ] đánh số [bước 1.] luôn để tạo thành 1 bài toán có loạt câu hỏi
+\begin{enumerate}[Bước 1.]
+\item Tìm nguyên hàm sau $\displaystyle\int xdx $
+\item Tìm giá trị tích phân dựa trên kq Bc1 $\displaystyle\int\limits_1^2f(x)dx$
+\end{enumerate}\\
+
+
+
+
+
+ 
+
 \end{document}

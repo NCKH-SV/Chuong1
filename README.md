@@ -7,3 +7,5 @@ Cách gõ Markdown [[here]](https://www.markdownguide.org/)
 | Nam | Đối ngẫu |
 | ĐA | Đơn hình cải biên |
 | Bằng | Đơn hình đối ngẫu |
+## Fix
+[Latex Workshop Extension not working](https://github.com/VSCodium/vscodium/issues/486)

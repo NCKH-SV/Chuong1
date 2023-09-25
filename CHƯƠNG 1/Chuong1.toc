@@ -6,12 +6,12 @@
 \contentsline {subsection}{\numberline {1.2}Thuật toán cải biên và đối ngẫu}{3}{subsection.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}Phương pháp đơn hình cải biên}{3}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}Phương pháp đơn hình đối ngẫu}{6}{subsubsection.1.2.2}%
-\contentsline {section}{\numberline {2}Bài toán đối ngẫu}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Giới thiệu}{7}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Bài toán đối ngẫu}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Giới thiệu}{6}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Cơ sở lý thuyết}{7}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Ví dụ hướng đến bài toán đối ngẫu}{7}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Qui tắc đối ngẫu (trang 33 chương 2 quy hoạch tuyến tính)}{8}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Bài toán đối ngẫu dạng chuẩn tắc}{9}{subsubsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.4}Bài toán đối ngẫu dạng chính tắc}{10}{subsubsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.3}Ví dụ minh hoạ}{11}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Tài liệu tham khảo}{11}{section.3}%
+\contentsline {subsection}{\numberline {2.3}Ví dụ minh hoạ}{10}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Tài liệu tham khảo}{10}{section.3}%

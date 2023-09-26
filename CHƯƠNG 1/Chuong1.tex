@@ -151,12 +151,11 @@
                                     & $A_{J}x_J = b \rightarrow x_J=A_J^{-1}b$   
                                 \end{split}
                             \end{equation}
-                            Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_j^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_j$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_j^{-1}$ và bây giờ ta có $x^{'},J^{'},A_j^{-1}$. Ta xét ma trận đơn vị $V=(v_{ij})_{m \times n}$ \\
+                            Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_J^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_J$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_J^{-1}$ và bây giờ ta có $x^{'},J^{'},A_J^{-1}$. Ta xét ma trận đơn vị $V=(v_{ij})_{m \times m}$ \\
                             Ta ký hiệu:
                                 \begin{equation}
                                     \begin{split}
-                                        Q&=A_j^{-1}=(q_{ij})_{m \times n} \\
-                                        Q^{'}&=A_{j^{'}}^{-1}=(q_{ij}^{'})_{m \times n}
+                                        $Q = A_J^{-1} = (q_{ij})_{m \times m}\,, Q^{'} = A_{J^{'}}^{-1} = (q^{'}_{ij})_{m \times m}$
                                     \end{split}
                                 \end{equation}
                             Ta có:

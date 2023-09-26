@@ -142,13 +142,13 @@
                         $A_J=(A_1,A_2,\,\ldots,A_m)$ - ma trận cơ sở. \\
                         $\overline{\rm Z}_k = (z_{1k},z_{2k},\ldots,\,z_{mk})^T$ - vector cột, khai triển của $A_k$ theo cơ sở \\
                         $c_J = (c_1,c_2,\ldots,\,c_m)$ - vector hàng, hệ số hàm mục tiêu ứng với cơ sở. \\
-                        $x_j=(x_1,x_2,\ldots,x_m)^T-$ vector cột, các biến cơ sở. \\
+                        $x_J=(x_1,x_2,\,\ldots,x_m)^T$ - vector cột, các biến cơ sở. \\
                         Sử dụng các ký hiệu đó ta có thể viết: \\
                             \begin{equation} \label{3da}
                                 \begin{split}
-                                    A_k&=A_j \overline{\rm Z_k} \rightarrow \overline{\rm Z_k}=A_j^{-1}A_k \\
-                                    \Delta_k&=c_j\overline{\rm Z_k}-c_k=c_{jA}_j^{-1}A_k-c_k \\
-                                    A_{jx}_j&=b \rightarrow x_j=A_j^{-1}b
+                                    $A_k = A_J \overline{\rm Z}_k$ \rightarrow $\overline{\rm Z}_k = A_J^{-1}A_k$ \\
+                                    $\Delta_k = c_J\overline{\rm Z}_k - c_k = c_{j}A_j^{-1}A_k - c_k$ \\
+                                    $A_{J}x_J = b \rightarrow x_J=A_J^{-1}b$
                                 \end{split}
                             \end{equation}
                             Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_j^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_j$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_j^{-1}$ và bây giờ ta có $x^{'},J^{'},A_j^{-1}$. Ta xét ma trận đơn vị $V=(v_{ij})_{m \times n}$ \\

@@ -153,21 +153,26 @@
                             \end{equation}
                             Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_J^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_J$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_J^{-1}$ và bây giờ ta có $x^{'},J^{'},A_{J^{'}}^{-1}$. Ta xét ma trận đơn vị $V=(v_{ij})_{m \times m}$ \\
                             Ta ký hiệu:
+                                \begin{center}
                                 \begin{equation}
                                     \begin{split}
                                         \quad $Q = A_J^{-1} = (q_{ij})_{m \times m} \quad ,\,Q^{'} = A_{J^{'}}^{-1} = (q^{'}_{ij})_{m \times m}$
                                     \end{split}
                                 \end{equation}
+                            \end{center}
                             Ta có:
                                 \begin{equation} \label{4}
                                     \begin{split}
-                                        $A_{J}A_J^{-1} = V \Rightarrow \sum_{j \in J}a_{ij}q_{jk} = v_{ik} \Rightarrow \sum_{j \in J}q_{jk}A_j = V_k$
+                                        $\displaystyle A_{J}A_J^{-1} = V \Rightarrow \sum_{j\in J} \; a_{ij}q_{jk} = v_{ik} \Rightarrow \sum_{j\in J} \; q_{jk}A_j = V_k$
                                     \end{split}
                                 \end{equation}
                             Tương tự
+                            \vspace{-1.5cm}
+                            \begin{center}
                             \begin{equation} \label{5}
-                                A_j,A_{j^{'}}^{-1}=V \Rightarrow \sum q_{jk}^{'}A_j=V_k
-                            \end{equation}  
+                                $\displaystyle A_{J^{'}}A_{J^{'}}^{-1}=V \Rightarrow \sum_{j\in J^{'}}  q_{jk}^{'}A_j=V_k$    
+                            \end{equation}
+                            \end{center}  
                             Do $J^{'}=J \setminus \{r\} \cup \{s\}$ và $A_s=\sum_{j \in J}z_{js}A_j$ với $z_{rk}\neq 0$ nên ta có đẳng thức \\
                             \[A_r=\frac{1}{z_{rs}}A_s - \frac{1}{z_{rs}} \sum_{j \in J \setminus \{r\}}z_{js}A_j\]  
                             Thay biểu thức này vào\eqref{4} ta được

@@ -12,6 +12,17 @@
 \usepackage{multicol}
 \usepackage{enumerate} %thư viện liệt kê,đánh số có cấp độ
 \usepackage{fontawesome}% thư viện kí tự đặc biệt của Latex
+\usepackage{xcolor} % Sử dụng gói xcolor
+\usepackage{colortbl} % Sử dụng gói colortbl
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{mathtools}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{nccmath}
+
 
 \begin{document}
 \Large\section{Mathematical formulas and explanations in ViệtNam}
@@ -74,6 +85,7 @@ $\setminus$colorbox\{màu\}\{văn bản\} là tô màu nền bạn thích cho ph
      & 5x-8y=4
  \end{aligned}\right.$\\
  cách viết hệ pt hoặc hệ hoặc,nếu ngoặc nhọn thì thêm dấu $\setminus$ vào sau chữ left,còn ngoặc [ ] thì bỏ dấu $\setminus$ đi.\\
+
 \colorbox{red}{17} Đánh số liệt kê
  \begin{enumerate}
  \item Nội dung ý thứ nhất.
@@ -83,18 +95,47 @@ $\setminus$colorbox\{màu\}\{văn bản\} là tô màu nền bạn thích cho ph
  \end{enumerate}
  \item Nội dung ý thứ hai.
  \end{enumerate}
+
 \colorbox{red}{18}  Dấu [ ] đánh số [bước 1.] luôn để tạo thành 1 bài toán có loạt câu hỏi
 \begin{enumerate}[Bước 1.]
 \item Tìm nguyên hàm sau $\displaystyle\int xdx $
 \item Tìm giá trị tích phân dựa trên kq Bc1 $\displaystyle\int\limits_1^2f(x)dx$
 \end{enumerate}\\
 
-\colorbox{red}{19}
+\colorbox{red}{19}\quad Hai bài toán trên được viết lại ngắn gọn dưới dạng ma trận như sau:
 \begin{align*}
-       f(x) &=c^Tx \longrightarrow \text{Max}   & g(y) &= b^Ty \longrightarrow \text{Min}\\
-      &Ax \leqslant  b & &A^Ty \geqslant c \\
-     &x \geqslant 0 & & y \geqslant 0
+       f(x) =\langle c.x \rangle&= c^Tx \longrightarrow \text{Max}   & g(y) =\langle b,y \rangle&= b^Ty \longrightarrow \text{Min}\\
+      Ax &\leq b & A^Ty &\geq c \\
+     x &\geq 0 &  y &\geq 0
 \end{align*}\\
+
+\colorbox{green}{20}\\
+
+             \begin{tabular}{|c|c|c|c|c|}
+                \hline %dòng 1
+                \rowcolor{pink} 1 & 2 & 3 & 4 & 5 \\ % Tô màu xanh lá cây dòng 1
+                \hline % Dòng 2
+                \cellcolor{yellow} G & F & D & 7 & 8 \\ % Tô cột đầu tiên dòng 2 màu vàng
+                \hline
+                K & L & \cellcolor{red} U & I & O \\ % Tô cột 3 dòng 3 màu đỏ ( chỉ 1 ô) 
+
+
+             \end{tabular}\\
+
+
+
+
+\colorbox{brown}{21} \\
+% tô màu công thức toán học
+\begin{center}
+\color{red} $ x_1= \dfrac{-b+  \sqrt\triangle}{2a}$;\quad
+\color{red} $x_2 = \dfrac{-b-\sqrt\triangle}{2a}$
+\end{center}\\
+
+\colorbox{red}{22}\\
+
+chèn hình ảnh vào file pdf
+
 
 
 

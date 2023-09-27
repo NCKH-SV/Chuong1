@@ -49,7 +49,7 @@
                         Đối với các bài toán quy hoạch tuyến tính nhưng không đủ số vector cơ sở. Ta thêm vào 1 ẩn giả ở ràng buộc và $Mx_4$ vào hàm mục tiêu với $M$ là số dương rất lớn (đối với bài toán Min). Từ đó ta dẫn đến được dạng bài toán quy hoạch tuyến tính M.
                     \item \textbf{Nội dung} \\
                         Giả sử ta có bài toán có ma trận $A$ chưa xác định được hệ cơ sở
-                            \begin{equation} \label{*}
+                            \begin{equation} \label{1}
                                 \begin{split}
                                     Min \: \sum_{j=1}^n c_{jx}_j \\
                                     \sum_{j=1}^n a_{ij}x_j&=b_i , i = \overline{\rm 1,m} \\
@@ -57,7 +57,7 @@
                                 \end{split}
                             \end{equation}
                         Từ đó ta xét BT có ẩn giả tạo sau (gọi là BTM)
-                            \begin{equation} \label{**}
+                            \begin{equation} \label{2}
                                 \begin{split}
                                     Min \: \sum_{j=1}^n c_{jx}_j+M \\
                                     \sum_{j=1}^n a_{ij}x_j + x_{n+i}&=b_i , i = \overline{\rm 1,m} \\
@@ -95,14 +95,14 @@
                         Khi đó ta có ngay một phương án xuất phát $(0,\overline{\rm y})$ với $\overline{\rm y_i} = b_i ; i=1,2,\ldots,m$. \\
                         Thực chất các ẩn $y_i$ là các ẩn giả tạo, bởi lẽ trong miền xác định của bài toán không cần đến các biến này. Ý tưởng này được áp dụng cho bài toán dạng chính tăc để tìm phương án cực biên ban đầu như sau: \\
                         Từ bài toán dạng chính tắc
-                            \begin{equation} \label{2.1}
+                            \begin{equation} \label{5}
                                 \begin{split}
                                     Min \: f(x) &= \langle c,x \rangle \\
                                     Ax &= b \\
                                     x &\geq 0
                                 \end{split}
                             \end{equation} 
-                            \begin{equation} \label{2.2}
+                            \begin{equation} \label{6}
                                 \begin{split}
                                     \text{Ta xét } Min \: \sum_{i=1}^{my} \\
                                     Ax+y&=b \\
@@ -110,12 +110,12 @@
                                 \end{split}
                             \end{equation}
                         \begin{enumerate}
-                            \item[$\blacksquare$] Nếu bài toán\eqref{2.1} có $x_0$ chấp nhận được thì bài toán\eqref{2.2} đạt giá trị tối ưu với $u_0 \: y=0$\\
-                            \item[$\blacksquare$] Nếu bài toán\eqref{2.1} ta có $u_0$ chấp nhận được tức là $A_x\neq 0$ với mọi $x \geq 0$ thì bài toán\eqref{2.2} sẽ có $u_0$ chấp nhận được với $y\neq 0$ tức là giá trị tối ưu của bài toán\eqref{2.2} là số dương.
-                            \item[$\blacksquare$] Dùng thuật toán đơn hình cho bài toán\eqref{2.2} ở mỗi bước của thuật giải ta nhận được $u_0$ chấp nhận được.
+                            \item[$\blacksquare$] Nếu bài toán\eqref{5} có $x_0$ chấp nhận được thì bài toán\eqref{6} đạt giá trị tối ưu với $u_0 \: y=0$\\
+                            \item[$\blacksquare$] Nếu bài toán\eqref{5} ta có $u_0$ chấp nhận được tức là $A_x\neq 0$ với mọi $x \geq 0$ thì bài toán\eqref{6} sẽ có $u_0$ chấp nhận được với $y\neq 0$ tức là giá trị tối ưu của bài toán\eqref{6} là số dương.
+                            \item[$\blacksquare$] Dùng thuật toán đơn hình cho bài toán\eqref{6} ở mỗi bước của thuật giải ta nhận được $u_0$ chấp nhận được.
                             \item[$\blacksquare$] Nếu đến bước mà bài toán có giá trị tối ưu $=0$ thì ta sẽ nhận được $u_0$ cơ bản chấp nhận được cuối cùng với các ẩn $y_i=0 , i=1,2,\ldots,m$. \\
                         \end{enumerate}
-                        Từ đây, bài toán\eqref{2.1} được giải với $u_0$ cơ sở chấp nhận được vừa tìm.
+                        Từ đây, bài toán\eqref{5} được giải với $u_0$ cơ sở chấp nhận được vừa tìm.
                     \item \textbf{Ví dụ minh hoạ} \\
                 \end{enumerate}
     \vspace{-1.0cm}
@@ -125,14 +125,14 @@
                     \item \textbf{Giới thiệu} \\
                         Xét bài toán quy hoạch tuyến tính ở dạng chính tắc
                             \begin{equation}
-                                \langle c,x \rangle \rightarrow Max, \quad Ax = b, \quad \quad x \geq 0 \quad
+                                \langle c,x \rangle \rightarrow Max, \quad Ax = b, \quad \quad x \geq 0 \quad \nonumber
                             \end{equation}
                         Trong đó $A$ là ma trận $m \times n$ và giả sử rằng hạng của ma trận $A$ là $m$. Ta đã nghiên cứu phương pháp đơn hình để giải bài toán này. Giả sử ta có phương án cực biên
                         $x=(x _ 1,x _ 2,\,\ldots,x _ m,0,\,\ldots,0)$ với $x _ j>0, \, j=1,\,\ldots,m$ và cơ sở $A _ j, j \in J=\{1,2,\,\ldots,m \}$. Ta đã có các công thức:
                             \vspace{-1.5cm}
                             \begin{center}
                             \begin{equation}
-                                $ \displaystyle A _ k = \sum_{j\in J} \; z _ {jk}A _ j $, \quad $ \displaystyle \sum_{j \in J} \; x _ jA _ j = b $, \quad \quad $ \displaystyle \Delta _ k = \sum_{j \in J} \; z_{jk}c _ j-c _ k $ \quad 
+                                $ \displaystyle A _ k = \sum_{j\in J} \; z _ {jk}A _ j $, \quad $ \displaystyle \sum_{j \in J} \; x _ jA _ j = b $, \quad \quad $ \displaystyle \Delta _ k = \sum_{j \in J} \; z_{jk}c _ j-c _ k $ \quad \nonumber
                             \end{equation}
                             \end{center}
                         Và ta đã chứng minh rằng phương án cực biên $x$ là tối ưu khi và chỉ khi $\Delta _ k \geq 0, \forall k \notin J$.
@@ -144,7 +144,7 @@
                         $c_J = (c_1,c_2,\ldots,\,c_m)$ - vector hàng, hệ số hàm mục tiêu ứng với cơ sở. \\
                         $x_J=(x_1,x_2,\,\ldots,x_m)^T$ - vector cột, các biến cơ sở. \\
                         Sử dụng các ký hiệu đó ta có thể viết: \\
-                            \begin{equation} \label{3}
+                            \begin{equation} 
                                 \begin{split}
                                     & $A_k = A_J \overline{\rm Z}_k$ \rightarrow $\overline{\rm Z}_k = A_J^{-1}A_k$ \\
                                     & $\Delta_k = c_J\overline{\rm Z}_k - c_k = c_{j}A_j^{-1}A_k - c_k$ \\
@@ -169,7 +169,7 @@
                             Tương tự
                             \vspace{-1.5cm}
                             \begin{center}
-                            \begin{equation} \label{5}
+                            \begin{equation} \label{}
                                 $\displaystyle A_{J^{'}}A_{J^{'}}^{-1}= I \Rightarrow \sum_{j\in J^{'}}  q_{jk}^{'}A_j = I_k$    
                             \end{equation}
                             \end{center}  
@@ -181,7 +181,7 @@
                                 \begin{equation}
                                      $\displaystyle V_k = \sum_{j \in J \setminus \{{r \}}} q_{jk}A_j + \left( \frac{q_{rk}}{z_{rs}}A_s - \frac{q_{rk}}{z_{rs}} \sum_{j \in J \setminus \{{r \}}}z_{js}A_j \right) = \sum_{j \in J \setminus \{{r \}}} \left(q_{jk} - \frac{q_{rk}}{z_{rs}}z_{js}\right)A_j + \frac{q_{rk}}{z_{rs}}A_s.$
                                 \end{equation}
-                            Từ hệ thức này và \eqref{5} ta suy ra
+                            Từ hệ thức này và \eqref{} ta suy ra
                             \begin{equation}
                                 q_{jk}^{'}=
                                 \begin{cases}

@@ -177,18 +177,18 @@
                             $J^{'}=J \setminus \{r\} \cup \{s\}$ và $\displaystyle A_s = \sum_{j \in J}z_{js}A_j$ với $z_{rk}\neq 0$ \\
                             Nên ta có đẳng thức 
                             \[A_r=\frac{1}{z_{rs}}A_s - \frac{1}{z_{rs}} \sum_{j \in J \setminus \{r\}}z_{js}A_j\]  
-                            Thay biểu thức này vào\eqref{4} ta được
+                            Thay biểu thức này vào \eqref{4} ta được
                                 \begin{equation*}
-                                     $\displaystyle V_k = \sum_{j \in J \{{r \}}} q_{jk}A_j + ( \frac{q_{rk}}{z_{rs}}A_s - \frac{q_{rk}}{z_{rs}} \sum_{j \in J \{{r \}}}z_{js}A_j ) = \sum_{j \in J \{{r \}}}(q_{jk} - \frac{q_{rk}}{z_{rs}}z_{js})A_j + \frac{q_{rk}}{z_{rs}}A_s.$
+                                     $\displaystyle V_k = \sum_{j \in J \setminus \{{r \}}} q_{jk}A_j + \left( \frac{q_{rk}}{z_{rs}}A_s - \frac{q_{rk}}{z_{rs}} \sum_{j \in J \setminus \{{r \}}}z_{js}A_j \right) = \sum_{j \in J \setminus \{{r \}}} \left(q_{jk} - \frac{q_{rk}}{z_{rs}}z_{js}\right)A_j + \frac{q_{rk}}{z_{rs}}A_s.$
                                 \end{equation*}
-                            Từ hệ thức này và\eqref{5} ta suy ra
-                            \begin{equation} \label{6da}
+                            Từ hệ thức này và \eqref{5} ta suy ra
+                            \begin{equation*}
                                 q_{jk}^{'}=
                                 \begin{cases}
                                     q_{jk}-(\frac{q_{rk}}{z_{rs}})z_{js} \text{ nếu } j \in J \text{ và } j \neq r \\
                                     \frac{q_{rk}}{z_{rs}} \text{ nếu } j = s
                                 \end{cases}
-                            \end{equation}     
+                            \end{equation*}     
                         \textbf{Thuật toán đơn hình cải biên} \\
                         Xét bài toán QHTT ở dạng chính tắc, quá trình tính toán theo phương pháp đơn hình cải biên được bố trí trong hai bảng sau \\
                             \begin{figure}[H]

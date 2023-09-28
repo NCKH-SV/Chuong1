@@ -258,8 +258,75 @@ Quy hoạch tuyến tính
                 \begin{enumerate}
                     \item \textbf{Giới thiệu} \\
                     \item \textbf{Nội dung} \\
+                        \begin{center}
+                            \begin{tabular} {ccccccccccc}
+                                $-z$ &&&&& $+\overline{\rm c}_{m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm c}_jx_j$ & $\ldots$ & $+ \overline{\rm c}_nx_n$ & $= -\overline{\rm z}_0$ \\
+                                & $x_1$ &&&& $+\overline{\rm a}_{1,m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm a}_{1j}x_j$ & $\ldots$ & $+ \overline{\rm a}_{1n}x_n$ & $= \overline{\rm b}_1$ \\                            
+                                && $x_2$ &&& $+\overline{\rm a}_{2,m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm a}_{2j}x_j$ & $\ldots$ & $+ \overline{\rm a}_{2n}x_n$ & $= \overline{\rm b}_2$ \\                            
+                                &&& $\ddots$ && $\vdots$ && $\vdots$ && $\vdots$ & $\vdots$ \\
+                                &&&& $x_m$ & $+\overline{\rm a}_{m,m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm a}_{mj}x_j$ & $\ldots$ & $+ \overline{\rm a}_{mn}x_n$ & $= \overline{\rm b}_m,$ \\ 
+                            \end{tabular}
+                        \end{center}
                 \end{enumerate}
-
+                \begin{gather}
+                    \begin{pmatrix} 
+                        1 & 0 & \overline{\rm c} \\
+                        0 & I & \overline{\rm A} \\
+                    \end{pmatrix}
+                    \begin{pmatrix}
+                        -z \\
+                        x_{B} \\
+                        x_{N} \\
+                    \end{pmatrix}
+                    =
+                    \begin{pmatrix}
+                        - \overline{\rm z}_0 \\
+                        \overline{\rm b}
+                    \end{pmatrix}
+                    ,
+                \end{gather}
+                \begin{equation}
+                    \begin{split}
+                        (-z) + \overline{\rm c}x_N &= -\overline{\rm z}_0 \\
+                        Ix_B + \overline{\rm A}x_N &= \overline{\rm b},
+                    \end{split}
+                \end{equation}
+                \begin{equation}
+                    \begin{split}
+                        Min \: c^Tx &= z\\
+                        Ax &= b,\\ 
+                        x &\geq 0,
+                    \end{split}
+                \end{equation}
+                \begin{equation}
+                    \begin{split}
+                        Max \: b^T\pi &= v\\
+                        A^T\pi & \le c,\\
+                    \end{split}
+                \end{equation}
+                \begin{equation}
+                    \begin{split}
+                        Max \: b^T\pi &= v\\
+                        A^T\pi +Iy &= c,\\
+                        y \geq 0
+                    \end{split}
+                \end{equation}
+                \begin{gather}
+                    \overline{\rm B} =
+                        \begin{pmatrix}
+                            B^T & 0 \\
+                            N^T & I_{n-m}
+                        \end{pmatrix}
+                        ,
+                \end{gather}
+                \begin{gather}
+                    \overline{\rm N}=
+                        \begin{pmatrix}
+                            I_m \\
+                            0
+                        \end{pmatrix}
+                        ,
+                \end{gather}
 \section{Bài toán đối ngẫu}
     \subsection{Giới thiệu}
         Trong Lý thuyết tối ưu,với một bài toán tối ưu cho trước, người ta quan tâm làm sao thiết lập được bài toán liên kết với bài toán đã cho mà khi giải bài toán này ta thu được thông tin về bài toán ban đầu. Đó chíng là bài toán đối ngẫu. \\

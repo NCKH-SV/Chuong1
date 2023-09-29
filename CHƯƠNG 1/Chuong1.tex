@@ -257,8 +257,17 @@ Quy hoạch tuyến tính
             \subsubsection{Phương pháp đơn hình đối ngẫu}
                 \begin{enumerate}
                     \item \textbf{Giới thiệu} \\
-                        Trong thực tế, việc giải một bài toán bằng thuật toán đơn hình ban đầu cho ta mội giải pháp tối ưu nhưng không khả thi. Trong trường hợp này, thuật toán đơn hình đối ngẫu cung cấp cho ta một giải pháp khả thi bằng cách điều chỉnh phương án thông qua $\overline{\rm b}_r$ sao cho $\overline{\rm b}_r \geq 0$ trong khi đó với thuật toán đơn hình, ta tập trung vào $\overline{\rm c}_s$ sao cho $\overline{\rm c}_s < 0$. Trong khi vẫn giữ đượcthinh khả thi
+                        Trong thực tế, việc giải một bài toán bằng thuật toán đơn hình ban đầu cho ta mội giải pháp tối ưu nhưng không khả thi. Trong trường hợp này, thuật toán đơn hình đối ngẫu cung cấp cho ta một giải pháp khả thi bằng cách điều chỉnh phương án thông qua $\overline{\rm b}_r$ sao cho $\overline{\rm b}_r \geq 0$ trong khi đó với thuật toán đơn hình, ta tập trung vào $\overline{\rm c}_s$ sao cho $\overline{\rm c}_s < 0$. Trong khi vẫn giữ được tính khả thi.
                     \item \textbf{Nội dung} \\
+                        Cho bài toán dạng chính tắc
+                        \begin{equation}
+                            \begin{split}
+                                Min \: c^Tx &= z\\
+                                Ax &= b,\\ 
+                                x &\geq 0,
+                            \end{split}
+                        \end{equation}        
+                        Như ta thấy, sau quá trình biến đổi với thuật toán đơn hình ta luôn nhận được một hệ phương trình với các biến cơ sở $-z, x_1, x_2, \ldots , x_m$.
                         \begin{center}
                             \begin{tabular} {ccccccccccc}
                                 $-z$ &&&&& $+\overline{\rm c}_{m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm c}_jx_j$ & $\ldots$ & $+ \overline{\rm c}_nx_n$ & $= -\overline{\rm z}_0$ \\
@@ -268,7 +277,14 @@ Quy hoạch tuyến tính
                                 &&&& $x_m$ & $+\overline{\rm a}_{m,m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm a}_{mj}x_j$ & $\ldots$ & $+ \overline{\rm a}_{mn}x_n$ & $= \overline{\rm b}_m,$ \\ 
                             \end{tabular}
                         \end{center}
-                \end{enumerate}
+                        Với $x_B=(x_1,x_2,\ldots,x_m)^T$ và $x_N=(x_{m+1},x_{m+2},\ldots,x_n)^T$, Hệ phương trình được viết lại dưới dạng:
+                        \begin{equation}
+                            \begin{split}
+                                (-z) + \overline{\rm c}x_N &= -\overline{\rm z}_0 \\
+                                Ix_B + \overline{\rm A}x_N &= \overline{\rm b},
+                            \end{split}
+                        \end{equation}     
+                Hoặc dưới dạng ma trận, hệ có thể viết lại thành:
                 \begin{gather}
                     \begin{pmatrix} 
                         1 & 0 & \overline{\rm c} \\
@@ -286,25 +302,14 @@ Quy hoạch tuyến tính
                     \end{pmatrix}
                     ,
                 \end{gather}
-                \begin{equation}
-                    \begin{split}
-                        (-z) + \overline{\rm c}x_N &= -\overline{\rm z}_0 \\
-                        Ix_B + \overline{\rm A}x_N &= \overline{\rm b},
-                    \end{split}
-                \end{equation}
-                \begin{equation}
-                    \begin{split}
-                        Min \: c^Tx &= z\\
-                        Ax &= b,\\ 
-                        x &\geq 0,
-                    \end{split}
-                \end{equation}
+                Từ đây, ta xét dạng đối ngẫu của bài toán
                 \begin{equation}
                     \begin{split}
                         Max \: b^T\pi &= v\\
                         A^T\pi & \le c,\\
                     \end{split}
                 \end{equation}
+                Với các ẩn giả được thêm vào ta viết lại
                 \begin{equation}
                     \begin{split}
                         Max \: b^T\pi &= v\\
@@ -312,6 +317,32 @@ Quy hoạch tuyến tính
                         y \geq 0
                     \end{split}
                 \end{equation}
+                Xét mối quan hệ giữ bài toán dạng chính tắc và dạng đối ngẫu của nó ta có cái mối tương quan như bảng trên.
+                \begin{figure} \label{MQH}
+                    \caption{Mối quan hệ giữa bài toán gốc và bài toán đối ngẫu}
+                        \begin{center}
+                            \begin{tabular} {|c|c|c|}
+                                \hline
+                                & Bài toán gốc & Bài toán đối 
+                                ngẫu \\
+                                \hline
+                                Cơ sở & $B$ & $\overline{\rm B} =
+                                \begin{pmatrix}
+                                    B^T & 0 \\
+                                    N^T & I_{n-m}
+                                \end{pmatrix}$ \\
+                                \hline
+                                Biến cơ sở & $x_B$ & $\pi,y_N=\overline{\rm c}_N$ \\
+                                \hline
+                                Biến không cơ sở & $x_N$ & $y_B=\overline{\rm c}_B$ \\
+                                \hline
+                                Điều kiện & $Ax=b,x \geq 0$ & $\overline{\rm c} \geq 0$ \\
+                                \hline
+                            \end{tabular}
+                        \end{center}
+                    \end{figure}
+
+                Ta có thể thấy cột cơ sở và không cơ sở của bài toán dạng đối ngẫu lần lượt được ký hiệu là $\overline{\rm B}$ và $\overline{\rm N}$.
                 \begin{gather}
                     \overline{\rm B} =
                         \begin{pmatrix}
@@ -328,6 +359,14 @@ Quy hoạch tuyến tính
                         \end{pmatrix}
                         ,
                 \end{gather}
+                \textbf{Thuật toán đơn hình đối ngẫu gồm các bước sau:} \\
+                    \textbf{Bước 1 (Chọn cơ sở vào)} \\
+                        Nếu $\overline{\rm b}_r=min \: \overline{\rm b}_i < 0$, chọn $x_r$ tương đương với hàng $r$. \\
+                    \textbf{Bước 2 (Chọn cơ sở ra)} \\
+                        Nếu $\frac{\overline{\rm c}_s}{-\overline{\rm a}_{rs}}=min \: \frac{\overline{\rm c}_j}{-\overline{\rm a}_{rj}} \geq 0$ trong đó $\overline{\rm a}_{rj} > 0$, loại bỏ $x_s$ tương ứng với cột $s$. \\
+                    \textbf{Bước 3 (Kiểm tra)} \\
+                        Xoay vòng theo $\overline{\rm a}_{rs}$ để xác định một giải pháp khả thi mới, đặt $j_r=s$ và quay lại bước 1.
+                \end{enumerate}
 \section{Bài toán đối ngẫu}
     \subsection{Giới thiệu}
         Trong Lý thuyết tối ưu,với một bài toán tối ưu cho trước, người ta quan tâm làm sao thiết lập được bài toán liên kết với bài toán đã cho mà khi giải bài toán này ta thu được thông tin về bài toán ban đầu. Đó chíng là bài toán đối ngẫu. \\

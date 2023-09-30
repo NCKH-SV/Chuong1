@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  30 SEP 2023 15:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  30 SEP 2023 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,10 +23,10 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vietnam.sty
+Package: vietnam 2009/07/12 v1.3 support for Vietnamese
+ (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
@@ -190,7 +190,15 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 112.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrextend.sty
+)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vncaps.tex
+File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
+)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrextend.sty
 Package: scrextend 2023/07/07 v3.41 KOMA-Script package (extend other classes with features of KOMA-Script classes)
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
 Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -767,7 +775,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen284
 \titlewidthfirst=\dimen285
 )
-LaTeX Font Info:    Trying to load font information for T5+ptm on input line 25.
+LaTeX Font Info:    Trying to load font information for T5+ptm on input line 32.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -777,26 +785,26 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (namnckh.aux)
 \openout1 = `namnckh.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -851,20 +859,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 32.
  (namnckh.out) (namnckh.out)
 \@outlinefile=\write4
 \openout4 = `namnckh.out'.
 
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/namnckh.tex:33: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/namnckh.tex:40: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
 
 See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33     \draw
+l.40     \draw
                [line width=0.5pt]
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -872,83 +880,98 @@ Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/namnckh.tex:37: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/namnckh.tex:44: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
 
 See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37     \end{tikzpicture}
+l.44     \end{tikzpicture}
                           
 (That was another \errmessage.)
 
-<imge/logodhsg.png, id=6, 1223.57124pt x 1223.57124pt>
+<imge/logodhsg.png, id=26, 1223.57124pt x 1223.57124pt>
 File: imge/logodhsg.png Graphic file (type png)
 <use imge/logodhsg.png>
-Package pdftex.def Info: imge/logodhsg.png  used on input line 44.
+Package pdftex.def Info: imge/logodhsg.png  used on input line 51.
 (pdftex.def)             Requested size: 170.70135pt x 170.70135pt.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 60.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 60.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 67.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 67.
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 60.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 67.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 60.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 67.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 60.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 67.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 60.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 67.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.62007> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.80008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
  [1
 
 {C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc} <./imge/logodhsg.png>]
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/namnckh.tex:79: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/namnckh.tex:86: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
 
 See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79             \draw
+l.86             \draw
                        [line width=0.5pt]
 (That was another \errmessage.)
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/namnckh.tex:83: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/namnckh.tex:90: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
 
 See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83             \end{tikzpicture}
+l.90             \end{tikzpicture}
                                   
 (That was another \errmessage.)
 
 File: imge/logodhsg.png Graphic file (type png)
 <use imge/logodhsg.png>
-Package pdftex.def Info: imge/logodhsg.png  used on input line 90.
+Package pdftex.def Info: imge/logodhsg.png  used on input line 97.
 (pdftex.def)             Requested size: 170.70135pt x 170.70135pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116             \end{titlepage}
+l.127             \end{titlepage}
                                   [1
+
+
+] (namnckh.toc)
+\tf@toc=\write5
+\openout5 = `namnckh.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.139 \cleardoublepage
+                       [1
+
+
+] [2
 
 
 ] (namnckh.aux)
@@ -957,20 +980,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `namnckh.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 485565F7B2542829B340EB0A1955DEC2;903.
  ) 
 Here is how much of TeX's memory you used:
- 24419 strings out of 475248
- 442661 string characters out of 5758285
+ 24578 strings out of 475248
+ 445409 string characters out of 5758285
  1923785 words of memory out of 5000000
- 45527 multiletter control sequences out of 15000+600000
- 592003 words of font info for 72 fonts, out of 8000000 for 9000
+ 45666 multiletter control sequences out of 15000+600000
+ 598793 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,107p,489b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,10n,107p,489b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb>
-Output written on namnckh.pdf (2 pages, 733198 bytes).
+Output written on namnckh.pdf (4 pages, 744413 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

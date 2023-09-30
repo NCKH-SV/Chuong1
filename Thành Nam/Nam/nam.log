@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  29 SEP 2023 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  30 SEP 2023 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex"
-(c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex
+**"c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex"
+(c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -979,7 +979,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--90
  []
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:106: LaTeX Error: There's no line here to end.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:106: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1012,7 +1012,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--132
  []
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:136: LaTeX Error: There's no line here to end.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:136: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1049,7 +1049,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:152: Missing $ inserted.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:152: Missing $ inserted.
 <inserted text> 
                 $
 l.152 
@@ -1057,7 +1057,7 @@ l.152
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:152: Missing } inserted.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:152: Missing } inserted.
 <inserted text> 
                 }
 l.152 
@@ -1068,7 +1068,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:152: Missing } inserted.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:152: Missing } inserted.
 <inserted text> 
                 }
 l.152 
@@ -1079,14 +1079,14 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:152: Missing \cr inserted.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:152: Missing \cr inserted.
 <inserted text> 
                 \cr 
 l.152 
       
 I'm guessing that you meant to end an alignment here.
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:152: Missing { inserted.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:152: Missing { inserted.
 <inserted text> 
                 {
 l.152 
@@ -1095,7 +1095,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:152: Missing $ inserted.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:152: Missing $ inserted.
 <inserted text> 
                 $
 l.152 
@@ -1103,27 +1103,55 @@ l.152
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:154: Misplaced \crcr.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:154: Misplaced \crcr.
 \endaligned ->\crcr 
                     \egroup \restorecolumn@ \egroup 
 l.154 \end{aligned}
-                   \right.$
+                   \right.$\\
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
 up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/nam.tex:154: Extra }, or forgotten \endgroup.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:154: Extra }, or forgotten \endgroup.
 \endaligned ...cr \egroup \restorecolumn@ \egroup 
                                                   
 l.154 \end{aligned}
-                   \right.$
+                   \right.$\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
+
+ []
+
+
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nam/nam.tex:168: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 c
+       ứ thế cấp 2 là nhỏ hơn cấp 1 và v.v đến cấp 5
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [3] (nam.aux)
  ***********
@@ -1134,17 +1162,17 @@ Package rerunfilecheck Info: File `nam.out' has not changed.
 (rerunfilecheck)             Checksum: B2B34D058AD6C9C1CFBECCE55148958D;306.
  ) 
 Here is how much of TeX's memory you used:
- 24480 strings out of 475248
- 440541 string characters out of 5758285
+ 24484 strings out of 475248
+ 440602 string characters out of 5758285
  1933785 words of memory out of 5000000
  45580 multiletter control sequences out of 15000+600000
  568555 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,89p,469b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,89p,473b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb>
-Output written on nam.pdf (3 pages, 135679 bytes).
+Output written on nam.pdf (3 pages, 136761 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 100 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

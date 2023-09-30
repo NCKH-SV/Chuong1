@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Lời nói đầu}{1}{section.1}%
+\contentsline {section}{\numberline {2}Chương 1 Cơ sở lý thuyết quy hoạch tuyến tính}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Phương pháp đơn hình}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Bài toán M}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Bài toán 2 pha}{2}{subsubsection.2.1.2}%

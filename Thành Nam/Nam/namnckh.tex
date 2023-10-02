@@ -1,0 +1,150 @@
+\documentclass{article}
+\usepackage[utf8]{vietnam} 
+\usepackage[T5]{fontenc} % Để sử dụng Tiếng Việt 
+\usepackage[fontsize=13pt]{scrextend} % Set fontsize=13pt
+\usepackage[paperheight=29.7cm,paperwidth=21cm,right=2cm,left=3cm,top=2cm,bottom=2.5cm]{geometry} % Chuẩn A4, căn lề phải, trái, trên, dưới.
+\usepackage{mathptmx} % Time New Roman
+\usepackage{graphicx} % Thư viện chèn ảnh
+\usepackage{hyperref}
+\usepackage{amsfonts,amsmath,amssymb} % Khai báo công thức toán học
+\usepackage{float} % Set vị trì chèn ảnh 
+\usepackage{tikz} % Thư viện tạo khung bìa 
+\usepackage{multicol}
+\usepackage{enumerate} %thư viện liệt kê,đánh số có cấp độ
+\usepackage{fontawesome}% thư viện kí tự đặc biệt của Latex
+\usepackage{xcolor} % Sử dụng gói xcolor
+\usepackage{colortbl} % Sử dụng gói colortbl
+\usepackage{multicol}
+\usepackage{enumerate} % Thư viện liệt kê đánh số có cấp độ
+\usetikzlibrary{calc} % Thư viện tikz
+\usepackage{indentfirst} % Thư viện thụt đầu dòng 
+\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{4}
+\setcounter{tocdepth}{5}
+
+\renewcommand{\baselinestretch}{1.2} % Giản dòng 1.2
+\setlength{\parskip}{6pt} % Spacing after
+\setlength{\parindent}{1cm} % Set khoảng cách thụt đầu dòng mỗi đoạn 
+\usepackage{titlesec} % Thư viện setup các kiểu chữ
+
+\begin{document}
+ 
+\begin{titlepage}
+    \begin{tikzpicture}[overlay,remember picture]
+    \draw [line width=3pt]
+        ($ (current page.north west) + (3.0cm,-2.0cm) $)
+        rectangle
+        ($ (current page.south east) + (-2.0cm,2.5cm) $)
+    \draw [line width=0.5pt]
+        ($ (current page.north west) + (3.1cm,-2.1cm) $)
+        rectangle
+        ($ (current page.south east) + (-2.1cm,2.6cm) $)
+    \end{tikzpicture}
+    \begin{center}
+        \vspace{-15pt} TRƯỜNG ĐẠI HỌC SÀI GÒN\\
+        \textbf{\fontsize{16pt}{0pt}\selectfont KHOA TOÁN ỨNG DỤNG}
+        \vspace{0.5cm}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=6cm,height=6cm]{imge/logodhsg.png}
+        \end{figure}
+        \vspace{1.5cm}
+        \fontsize{28pt}{0pt}\selectfont BÁO CÁO\\
+        \vspace{12pt}
+        \textbf{\fontsize{32pt}{0pt}\selectfont NGHIÊN CỨU KHOA HỌC}
+        \vspace{1.5cm}
+        \end{center}
+        \begin{center}
+        \hspace{15pt}\textbf{\fontsize{30pt}{0pt}\selectfont Đề tài:}
+        \begin{center}
+        \textbf{\fontsize{20pt}{0pt}\selectfont TỐI ƯU TUYẾN TÍNH CÓ THAM SỐ} 
+        \end{center}
+        \vspace{1cm}
+        \begin{table}[H]
+            \centering
+            \begin{tabular}{l l}
+        \fontsize{14pt}{0pt}\selectfont Chủ nhiệm đề tài:     & \fontsize{14pt}{0pt}\selectfont NGUYỄN THÀNH NAM - 3122480034 \vspace{6pt}\\     
+          & \fontsize{14pt}{0pt}\selectfont LÊ ĐỨC ANH - 3122480001 \vspace{6pt}\\
+       
+       
+        \end{tabular}
+        \end{table}
+        \vspace{0.5cm}
+        \fontsize{14pt}{0pt}\selectfont Thành phố Hồ Chí Minh, tháng 9 năm 2023
+        \end{center}
+    \end{titlepage}
+        \cleardoublepage
+       
+        \begin{titlepage}
+            \begin{tikzpicture}[overlay,remember picture]
+            \draw [line width=3pt]
+                ($ (current page.north west) + (3.0cm,-2.0cm) $)
+                rectangle
+                ($ (current page.south east) + (-2.0cm,2.5cm) $)
+            \draw [line width=0.5pt]
+                ($ (current page.north west) + (3.1cm,-2.1cm) $)
+                rectangle
+                ($ (current page.south east) + (-2.1cm,2.6cm) $)
+            \end{tikzpicture}
+            \begin{center}
+                \vspace{-15pt} TRƯỜNG ĐẠI HỌC SÀI GÒN\\
+                \textbf{\fontsize{16pt}{0pt}\selectfont KHOA TOÁN ỨNG DỤNG}
+                \vspace{0.5cm}
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=6cm,height=6cm]{imge/logodhsg.png}
+                \end{figure}
+                \vspace{1.5cm}
+                \fontsize{24pt}{0pt}\selectfont BÁO CÁO\\
+                \vspace{12pt}
+                \textbf{\fontsize{32pt}{0pt}\selectfont NGHIÊN CỨU KHOA HỌC}
+                \vspace{1cm}
+                \end{center}
+                \begin{center}
+                \hspace{15pt}\textbf{\fontsize{30pt}{0pt}\selectfont Đề tài:}
+                \end{center}
+                \begin{center}
+                    \begin{center}
+                \textbf{\fontsize{20pt}{0pt}\selectfont TỐI ƯU TUYẾN TÍNH CÓ THAM SỐ} 
+                    \end{center}
+                \vspace{1cm}
+                \begin{table}[H]
+                    \centering
+                    \begin{tabular}{l l}
+                \fontsize{14pt}{0pt}\selectfont Chủ nhiệm đề tài:     & \fontsize{14pt}{0pt}\selectfont NGUYỄN THÀNH NAM - 3122480034 \vspace{6pt}\\     
+                  & \fontsize{14pt}{0pt}\selectfont LÊ ĐỨC ANH - 3122480001 \vspace{6pt}\\
+                \fontsize{14pt}{0pt}\selectfont Giảng viên hướng dẫn: & \fontsize{14pt}{0pt}\selectfont PGS.TS TẠ QUANG SƠN \vspace{6pt}\\
+                \fontsize{14pt}{0pt}\selectfont Các cán bộ phản biện:
+                
+               
+                \end{tabular}
+                \end{table}
+                \vspace{0.5cm}
+                \fontsize{14pt}{0pt}\selectfont Thành phố Hồ Chí Minh, tháng 9 năm 2023
+                \end{center}
+            \end{titlepage}
+            \cleardoublepage
+\tableofcontents
+\section{Lời nói đầu}
+jhskjhdfhaksgfkjsbvckcvbxzvck
+àdsfsfdsjhfd
+sdfsdf
+sdfsdf
+sdfsd\\
+sdfsdfsdfssdfsdfsdfsd
+sdfsdfsdfsdfsd
+dfsddfsdfsdfsdf
+\cleardoublepage
+\section{Chương 1 Cơ sở lý thuyết quy hoạch tuyến tính}
+\subsection{Phương pháp đơn hình}
+\subsubsection{Bài toán M}
+\subsubsection{Bài toán 2 pha}
+
+
+
+           
+
+
+\end{document}

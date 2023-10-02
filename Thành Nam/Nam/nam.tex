@@ -1,0 +1,193 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[utf8]{vietnam}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{cases}
+\usepackage{braket}
+\usetikzlibrary{calc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multicol}
+\usepackage{enumerate} %thư viện liệt kê,đánh số có cấp độ
+\usepackage{fontawesome}% thư viện kí tự đặc biệt của Latex
+\usepackage{xcolor} % Sử dụng gói xcolor
+\usepackage{colortbl} % Sử dụng gói colortbl
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{mathtools}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{nccmath}
+
+
+\begin{document}
+\Large\section{Mathematical formulas and explanations in ViệtNam}
+\large $\setminus$quad là khoảng cách trắng\\
+
+\LaTeX\
+
+$\setminus$ qquad là double khoảng cách trắng,chấm phẩy và phẩy cũng là khoảng cách trắng\\
+
+$\setminus$allowdisplaybreaks là cho phép ngắt công thức toán nếu đã dài quá trang sang trang mới\\
+
+\colorbox{pink}{$\setminus$geqslant} là lớn hơn bằng, \colorbox{pink}{$\setminus$leqslant}là nhỏ hơn bằng.\\
+
+\colorbox{yellow}{$\setminus$geq} là lớn hơn,\colorbox{yellow}{$\setminus$leq}là nhỏ hơn
+
+
+
+$\setminus$colorbox\{màu\}\{văn bản\} là tô màu nền bạn thích cho phần \{văn bản\}.\\
+
+\colorbox{yellow}{ctrl double click} trên dòng nào từ file pdf sẽ nhảy tới dòng code chỗ dòng văn bản pdf đó.\\
+
+\colorbox{pink}{1}$\quad x^2=0$  \quad     mũ bình thường \\
+
+\colorbox{pink}{2}$\quad x^{100}$ \quad ,mũ lớn bỏ trong ngoặc nhọn\\
+
+\colorbox{green}{3}$\quad x_{11}$ \quad chỉ số dưới bỏ ngoặc nhọn\\
+
+\colorbox{red}{4}$\quad  x-2=0 \Rightarrow x=2 $\quad  $\setminus$Rigtharrow viết hoa là mũi tên to\\
+
+\colorbox{red}{5}$\quad x-2=0 \rightarrow x=2  $\quad  ko viết hoa là mũi tên nhỏ\\
+
+\colorbox{red}{6}$\quad x-2=0 \Leftrightarrow x=2 $\quad mũi tên hai chiều\\
+
+\colorbox{red}{7}$\quad\dfrac{2x^2-5}{x^5-3}$\quad frac là chia,dfrac là phóng to phân số\\
+
+\colorbox{red}{8}$\quad \displaystyle\int_a^bf(x)$ \quad ko kéo cận dãn ra,thêm limits là kéo cận dãn ra\\
+
+\colorbox{red}{9}$\quad\displaystyle\int\limits_a^bf(x)$ (với limits là kéo cận lên trên và dưới của dấu tích phân,display là phóng to,int là tích phân)\\
+
+\colorbox{red}{10}$\quad\displaystyle\sum\limits_a^b$\quad sum là tổng,limits là chỉ số trên dưới như tích phân\\
+
+\colorbox{red}{11}$\quad\left(\dfrac{1}{2}\right)$ \quad lệnh left(...right) là giúp cho dấu ngoặc (tròn) bao hết phân số,tương tự với ngoặc vuông,ngoặc nhọn.\\
+
+\colorbox{red}{12}$\quad\cos x$\quad hàm lượng giác phải thêm dấu khai báo\ vào trước tên của hàm đó\\
+
+ \colorbox{red}{13}$\quad\begin{array}{cr}
+ x-2=0 & 2x-5=0\\
+ x-1=0 & x=0\\
+ \end{array}$\\
+ array là tạo bảng nhưng ko có viền, c là căn giữa,r là căn phải, cr theo thứ tự là cột 1 cột 2, dấu 'và' ngăn cách 2 cột c và r\\
+ \colorbox{red}{14}\begin{align*}
+ x-2=0\\
+ x^2=4
+ \end{align*}\\
+ align* căn giữa công thức toán .ko đánh số pt ct toán\\
+\colorbox{red}{15} $\quad\begin{aligned}
+ &x-2=0\\
+ &x^2=4
+ \end{aligned}$\\
+ aligned là căn trái công thức toán, dấu'và' đứng trc vị trí nào thì sẽ căn hàng tiếp theo đúng tại vị trí đó\\
+ 
+ \colorbox{red}{16} Ta có hệ phương trình: $\left\{\begin{aligned}
+     & 2x-3y=0\\
+     & 5x-8y=4
+ \end{aligned}\right.$\\
+ cách viết hệ pt hoặc hệ hoặc,nếu ngoặc nhọn thì thêm dấu $\setminus$ vào sau chữ left,còn ngoặc [ ] thì bỏ dấu $\setminus$ đi.\\
+
+\colorbox{red}{17} Đánh số liệt kê
+ \begin{enumerate}
+ \item Nội dung ý thứ nhất.
+ \begin{enumerate}[i.]
+ \item nội dung nhỏ ý 1
+ \item nội dung nhỏ ý 1
+ \end{enumerate}
+ \item Nội dung ý thứ hai.
+ \end{enumerate}
+
+\colorbox{red}{18}  Dấu [ ] đánh số [bước 1.] luôn để tạo thành 1 bài toán có loạt câu hỏi
+\begin{enumerate}[Bước 1.]
+\item Tìm nguyên hàm sau $\displaystyle\int xdx $
+\item Tìm giá trị tích phân dựa trên kq Bc1 $\displaystyle\int\limits_1^2f(x)dx$
+\end{enumerate}\\
+
+\colorbox{red}{19}\quad Hai bài toán trên được viết lại ngắn gọn dưới dạng ma trận như sau:
+\begin{align*}
+       f(x) =\langle c.x \rangle&= c^Tx \longrightarrow \text{Max}   & g(y) =\langle b,y \rangle&= b^Ty \longrightarrow \text{Min}\\
+      Ax &\leq b & A^Ty &\geq c \\
+     x &\geq 0 &  y &\geq 0
+\end{align*}\\
+
+\colorbox{green}{20}\\
+
+             \begin{tabular}{|c|c|c|c|c|}
+                \hline %dòng 1
+                \rowcolor{pink} 1 & 2 & 3 & 4 & 5 \\ % Tô màu xanh lá cây dòng 1
+                \hline % Dòng 2
+                \cellcolor{yellow} G & F & D & 7 & 8 \\ % Tô cột đầu tiên dòng 2 màu vàng
+                \hline
+                K & L & \cellcolor{red} U & I & O \\ % Tô cột 3 dòng 3 màu đỏ ( chỉ 1 ô) 
+
+
+             \end{tabular}\\
+
+
+
+
+\colorbox{brown}{21} \\
+% tô màu công thức toán học
+\begin{center}
+\color{red} $ x_1= \dfrac{-b+  \sqrt\triangle}{2a}$;\quad
+\color{red} $x_2 = \dfrac{-b-\sqrt\triangle}{2a}$
+\end{center}\\
+
+\colorbox{red}{22}\\
+
+\textcolor{green}{Shift Alt mũi tên xuống} là Duplicate dòng đó xuống thêm 1 dòng\\
+\textcolor{green}{Ctrl C} ko càn bôi đen cae dòng đó,chỉ cần click chuột vào dòng đó là xong\\
+ 
+\colorbox{red}{23}\\ % \[gõ văn bản toán học vào đây \] là căn giữa,ko cần sài $$...$$
+\[\sqrt{2}\] % Hai dấu đồng tiền liền kề là căn giữa công thức toán và nằm riêng biệt trên một hàng
+\[\sqrt[3]{2}\] % [] là căn bậc, {} là số hay biểu thức dưới căn bậc
+\[\dfrac{1+\sqrt{1+x}}{\sqrt{x+2}}\]\\
+
+\colorbox{red}{24}\\
+
+$$\left\{\begin{aligned} 
+    & x_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}y_i^*=c_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}y_i^* < c_j\Longrightarrow x_j^* =0,j=\overline{1,n}\\
+    & y_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}x_i^*=b_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}x_i^* < b_j\Longrightarrow y_j^* =0,j=\overline{1,m}
+\end{aligned}\right.$$
+
+\colorbox{red}{25}\\
+
+$\setminus$\textcolor{cyan}{setcounter}\{tocdepth\}\{1\} nghĩa là đánh số liệt kê trong mục lục cấp độ 1\\
+VD: Mục Lục\\
+\begin{enumerate}
+    \item Mục 1
+    \begin{enumerate}[1.]
+    \item mục nhỏ 1  của mục 1 setcounter tocdepth \{1\}
+    \item mục nhỏ 2  của mục 1 setcounter tocdepth \{1\}
+    \end{enumerate}
+    \item Mục 2
+\end{enumerate}.\\
+cứ thể mà từ cấp 1 đến cấp 5\\
+
+
+ \colorbox{red}{26}\\
+
+\begin{numcases}{}
+    x^2=2 &\\
+    x^4=2 &\\
+    ... &\\
+    x-2=0 &\\
+\end{numcases}\\
+\colorbox{red}{27}\\
+\textbf{1.Cho bài toán quy hoạch tuyến tính như sau:}\\
+
+\big(P\big)\quad $f(x)=2x_1-3x_2+4x_3-6x_4\quad \longrightarrow Min$\\
+$\begin{cases}\\
+    x_1+2x-2+3x_3-x_4&=20 \quad(1)\\
+    -3x_1-x_2+7x_3+7x_4&\leq 32 \quad(2)\\
+    2x_1+4x_2+x_3+x_4&\geq 18 \quad(3)\\
+    x_i\geq 0,\forall i=1,2,3
+\end{cases}$\\
+$\Longrightarrow$ \big(D\big)\quad
+    
+\end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  29 SEP 2023 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  2 OCT 2023 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,7 +564,11 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 19.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
+)
+
+LaTeX Warning: Label `5' multiply defined.
+
+)
 \openout1 = `Chuong1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -785,22 +789,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7})
 l.147                             \begin{equation}
                                                   ]
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Package amsmath Error: Erroneous nesting of equation structures;
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:150: Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152                                 \end{align}
+l.150                                 \end{align}
                                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing } inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:150: Missing } inserted.
 <inserted text> 
                 }
-l.152                                 \end{align}
+l.150                                 \end{align}
                                                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -808,42 +812,42 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:150: Missing $ inserted.
 <inserted text> 
                 $
-l.152                                 \end{align}
+l.150                                 \end{align}
                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:150: Missing $ inserted.
 <inserted text> 
                 $
-l.152                                 \end{align}
+l.150                                 \end{align}
                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:150: Missing $ inserted.
 <inserted text> 
                 $
-l.152                                 \end{align}
+l.150                                 \end{align}
                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:150: Missing $ inserted.
 <inserted text> 
                 $
-l.152                                 \end{align}
+l.150                                 \end{align}
                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Undefined control sequence.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:150: Undefined control sequence.
 \math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
                                                   \cr 
-l.152                                 \end{align}
+l.150                                 \end{align}
                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -851,19 +855,32 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing { inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:150: Missing { inserted.
 <inserted text> 
                 {
-l.152                                 \end{align}
+l.150                                 \end{align}
                                                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing } inserted.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:155: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155                                 \end{align}
+                                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:155: Missing } inserted.
 <inserted text> 
                 }
-l.152                                 \end{align}
+l.155                                 \end{align}
                                                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -871,47 +888,26 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:155: Missing $ inserted.
 <inserted text> 
                 $
-l.152                                 \end{align}
+l.155                                 \end{align}
                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Package amsmath Error: Multiple \label's: label '7' will be lost.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152                                 \end{align}
-                                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Incomplete \ifodd; all text was ignored after line 152.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:155: Missing $ inserted.
 <inserted text> 
-                \fi 
-l.152                                 \end{align}
+                $
+l.155                                 \end{align}
                                                  
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Extra \fi.
-\math@cr@@@ ...ef \next@ {&\kern -\alignsep@ }\fi 
-                                                  \next@ \cr 
-l.152                                 \end{align}
-                                                 
-I'm ignoring this; it doesn't match any \if.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Undefined control sequence.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:155: Undefined control sequence.
 \math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
                                                   \cr 
-l.152                                 \end{align}
+l.155                                 \end{align}
                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -919,69 +915,33 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing { inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:155: Missing { inserted.
 <inserted text> 
                 {
-l.152                                 \end{align}
+l.155                                 \end{align}
                                                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing } inserted.
-<inserted text> 
-                }
-l.152                                 \end{align}
-                                                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing $ inserted.
-<inserted text> 
-                $
-l.152                                 \end{align}
-                                                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Package amsmath Error: Multiple \label's: label '8' will be lost.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152                                 \end{align}
+l.160                                 \end{align}
                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing { inserted.
-<inserted text> 
-                {
-l.152                                 \end{align}
-                                                 
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:152: Missing $ inserted.
-<inserted text> 
-                $
-l.152                                 \end{align}
-                                                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Missing } inserted.
 <inserted text> 
                 }
-l.160 ...                              \end{split}
-                                                  
+l.160                                 \end{align}
+                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -991,16 +951,16 @@ my insertion and my current dilemma will both disappear.
 c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...                              \end{split}
-                                                  
+l.160                                 \end{align}
+                                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Missing { inserted.
 <inserted text> 
                 {
-l.160 ...                              \end{split}
-                                                  
+l.160                                 \end{align}
+                                                 
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1008,15 +968,15 @@ Try to go on, since this might almost work.
 c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...                              \end{split}
-                                                  
+l.160                                 \end{align}
+                                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Missing } inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Missing } inserted.
 <inserted text> 
                 }
-l.160 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1024,35 +984,35 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Missing { inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Missing { inserted.
 <inserted text> 
                 {
-l.160 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:160: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:167: Missing } inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Missing } inserted.
 <inserted text> 
                 }
-l.167 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1060,35 +1020,35 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:167: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Missing $ inserted.
 <inserted text> 
                 $
-l.167 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:167: Missing { inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Missing { inserted.
 <inserted text> 
                 {
-l.167 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:167: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:168: Missing $ inserted.
 <inserted text> 
                 $
-l.167 ...                              \end{split}
+l.168 ...                              \end{split}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:167: Missing } inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:175: Missing } inserted.
 <inserted text> 
                 }
-l.167 ...                              \end{split}
+l.175 ...                              \end{split}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1096,132 +1056,158 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:167: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:175: Missing $ inserted.
 <inserted text> 
                 $
-l.167 ...                              \end{split}
+l.175 ...                              \end{split}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:167: Missing { inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:175: Missing { inserted.
 <inserted text> 
                 {
-l.167 ...                              \end{split}
+l.175 ...                              \end{split}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:167: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:175: Missing $ inserted.
 <inserted text> 
                 $
-l.167 ...                              \end{split}
+l.175 ...                              \end{split}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:173: Display math should end with $$.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:175: Missing } inserted.
+<inserted text> 
+                }
+l.175 ...                              \end{split}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:175: Missing $ inserted.
+<inserted text> 
+                $
+l.175 ...                              \end{split}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:175: Missing { inserted.
+<inserted text> 
+                {
+l.175 ...                              \end{split}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:175: Missing $ inserted.
+<inserted text> 
+                $
+l.175 ...                              \end{split}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:181: Display math should end with $$.
 <to be read again> 
                    \displaystyle 
-l.173 ...                           $\displaystyle
+l.181 ...                           $\displaystyle
                                                    A_{J^{'}}A_{J^{'}}^{-1}= ...
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:173: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:181: Missing $ inserted.
 <inserted text> 
                 $
-l.173 ...                           $\displaystyle
+l.181 ...                           $\displaystyle
                                                    A_{J^{'}}A_{J^{'}}^{-1}= ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:174: LaTeX Error: Bad math environment delimiter.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:182: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174                             \end{equation}
+l.182                             \end{equation}
                                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:174: You can't use `\eqno' in horizontal mode.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:182: You can't use `\eqno' in horizontal mode.
 \veqno ->\@kernel@eqno 
                        \aftergroup \ignorespaces 
-l.174                             \end{equation}
+l.182                             \end{equation}
                                                 
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:174: Missing $ inserted.
-<inserted text> 
-                $
-l.174                             \end{equation}
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:174: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.174                             \end{equation}
-                                                
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:182: Display math should end with $$.
-<to be read again> 
-                   \displaystyle 
-l.182 ...                           $\displaystyle
-                                                   V_k = \sum_{j \in J \setm...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:182: Missing $ inserted.
 <inserted text> 
                 $
-l.182 ...                           $\displaystyle
+l.182                             \end{equation}
+                                                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:182: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.182                             \end{equation}
+                                                
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:190: Display math should end with $$.
+<to be read again> 
+                   \displaystyle 
+l.190 ...                           $\displaystyle
+                                                   V_k = \sum_{j \in J \setm...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:190: Missing $ inserted.
+<inserted text> 
+                $
+l.190 ...                           $\displaystyle
                                                    V_k = \sum_{j \in J \setm...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:183: LaTeX Error: Bad math environment delimiter.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:191: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 ...                           \end{equation}
+l.191 ...                          \end{equation*}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:183: You can't use `\eqno' in horizontal mode.
-\veqno ->\@kernel@eqno 
-                       \aftergroup \ignorespaces 
-l.183 ...                           \end{equation}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:183: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:191: Missing $ inserted.
 <inserted text> 
                 $
-l.183 ...                           \end{equation}
+l.191 ...                          \end{equation*}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1229,97 +1215,94 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:183: Display math should end with $$.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:191: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.183 ...                           \end{equation}
+l.191 ...                          \end{equation*}
                                                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-
-LaTeX Warning: Reference `' on page 4 undefined on input line 184.
-
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 191--213
+Underfull \hbox (badness 10000) in paragraph at lines 199--221
 
  []
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:236: Double subscript.
-l.236 ...     (q_{m+1,1},\ldots,q_{m+1,m})=c_{jA}_
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:244: Double subscript.
+l.244 ...     (q_{m+1,1},\ldots,q_{m+1,m})=c_{jA}_
                                                   j^{-1}
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-LaTeX Warning: Reference `3da' on page 5 undefined on input line 240.
+LaTeX Warning: Reference `3da' on page 5 undefined on input line 248.
 
 
-LaTeX Warning: Reference `3da' on page 5 undefined on input line 242.
+LaTeX Warning: Reference `3da' on page 5 undefined on input line 250.
 
 [5]
 
-LaTeX Warning: Reference `3da' on page 6 undefined on input line 247.
+LaTeX Warning: Reference `3da' on page 6 undefined on input line 255.
 
 
-LaTeX Warning: Reference `6da' on page 6 undefined on input line 254.
+LaTeX Warning: Reference `6da' on page 6 undefined on input line 262.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--278
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--297
+Underfull \hbox (badness 10000) in paragraph at lines 302--305
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 329--331
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--354
+Underfull \hbox (badness 10000) in paragraph at lines 358--362
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--384
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--393
+Underfull \hbox (badness 10000) in paragraph at lines 398--401
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
  []
 
@@ -1333,21 +1316,24 @@ L3 programming layer <2023-08-29>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Chuong1.out' has not changed.
 (rerunfilecheck)             Checksum: C5E941BCFC4DCBA234836B8AF3515AF5;3354.
  ) 
 Here is how much of TeX's memory you used:
- 14597 strings out of 475248
- 233692 string characters out of 5758285
- 1937801 words of memory out of 5000000
- 35844 multiletter control sequences out of 15000+600000
+ 14599 strings out of 475248
+ 233709 string characters out of 5758285
+ 1936801 words of memory out of 5000000
+ 35845 multiletter control sequences out of 15000+600000
  576495 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,635b,570s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Chuong1.pdf (10 pages, 283182 bytes).
+Output written on Chuong1.pdf (10 pages, 283480 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -30,14 +30,15 @@
 
 
 \title{Quy hoạch tuyến tính và cơ sở lý thuyết}
-\author{Nguyễn Chí Bằng, Đỗ Thư, Lê Đức Anh, Nguyễn Thành Nam} 
+\author{Nguyễn Chí Bằng, Đỗ Ngọc Minh  Thư, Lê Đức Anh, Nguyễn Thành Nam} 
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-Quy hoạch tuyến tính
+    Đề tài gồm 
+
 \end{abstract}
 
 \tableofcontents
@@ -57,10 +58,10 @@ Quy hoạch tuyến tính
                                     x_j &\geq 0 , j = \overline{\rm 1,n} \\
                                 \end{split}
                             \end{equation}
-                        Từ đó ta xét BT có ẩn giả tạo sau (gọi là BTM) \eqref{**}
+                        Từ đó ta xét BT có ẩn giả tạo sau (gọi là Bài toán M) \eqref{**}
                             \begin{equation} \label{**}
                                 \begin{split}
-                                    Min \: \sum_{j=1}^n c_jx_j+M \\
+                                    Min \: \sum_{j=1}^n c_jx_j+M(\sum_{i=1}^m x_{n+i}) \\
                                     \sum_{j=1}^n a_{ij}x_j + x_{n+i}&=b_i , i = \overline{\rm 1,m} \\
                                     x_j &\geq 0 , j= \overline{\rm 1,{n+m}}
                                 \end{split}
@@ -71,15 +72,57 @@ Quy hoạch tuyến tính
                                 \item BT \eqref{*}  có PATU X khi và chỉ khi BT \eqref{**} có PATU $\overline{\rm X} = (X,0)$.
                                 \item Nếu BT \eqref{**} có PATU $\overline{\rm X}$ mà trong đó có chứa $x_{m+i}>0$ thì tập PATU của BT \eqref{*} là rỗng.
                             \end{dl}
-                            \begin{cy}
-                                Đối với bài toán M, $\Delta_j$ có dạng $\Delta_j=\alpha_j+\beta_jM$. Vì thế dòng thứ $m+1$ của bảng đơn hình, ta nên tách thành hai dòng ghi $\alpha _j$ và $\beta_j$. Để đánh giá $\Delta_j$ ta cần chú ý tới $B_j$, sau đó mới chú ý đến $\alpha_j$.
-                            \end{cy} 
-                    \item \textbf{Ví dụ minh hoạ} \\          
+                        
+                    \item \textbf{Ví dụ minh hoạ} \\
+                    Xét bài toán QHTT $ Min -x_1+3x_2+5x_3+x_4\\
+                    $$\begin{cases}x_1+4x_2+4x_3+x_4=5 \\ x_1+7x_2+8x_3+2x_4=9\\x_i\geq 0, i=1,2,3,4  \end{cases}$$ $\\
+            Ta thấy bài toán trên chưa có véc tơ đơn vị, nên ta thêm vào hai ẩn giả tạo để tạo ra hai véc tơ đơn vị. Xét bài toán M như sau:\\
+            $Min -x_1+3x_2+5x_3+x_4+M(x_5+x_6)\\
+            $$\begin{cases} x_1+4x_2+4x_3+x_4+x_5=5\\x_1+7x_2+8x_3+2x_4+    x_6=9\\x_i\geq 0,i=1,2,3,4,5,6 \end{cases}$$ $\\
+            Ta có phương án cực biên xuất phát là $(0,0,0,0,0,5,9)$
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+                \hline
+                HS&CS&PA&$-1$&$3$&$5$&$1$&$M$&$M$\\
+                \hline
+               &&& $x_1$&$x_2$&$x_3$&$x_4$&$x_5$&$x_6$\\
+                \hline
+                $M$&$A_5$&$5$&$1$&$4$&$4$&$1$&$1$&$0$\\
+                \hline
+                $M$&$A_6$&$9$&$1$&$7$&$8$&$2$&$0$&$1$\\
+                \hline
+              && $ \Delta\rightarrow$&$2M+1$&$11M-3$&$12M-5$&$3M-1$&$0$&$0$\\
+               \hline
+               $ M$&$A_5$&$\dfrac{1}{2}$&$\dfrac{1}{2}$&$\dfrac{1}{2}$&$0$&$0$&$1$&$\dfrac{-1}{2}$\\
+               \hline
+              $5$&$A_3$&$\dfrac{9}{8}$&$\dfrac{1}{8}$&$\dfrac{7}{8}$&$1$&$\dfrac{1}{4}$&$0$&$\dfrac{1}{8}$\\
+              \hline
+             &&$\Delta\rightarrow$&$\dfrac{1}{2}M+\dfrac{13}{8}$&$12M+\dfrac{11}{8}$&$0$&$\dfrac{1}{4}$&$0$&$\dfrac{-3}{2}M+\dfrac{5}{8}$\\
+              \hline
+              $-1$&$A_1$&$1$&$1$&$1$&$0$&$0$&$2$&$-1$\\
+              \hline
+              $5$&$A_3$&$1$&$0$&$\dfrac{3}{4}$&$1$&$\dfrac{1}{4}$&$\dfrac{-1}{4}$&$\dfrac{1}{4}$\\
+              \hline
+              &&$\Delta\rightarrow$&$0$&$\dfrac{-1}{4}$&$0$&$\dfrac{1}{4}$&&\\
+              \hline
+              $-1$&$A_1$&$1$&$1$&$1$&$0$&$0$&&\\
+              \hline
+              $1$&$A_4$&$4$&$0$&$3$&$4$&$1$&&\\
+              \hline
+              &&$\Delta\rightarrow$&$0$&$-1$&$-1$&$0$&&  \\
+             
+              \hline 
+                \end{tabular}
+            \end{center}
+            Vậy phương án tối ưu của bài toán gốc là $(1,0,0,4)$\\
+
+
+
                 \end{enumerate}
             \subsubsection{Bài toán 2 pha}
                 \begin{enumerate}
                     \item \textbf{Nội dung} \\
-                        Nếu 1 bài toán quy hoạch tuyến tính có hệ ràng buộc theo dạng
+                        Nếu một bài toán quy hoạch tuyến tính có hệ ràng buộc theo dạng
                             \begin{equation}
                                 \begin{split}
                                     Ax &\leq b \\
@@ -118,6 +161,14 @@ Quy hoạch tuyến tính
                         \end{enumerate}
                         Từ đây, bài toán \eqref{2.1} được giải với $u_0$ cơ sở chấp nhận được vừa tìm.
                     \item \textbf{Ví dụ minh hoạ} \\
+                     Ta xét bài toán sau\\
+                     $Min -x_1+3x_2+5x_3+x_4\\
+                    $$\begin{cases} x_1+4x_2+4x_3+x_4=5\\x_1+7x_2+8x_3+2x_4=9\\x_i\geq 0, i= 1,2,3,4\end{cases}$$   $
+                Đây là bài toán chưa có hệ cơ sở. Do đó ta có thể dùng phương pháp hai pha để giải bài toán.
+                Ta có pha I, với các ẩn giả là $x_5,x_6$\\
+                Min  \:$ x_5+x_6$\\
+                $ $$\begin{cases}  x_1+4x_2+4x_3+x_4+x_5=5\\x_1+7x_2+8x_3+2x_4+    x_6=9\\x_i\geq 0,i=1,2,3,4,5,6 \end{cases}$$\\$
+                Ta có hai véc tơ cơ sở là $A_5,A_6$
                 \end{enumerate}
     \subsection{Thuật toán cải biên và đối ngẫu}
             \subsubsection{Phương pháp đơn hình cải biên}
@@ -257,116 +308,9 @@ Quy hoạch tuyến tính
             \subsubsection{Phương pháp đơn hình đối ngẫu}
                 \begin{enumerate}
                     \item \textbf{Giới thiệu} \\
-                        Trong thực tế, việc giải một bài toán bằng thuật toán đơn hình ban đầu cho ta mội giải pháp tối ưu nhưng không khả thi. Trong trường hợp này, thuật toán đơn hình đối ngẫu cung cấp cho ta một giải pháp khả thi bằng cách điều chỉnh phương án thông qua $\overline{\rm b}_r$ sao cho $\overline{\rm b}_r \geq 0$ trong khi đó với thuật toán đơn hình, ta tập trung vào $\overline{\rm c}_s$ sao cho $\overline{\rm c}_s < 0$. Trong khi vẫn giữ được tính khả thi.
                     \item \textbf{Nội dung} \\
-                        Cho bài toán dạng chính tắc
-                        \begin{equation}
-                            \begin{split}
-                                Min \: c^Tx &= z\\
-                                Ax &= b,\\ 
-                                x &\geq 0,
-                            \end{split}
-                        \end{equation}        
-                        Như ta thấy, sau quá trình biến đổi với thuật toán đơn hình ta luôn nhận được một hệ phương trình với các biến cơ sở $-z, x_1, x_2, \ldots , x_m$.
-                        \begin{center}
-                            \begin{tabular} {ccccccccccc}
-                                $-z$ &&&&& $+\overline{\rm c}_{m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm c}_jx_j$ & $\ldots$ & $+ \overline{\rm c}_nx_n$ & $= -\overline{\rm z}_0$ \\
-                                & $x_1$ &&&& $+\overline{\rm a}_{1,m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm a}_{1j}x_j$ & $\ldots$ & $+ \overline{\rm a}_{1n}x_n$ & $= \overline{\rm b}_1$ \\                            
-                                && $x_2$ &&& $+\overline{\rm a}_{2,m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm a}_{2j}x_j$ & $\ldots$ & $+ \overline{\rm a}_{2n}x_n$ & $= \overline{\rm b}_2$ \\                            
-                                &&& $\ddots$ && $\vdots$ && $\vdots$ && $\vdots$ & $\vdots$ \\
-                                &&&& $x_m$ & $+\overline{\rm a}_{m,m+1}x_{m+1}+$ & $\ldots$ & $+ \overline{\rm a}_{mj}x_j$ & $\ldots$ & $+ \overline{\rm a}_{mn}x_n$ & $= \overline{\rm b}_m,$ \\ 
-                            \end{tabular}
-                        \end{center}
-                        Với $x_B=(x_1,x_2,\ldots,x_m)^T$ và $x_N=(x_{m+1},x_{m+2},\ldots,x_n)^T$, Hệ phương trình được viết lại dưới dạng:
-                        \begin{equation}
-                            \begin{split}
-                                (-z) + \overline{\rm c}x_N &= -\overline{\rm z}_0 \\
-                                Ix_B + \overline{\rm A}x_N &= \overline{\rm b},
-                            \end{split}
-                        \end{equation}     
-                Hoặc dưới dạng ma trận, hệ có thể viết lại thành:
-                \begin{gather}
-                    \begin{pmatrix} 
-                        1 & 0 & \overline{\rm c} \\
-                        0 & I & \overline{\rm A} \\
-                    \end{pmatrix}
-                    \begin{pmatrix}
-                        -z \\
-                        x_{B} \\
-                        x_{N} \\
-                    \end{pmatrix}
-                    =
-                    \begin{pmatrix}
-                        - \overline{\rm z}_0 \\
-                        \overline{\rm b}
-                    \end{pmatrix}
-                    ,
-                \end{gather}
-                Từ đây, ta xét dạng đối ngẫu của bài toán
-                \begin{equation}
-                    \begin{split}
-                        Max \: b^T\pi &= v\\
-                        A^T\pi & \le c,\\
-                    \end{split}
-                \end{equation}
-                Với các ẩn giả được thêm vào ta viết lại
-                \begin{equation}
-                    \begin{split}
-                        Max \: b^T\pi &= v\\
-                        A^T\pi +Iy &= c,\\
-                        y \geq 0
-                    \end{split}
-                \end{equation}
-                Xét mối quan hệ giữ bài toán dạng chính tắc và dạng đối ngẫu của nó ta có cái mối tương quan như bảng trên.
-                \begin{figure} \label{MQH}
-                    \caption{Mối quan hệ giữa bài toán gốc và bài toán đối ngẫu}
-                        \begin{center}
-                            \begin{tabular} {|c|c|c|}
-                                \hline
-                                & Bài toán gốc & Bài toán đối 
-                                ngẫu \\
-                                \hline
-                                Cơ sở & $B$ & $\overline{\rm B} =
-                                \begin{pmatrix}
-                                    B^T & 0 \\
-                                    N^T & I_{n-m}
-                                \end{pmatrix}$ \\
-                                \hline
-                                Biến cơ sở & $x_B$ & $\pi,y_N=\overline{\rm c}_N$ \\
-                                \hline
-                                Biến không cơ sở & $x_N$ & $y_B=\overline{\rm c}_B$ \\
-                                \hline
-                                Điều kiện & $Ax=b,x \geq 0$ & $\overline{\rm c} \geq 0$ \\
-                                \hline
-                            \end{tabular}
-                        \end{center}
-                    \end{figure}
-
-                Ta có thể thấy cột cơ sở và không cơ sở của bài toán dạng đối ngẫu lần lượt được ký hiệu là $\overline{\rm B}$ và $\overline{\rm N}$.
-                \begin{gather}
-                    \overline{\rm B} =
-                        \begin{pmatrix}
-                            B^T & 0 \\
-                            N^T & I_{n-m}
-                        \end{pmatrix}
-                        ,
-                \end{gather}
-                \begin{gather}
-                    \overline{\rm N}=
-                        \begin{pmatrix}
-                            I_m \\
-                            0
-                        \end{pmatrix}
-                        ,
-                \end{gather}
-                \textbf{Thuật toán đơn hình đối ngẫu gồm các bước sau:} \\
-                    \textbf{Bước 1 (Chọn cơ sở vào)} \\
-                        Nếu $\overline{\rm b}_r=min \: \overline{\rm b}_i < 0$, chọn $x_r$ tương đương với hàng $r$. \\
-                    \textbf{Bước 2 (Chọn cơ sở ra)} \\
-                        Nếu $\frac{\overline{\rm c}_s}{-\overline{\rm a}_{rs}}=min \: \frac{\overline{\rm c}_j}{-\overline{\rm a}_{rj}} \geq 0$ trong đó $\overline{\rm a}_{rj} > 0$, loại bỏ $x_s$ tương ứng với cột $s$. \\
-                    \textbf{Bước 3 (Kiểm tra)} \\
-                        Xoay vòng theo $\overline{\rm a}_{rs}$ để xác định một giải pháp khả thi mới, đặt $j_r=s$ và quay lại bước 1.
                 \end{enumerate}
+
 \section{Bài toán đối ngẫu}
     \subsection{Giới thiệu}
         Trong Lý thuyết tối ưu,với một bài toán tối ưu cho trước, người ta quan tâm làm sao thiết lập được bài toán liên kết với bài toán đã cho mà khi giải bài toán này ta thu được thông tin về bài toán ban đầu. Đó chíng là bài toán đối ngẫu. \\

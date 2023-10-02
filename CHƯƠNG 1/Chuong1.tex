@@ -13,6 +13,8 @@
 \usepackage{tabularx}
 \usepackage{geometry}
 \usepackage{nccmath}
+\usepackage{cases}
+\usepackage{braket}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
 \newtheorem{lemma}[theorem]{Lemma}
@@ -360,15 +362,11 @@
                     \end{split}
                 \end{equation}
             Hai bài toán trên viết lại dưới dạng ma trận ta sẽ có thông tin ngắn gọn như sau:
-                \begin{equation}
-                    \begin{split}
-                        (P) \: Max f(x) = \langle c,x \rangle &= c^Tx \\
-                        (P^*)/(D) \: Min g(y) = \langle b,y \rangle &= b^Ty \\
-                        Ax &\leq b \\
-                        A^Ty \geq cx &\geq 0 \\
-                        y &\geq 0
-                    \end{split}
-                \end{equation} 
+                \begin{align*}
+       f(x) =\langle c.x \rangle&= c^Tx \longrightarrow \text{Max}   & g(y) =\langle b,y \rangle&= b^Ty \longrightarrow \text{Min}\\
+      Ax &\leq b & A^Ty &\geq c \\
+     x &\geq 0 &  y &\geq 0
+\end{align*}\\
             Hai bài toán trên chính là đối ngẫu của nhau, giải quyết cực đại của bài toán gốc $(P)$ và cực tiểu của bài toán liên kết $(P^*)/(D)$ và tìm phương án tối ưu thông qua đó.
         \subsubsection{Qui tắc đối ngẫu (trang 33 chương 2 quy hoạch tuyến tính)}
             Khảo sát đối ngẫu cho các dạng tổng quát, ta có các qui tắc sau:
@@ -459,9 +457,10 @@
                 \end{hq}
                 \begin{dl}{\textbf{Độ lệch bù trong đối ngẫu đối xứng}}\\
                     Cho $x^*$ và $y^*$ tương ứng là phương án của bài toán $(P)$ và $(P^*)$. Phương án $x^*$ và $y^*$ tối ưu khi và chỉ khi:
-                    $$x_j^* > 0 \Rightarrow \sum_{i=1}^n a_{ij}y_i^*=c_j \text{ hoặc}$$
-                    $$\sum_{i=1}^n a_{ij}y_j^*<c_j \Rightarrow x_j^* = 0 \text{ với } j=\overline{\rm 1,n}$$
-                    $$y_j^* > 0 \Rightarrow \sum_{i=1}^n a_{ij}x_i^*=b_j \text{ hoặc}$$
+                    \[\left\{\begin{aligned}
+                        & x_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}y_i^*=c_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}y_i^* < c_j\Longrightarrow x_j^* =0,j=\overline{1,n}\\
+                        & y_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}x_i^*=b_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}x_i^* < b_j\Longrightarrow y_j^* =0,j=\overline{1,m}
+                    \end{aligned}\right.\]
                 \end{dl}
         \subsubsection{Bài toán đối ngẫu dạng chính tắc}
             Bài toán chính tắc có dạng như sau, với $A \in M_{m \times n},b \in R^m, c \in R^n$:

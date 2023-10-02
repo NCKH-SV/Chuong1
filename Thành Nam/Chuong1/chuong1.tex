@@ -14,6 +14,7 @@
 \usepackage{geometry}
 \usepackage{nccmath}
 \usepackage{cases}
+\usepackage{braket}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
 \newtheorem{lemma}[theorem]{Lemma}
@@ -304,16 +305,12 @@ Nam edited
                     g(y)=b_1y_1+b_2y_2 \rightarrow Min
                 \end{equation}
             Ta có thêm các ràng buộc tương ứng về giá cả thương lượng hợp lí của bên bán vật liệu:
-                \begin{equation}
-                    \begin{split}
-                        a_{11}y_1+a_{21}y_2 &\geq c_1 \\
-                        a_{12}y_1+a_{22}y_2 &\geq c_2 \\
-                        a_{13}y_1+a_{23}y_2 &\geq c_3 \\
-                        a_{14}y_1+a_{24}y_2 &\geq c_4 \\
-                        y_i &\geq 0 \\
-                        i &= 1, 2, 3, 4
-                    \end{split}
-                \end{equation}
+            \[\begin{cases}a_{11}y_1+a_{21}y_2 &\geq c_1 \\
+                a_{12}y_1+a_{22}y_2 &\geq c_2 \\
+                a_{13}y_1+a_{23}y_2 &\geq c_3 \\
+                a_{14}y_1+a_{24}y_2 &\geq c_4 \\
+                y_i \geq 0,i=1,2,3,4
+                \end{cases}\]
             Hai bài toán trên viết lại dưới dạng ma trận ta sẽ có thông tin ngắn gọn như sau:
             \begin{align*}
                 f(x) =\langle c.x \rangle&= c^Tx \longrightarrow \text{Max}   & g(y) =\langle b,y \rangle&= b^Ty \longrightarrow \text{Min}\\
@@ -410,10 +407,10 @@ Nam edited
                 \end{hq}
                 \begin{dl}{\textbf{Độ lệch bù trong đối ngẫu đối xứng}}\\
                     Cho $x^*$ và $y^*$ tương ứng là phương án của bài toán $(P)$ và $(P^*)$. Phương án $x^*$ và $y^*$ tối ưu khi và chỉ khi:
-                    $$\left\{\begin{aligned}
+                    \[\left\{\begin{aligned}
                         & x_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}y_i^*=c_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}y_i^* < c_j\Longrightarrow x_j^* =0,j=\overline{1,n}\\
                         & y_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}x_i^*=b_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}x_i^* < b_j\Longrightarrow y_j^* =0,j=\overline{1,m}
-                    \end{aligned}\right.$$
+                    \end{aligned}\right.\]
 
 
 

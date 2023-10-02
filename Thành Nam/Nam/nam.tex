@@ -7,6 +7,8 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage{cases}
+\usepackage{braket}
 \usetikzlibrary{calc}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{multicol}
@@ -37,6 +39,8 @@ $\setminus$allowdisplaybreaks là cho phép ngắt công thức toán nếu đã
 \colorbox{pink}{$\setminus$geqslant} là lớn hơn bằng, \colorbox{pink}{$\setminus$leqslant}là nhỏ hơn bằng.\\
 
 \colorbox{yellow}{$\setminus$geq} là lớn hơn,\colorbox{yellow}{$\setminus$leq}là nhỏ hơn
+
+
 
 $\setminus$colorbox\{màu\}\{văn bản\} là tô màu nền bạn thích cho phần \{văn bản\}.\\
 
@@ -139,19 +143,17 @@ $\setminus$colorbox\{màu\}\{văn bản\} là tô màu nền bạn thích cho ph
 \textcolor{green}{Shift Alt mũi tên xuống} là Duplicate dòng đó xuống thêm 1 dòng\\
 \textcolor{green}{Ctrl C} ko càn bôi đen cae dòng đó,chỉ cần click chuột vào dòng đó là xong\\
  
-\colorbox{red}{23}\\
-$$\sqrt{2}$$ % Hai dấu đồng tiền liền kề là căn giữa công thức toán và nằm riêng biệt trên một hàng
-$$\sqrt[3]{2}$$ % [] là căn bậc, {} là số hay biểu thức dưới căn bậc
-$$\dfrac{1+\sqrt{1+x}}{\sqrt{x+2}}$$\\
+\colorbox{red}{23}\\ % \[gõ văn bản toán học vào đây \] là căn giữa,ko cần sài $$...$$
+\[\sqrt{2}\] % Hai dấu đồng tiền liền kề là căn giữa công thức toán và nằm riêng biệt trên một hàng
+\[\sqrt[3]{2}\] % [] là căn bậc, {} là số hay biểu thức dưới căn bậc
+\[\dfrac{1+\sqrt{1+x}}{\sqrt{x+2}}\]\\
 
 \colorbox{red}{24}\\
 
-$\left\{\begin{aligned}
+$$\left\{\begin{aligned} 
     & x_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}y_i^*=c_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}y_i^* < c_j\Longrightarrow x_j^* =0,j=\overline{1,n}\\
     & y_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}x_i^*=b_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}x_i^* < b_j\Longrightarrow y_j^* =0,j=\overline{1,m}
-    
-
-\end{aligned}\right.$\\
+\end{aligned}\right.$$
 
 \colorbox{red}{25}\\
 
@@ -164,7 +166,28 @@ VD: Mục Lục\\
     \item mục nhỏ 2  của mục 1 setcounter tocdepth \{1\}
     \end{enumerate}
     \item Mục 2
-\end{enumerate}\\
-cứ thế cấp 2 là nhỏ hơn cấp 1 và v.v đến cấp 5
+\end{enumerate}.\\
+cứ thể mà từ cấp 1 đến cấp 5\\
 
+
+ \colorbox{red}{26}\\
+
+\begin{numcases}{}
+    x^2=2 &\\
+    x^4=2 &\\
+    ... &\\
+    x-2=0 &\\
+\end{numcases}\\
+\colorbox{red}{27}\\
+\textbf{1.Cho bài toán quy hoạch tuyến tính như sau:}\\
+
+\big(P\big)\quad $f(x)=2x_1-3x_2+4x_3-6x_4\quad \longrightarrow Min$\\
+$\begin{cases}\\
+    x_1+2x-2+3x_3-x_4&=20 \quad(1)\\
+    -3x_1-x_2+7x_3+7x_4&\leq 32 \quad(2)\\
+    2x_1+4x_2+x_3+x_4&\geq 18 \quad(3)\\
+    x_i\geq 0,\forall i=1,2,3
+\end{cases}$\\
+$\Longrightarrow$ \big(D\big)\quad
+    
 \end{document}

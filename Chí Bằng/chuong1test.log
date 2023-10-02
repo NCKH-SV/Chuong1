@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  2 OCT 2023 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  2 OCT 2023 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/CHƯƠNG 1/Chuong1.tex"
-(c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/CHƯƠNG 1/Chuong1.tex
+**"c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Chí Bằng/chuong1test.tex"
+(c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Chí Bằng/chuong1test.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -560,12 +560,12 @@ Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count323
 \l__pdf_internal_box=\box59
-) (Chuong1.aux
+) (chuong1test.aux
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 19.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
-\openout1 = `Chuong1.aux'.
+\openout1 = `chuong1test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -611,9 +611,9 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 35.
- (Chuong1.out) (Chuong1.out)
+ (chuong1test.out) (chuong1test.out)
 \@outlinefile=\write3
-\openout3 = `Chuong1.out'.
+\openout3 = `chuong1test.out'.
 
 
 *geometry* driver: auto-detecting
@@ -657,99 +657,99 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (Chuong1.toc)
+) (chuong1test.toc)
 \tf@toc=\write4
-\openout4 = `Chuong1.toc'.
+\openout4 = `chuong1test.toc'.
 
  [1
 
 {C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 140--148
+Underfull \hbox (badness 10000) in paragraph at lines 141--149
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+
+ []
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
-
- []
-
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-[6]
-Overfull \hbox (65.51604pt too wide) in paragraph at lines 272--279
+Overfull \hbox (65.51604pt too wide) in paragraph at lines 273--280
  [] 
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--385
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--404
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
+Underfull \hbox (badness 10000) in paragraph at lines 384--386
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--461
+Underfull \hbox (badness 10000) in paragraph at lines 402--405
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
+Underfull \hbox (badness 10000) in paragraph at lines 458--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--500
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
 
  []
 
-No file Chuong1.bbl.
-[12] (Chuong1.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--501
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+
+ []
+
+No file chuong1test.bbl.
+[13] (chuong1test.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -758,21 +758,21 @@ L3 programming layer <2023-08-29>
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `Chuong1.out' has not changed.
+Package rerunfilecheck Info: File `chuong1test.out' has not changed.
 (rerunfilecheck)             Checksum: C5E941BCFC4DCBA234836B8AF3515AF5;3354.
  ) 
 Here is how much of TeX's memory you used:
- 14614 strings out of 475248
- 233948 string characters out of 5758285
+ 14615 strings out of 475248
+ 234073 string characters out of 5758285
  1942785 words of memory out of 5000000
  35848 multiletter control sequences out of 15000+600000
  578449 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,79p,672b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,677b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Chuong1.pdf (12 pages, 314731 bytes).
+Output written on chuong1test.pdf (13 pages, 315304 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

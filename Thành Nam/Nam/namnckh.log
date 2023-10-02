@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  1 OCT 2023 10:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  2 OCT 2023 09:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -983,15 +983,15 @@ Package rerunfilecheck Info: File `namnckh.out' has not changed.
 (rerunfilecheck)             Checksum: 485565F7B2542829B340EB0A1955DEC2;903.
  ) 
 Here is how much of TeX's memory you used:
- 24578 strings out of 475248
- 445409 string characters out of 5758285
+ 24580 strings out of 475248
+ 445435 string characters out of 5758285
  1923785 words of memory out of 5000000
- 45666 multiletter control sequences out of 15000+600000
- 598793 words of font info for 75 fonts, out of 8000000 for 9000
+ 45668 multiletter control sequences out of 15000+600000
+ 603320 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,107p,489b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb>
-Output written on namnckh.pdf (4 pages, 744413 bytes).
+Output written on namnckh.pdf (4 pages, 744562 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)

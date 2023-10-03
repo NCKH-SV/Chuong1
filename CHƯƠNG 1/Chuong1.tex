@@ -199,30 +199,28 @@
                         $x_J=(x_1,x_2,\,\ldots,x_m)^T$ - vector cột, các biến cơ sở. \\
                         Sử dụng các ký hiệu đó ta có thể viết: \\
                         \begin{align}
-                            A_k = A_J \overline{\rm Z}_k \rightarrow \overline{\rm Z}_k = A_J^{-1}A_k \\
-                            \Delta_k = c_J\overline{\rm Z}_k - c_k = c_{J}A_J^{-1}A_k - c_k \\
-                            A_{J}x_J = b \rightarrow x_J=A_J^{-1}b
+                            &A_k = A_J \overline{\rm Z}_k \rightarrow \overline{\rm Z}_k = A_J^{-1}A_k \\
+                            &\Delta_k = c_J\overline{\rm Z}_k - c_k = c_{J}A_J^{-1}A_k - c_k \\
+                            &A_{J}x_J = b \rightarrow x_J=A_J^{-1}b
                         \end{align}    
-                            Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_j^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_j$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_j^{-1}$ và bây giờ ta có $x^{'},J^{'},A_j^{-1}$. Ta xét ma trận đơn vị $V=(v_{ij})_{m \times n}$ \\
-                            Ta ký hiệu:
-                                \begin{equation}
-                                    \begin{split}
-                                        Q&=A_j^{-1}=(q_{ij})_{m \times n} \\
-                                        Q^{'}&=A_{j^{'}}^{-1}=(q_{ij}^{'})_{m \times n}
-                                    \end{split}
-                                \end{equation}
+                        Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_J^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_J$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_J^{-1}$ và bây giờ ta có $x^{'},J^{'},A_{J^{'}}^{-1}$. Ta xét ma trận đơn vị $V$ cấp m\\
+                        Ta ký hiệu:
+                            \begin{align*}
+                                        \quad Q = A_J^{-1} = (q_{ij})_{m \times m} \quad ,\,Q^{'} = A_{J^{'}}^{-1} = (q^{'}_{ij})_{m \times m}
+                            \end{align*}
                             Ta có:
                                 \begin{equation} \label{4}
                                     \begin{split}
-                                        A_jA_j^{-1}&=V \\
-                                        \Rightarrow \sum_{j \in J}a_{ij}q_{jk}&=v_ik \\
-                                        \Rightarrow \sum_{j \in J}q_{jk}A_j&=V_k
+                                        $\displaystyle A_{J}A_J^{-1} = V \Rightarrow \sum_{j\in J} \; a_{ij}q_{jk} = v_{ik} \Rightarrow \sum_{j\in J} \; q_{jk}A_j = V_k$
                                     \end{split}
                                 \end{equation}
+                            \linebreak
                             Tương tự
+                            \begin{center}
                             \begin{equation} \label{5}
-                                A_j,A_{j^{'}}^{-1}=V \Rightarrow \sum q_{jk}^{'}A_j=V_k
-                            \end{equation}  
+                                $\displaystyle A_{J^{'}}A_{J^{'}}^{-1}= I \Rightarrow \sum_{j\in J^{'}}  q_{jk}^{'}A_j = I_k$
+                            \end{equation}
+                            \end{center}
                             Do $J^{'}=J \setminus \{r\} \cup \{s\}$ và $A_s=\sum_{j \in J}z_{js}A_j$ với $z_{rk}\neq 0$ nên ta có đẳng thức \\
                             $$A_r=\frac{1}{z_{rs}}A_s - \frac{1}{z_{rs}} \sum_{j \in J \setminus \{r\}}z_{js}A_j$$  
                             Thay biểu thức này vào \eqref{4} ta được
@@ -242,7 +240,7 @@
                             \end{equation}     
                         \textbf{Thuật toán đơn hình cải biên} \\
                         Xét bài toán QHTT ở dạng chính tắc, quá trình tính toán theo phương pháp đơn hình cải biên được bố trí trong hai bảng sau \\
-                            \begin{figure}
+                            \begin{figure}[H]
                                 \caption{Bảng 1}
                                     \begin{center}
                                         \begin{tabular}{|c|c|c|c|c|c|}

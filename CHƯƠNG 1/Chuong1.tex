@@ -216,28 +216,28 @@
                             \end{equation}
                         \newpage
                         Tương tự
+                            \vspace{-1.5cm}
                             \begin{center}
                             \begin{equation} \label{5}
-                                $\displaystyle A_{J^{'}}A_{J^{'}}^{-1}= I \Rightarrow \sum_{j\in J^{'}}  q_{jk}^{'}A_j = I_k$
+                                $\displaystyle A_{J^{'}}A_{J^{'}}^{-1}= V \Rightarrow \sum_{j\in J^{'}}  q_{jk}^{'}A_j = V_k$
                             \end{equation}
                             \end{center}
-                            Do $J^{'}=J \setminus \{r\} \cup \{s\}$ và $A_s=\sum_{j \in J}z_{js}A_j$ với $z_{rk}\neq 0$ nên ta có đẳng thức \\
-                            $$A_r=\frac{1}{z_{rs}}A_s - \frac{1}{z_{rs}} \sum_{j \in J \setminus \{r\}}z_{js}A_j$$  
-                            Thay biểu thức này vào \eqref{4} ta được
-                                \begin{equation}
-                                    \begin{split}
-                                        V_k&=\sum_{j \in J \setminus \{r\}}q_{jk}A_j+(\frac{q_{rk}}{z_{rs}}A_s-\frac{q_{rk}}{z_{rs}}\sum_{j \in J \setminus \{r\}}z_{js}A_j) \\
-                                        &=\sum_{j \in J \setminus \{r\}}(q_{jk}-\frac{q_{rk}}{z_{rs}}z_{js})A_j + \frac{q_{rk}}{z_{rs}}A_s
-                                    \end{split}
-                                \end{equation}
-                            Từ hệ thức này và \eqref{5} ta suy ra
-                            \begin{equation} \label{6da}
+                        Do 
+                            $J^{'}=J \setminus \{r\} \cup \{s\}$ và $\displaystyle A_s = \sum_{j \in J}z_{js}A_j$ với $z_{rk}\neq 0$ \\ 
+                        nên ta có đẳng thức 
+                            \[A_r=\frac{1}{z_{rs}}A_s - \frac{1}{z_{rs}} \sum_{j \in J \setminus \{r\}}z_{js}A_j\]  
+                        Thay biểu thức này vào \eqref{4} ta được
+                            \begin{align*}
+                                \displaystyle V_k = \sum_{j \in J \setminus \{{r \}}} q_{jk}A_j + \left( \frac{q_{rk}}{z_{rs}}A_s - \frac{q_{rk}}{z_{rs}} \sum_{j \in J \setminus \{{r \}}}z_{js}A_j \right) = \sum_{j \in J \setminus \{{r \}}} \left(q_{jk} - \frac{q_{rk}}{z_{rs}}z_{js}\right)A_j + \frac{q_{rk}}{z_{rs}}A_s.
+                            \end{align*}    
+                        Từ hệ thức này và \eqref{5} ta suy ra
+                            \begin{align} 
                                 q_{jk}^{'}=
                                 \begin{cases}
-                                    q_{jk}-(\frac{q_{rk}}{z_{rs}})z_{js} \text{ nếu } j \in J \text{ và } j \neq r \\
-                                    \frac{q_{rk}}{z_{rs}} \text{ nếu } j = s
+                                    q_{jk}-(\frac{q_{rk}}{z_{rs}})z_{js} \quad \text{nếu} \quad j \in J \quad \text{và} \quad j \neq r \\
+                                    \frac{q_{rk}}{z_{rs}} \quad \text{nếu} \quad j = s
                                 \end{cases}
-                            \end{equation}     
+                            \end{align}     
                         \textbf{Thuật toán đơn hình cải biên} \\
                         Xét bài toán QHTT ở dạng chính tắc, quá trình tính toán theo phương pháp đơn hình cải biên được bố trí trong hai bảng sau \\
                             \begin{figure}[H]

@@ -40,7 +40,9 @@ $\setminus$allowdisplaybreaks là cho phép ngắt công thức toán nếu đã
 
 \colorbox{yellow}{$\setminus$geq} là lớn hơn,\colorbox{yellow}{$\setminus$leq}là nhỏ hơn
 
+\textcolor{blue}{aligned} làm hpt gần nhau hơn và giữa các pt ko có khoảng cách quá lớn(đẹp,gọn)\\
 
+\textcolor{blue}{cases} làm cho hpt xa nhau và kcach giữa các pt lớn (ko đẹp)
 
 $\setminus$colorbox\{màu\}\{văn bản\} là tô màu nền bạn thích cho phần \{văn bản\}.\\
 
@@ -183,12 +185,25 @@ cứ thể mà từ cấp 1 đến cấp 5\\
 
 \big(P\big)\quad $f(x)=2x_1-3x_2+4x_3-6x_4\quad \longrightarrow Min$\\
 
-$$\begin{cases}x_1+2x-2+3x_3-x_4&=20 \quad(1)\\
+\[\left\{\begin{aligned}
+    x_1+2x-2+3x_3-x_4&=20 \quad(1)\\
     -3x_1-x_2+7x_3+7x_4&\leq 32 \quad(2)\\
     2x_1+4x_2+x_3+x_4&\geq 18 \quad(3)\\
     x_i\geq 0,\forall i=1,2,3
-\end{cases}$$\\
-$\Longrightarrow$ \big(D\big)\quad
+\end{aligned}\right.\]\\
+$\Longrightarrow$Ta có bài toán đối ngẫu như sau :$ \big(D\big)\quad g(y)=20y_1+32y_2+18y_3 \longrightarrow Max$ \\
+\[\begin{cases} y_1-3y_2+2y_3&\leq 2 \quad(4)\\
+    2y_1-y_2+4y_3&\leq-3 \quad(5)\\
+    3y_1+7y_2+y_3&\leq 4 \quad(6)\\
+    -y_1+7y_2+y_3&=-6 \quad(7)\\
+    y_2\leq 0,y_3\geq 0
+\end{cases}\]\\
+Cặp ràng buộc : $\begin{array}{cr} 
+    x_1\geq 0\; \&(4) &y_2\leq 0\; \&(2)\\
+    x_2\geq 0\; \&(5) &y_3\leq 0\; \&(3)\\
+\end{array}$
+
+
 \colorbox{red}{28}\\
 \[\begin{cases}a_{11}y_1+a_{21}y_2 &\geq c_1 \\
 a_{12}y_1+a_{22}y_2 &\geq c_2 \\

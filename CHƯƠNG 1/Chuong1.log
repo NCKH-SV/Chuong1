@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  4 OCT 2023 08:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  4 OCT 2023 08:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -888,91 +888,218 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--280
 
  []
 
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:303: Missing $ inserted.
+<inserted text> 
+                $
+l.303 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:312: Missing $ inserted.
+<inserted text> 
+                $
+l.312 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:321: Missing $ inserted.
+<inserted text> 
+                $
+l.321 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:330: Missing $ inserted.
+<inserted text> 
+                $
+l.330 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:339: Missing $ inserted.
+<inserted text> 
+                $
+l.339 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:347: Missing $ inserted.
+<inserted text> 
+                $
+l.347 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 [6]
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:355: Display math should end with $$.
+<to be read again> 
+                   (
+l.355                             $(
+                                    q_{m+1,1},\,\ldots\,,q_{m+1,m})=c_JA_J^{...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
-LaTeX Warning: Reference `3da' on page 7 undefined on input line 357.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:355: Missing $ inserted.
+<inserted text> 
+                $
+l.355                             $(q_
+                                      {m+1,1},\,\ldots\,,q_{m+1,m})=c_JA_J^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Reference `3da' on page 7 undefined on input line 359.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:356: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.356                         \end{equation}
+                                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:356: You can't use `\eqno' in horizontal mode.
+\veqno ->\@kernel@eqno 
+                       \aftergroup \ignorespaces 
+l.356                         \end{equation}
+                                            
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:356: Missing $ inserted.
+<inserted text> 
+                $
+l.356                         \end{equation}
+                                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:356: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.356                         \end{equation}
+                                            
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
-LaTeX Warning: Reference `3da' on page 7 undefined on input line 364.
+LaTeX Warning: Reference `3da' on page 7 undefined on input line 360.
 
 
-LaTeX Warning: Reference `6da' on page 7 undefined on input line 371.
+LaTeX Warning: Reference `7da' on page 7 undefined on input line 360.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+LaTeX Warning: Reference `3da' on page 7 undefined on input line 362.
+
+
+LaTeX Warning: Reference `3da' on page 7 undefined on input line 367.
+
+
+LaTeX Warning: Reference `6da' on page 7 undefined on input line 374.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 411--414
+Underfull \hbox (badness 10000) in paragraph at lines 414--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--444
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 463--467
+Underfull \hbox (badness 10000) in paragraph at lines 466--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--497
+Underfull \hbox (badness 10000) in paragraph at lines 498--500
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 503--506
+Underfull \hbox (badness 10000) in paragraph at lines 506--509
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--564
+Underfull \hbox (badness 10000) in paragraph at lines 565--567
 
  []
 
@@ -998,9 +1125,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,631b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Chuong1.pdf (12 pages, 311894 bytes).
+Output written on Chuong1.pdf (12 pages, 312175 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
+ 309 PDF objects out of 1000 (max. 8388607)
  75 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

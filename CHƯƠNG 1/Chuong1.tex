@@ -338,7 +338,7 @@
                                             $ \\
                                             \hline
                                             \multicolumn{2}{c}{} & 
-                                            $q_{m+1,0}$ & 
+                                            \cellcolor[rgb]{1, .1, .0}$q_{m+1,0}$ & 
                                             \cellcolor[rgb]{0, .69, .941}$q_{m+1,1}$ & 
                                             \cellcolor[rgb]{0, .69, .941}$\ldots$ & 
                                             \cellcolor[rgb]{0, .69, .941}$q_{m+1,m}$ &
@@ -357,7 +357,7 @@
                         \end{center}
                         \textbf{Thuật toán đơn hình gồm các bước sau:} \\
                             \textbf{Bước 1 (xây dựng bản đơn hình xuất phát)}\\
-                                Giả sử ta có cơ sở $A_j,j \in J$ và phương án cực biên $x$. Tính ma trận nghịch đảo $A_j^{-1}$ rồi điền vào $m$ phần tử đầu tiên của các cột $q_1,\ldots,q_m$. Tính $m$ phần tử đầu của cột $q_0$ theo \eqref{3da} và $q_{m+1,0}^{'}=\langle c_j,x_j \rangle$. Tính dòng $m+1$ ứng với các cột $q_1,\ldots,q_m$ theo công thức \eqref{7da} : phần tử $q_{m+1,j}$ là tích vô hướng của cột $q_j$ với vector $c_j$. \\
+                                Giả sử ta có cơ sở $A_j,j \in J$ và phương án cực biên $x$. Tính ma trận nghịch đảo $A_J^{-1}$ rồi điền vào $m$ phần tử đầu tiên của các cột $q_1,\,\ldots\,,q_m$. Tính $m$ phần tử đầu của cột $q_0$ theo \eqref{3da} và $q_{m+1,0}^{'}=\langle c_j,x_j \rangle$. Tính dòng $m+1$ ứng với các cột $q_1,\ldots,q_m$ theo công thức \eqref{7da} : phần tử $q_{m+1,j}$ là tích vô hướng của cột $q_j$ với vector $c_j$. \\
                             \textbf{Bước 2 (Tìm cột quay và kiểm tra tối ưu)}\\
                                 Tính ước lượng các cột theo công thức \eqref{3da} : $\Delta_j$ là tích vô hướng của dòng $m+1$ thuộc bảng 2 với cột $j$ của bảng 1 rồi trừ đi $c_j$. Nếu $\Delta_j \geq 0$ với mọi $j$ thì phương án cực biên đang xét là tối ưu. Trái lại, ta xác định vector $A_s$ đưa vào cơ sở theo công thức
                                     \begin{equation}
@@ -574,42 +574,7 @@
     Cặp ràng buộc : $\begin{array}{cr} 
         x_1\geq 0\; \&(4) &y_2\leq 0\; \&(2)\\
         x_2\geq 0\; \&(5) &y_3\leq 0\; \&(3)\\
-    \end{array}$\\
-
-    \textbf{2.Cho bài toán quy hoạch tuyến tính như sau:}\\
-    \begin{center}
-        \big(P\big)\quad $f(x)=2x_1+2x_2+x_3+x_4 \longrightarrow Max$\\
-        \end{center}
-    \[\left\{\begin{aligned}
-        5x_1+x_2+x_3+6x_4&=50 \\
-        -3x_1+x_3+2x_4&\geq16 \\
-        4x_1+3x_3+x_4&\leq23 \\
-        x_i\geq 0,i=1,2,3,4 
-    \end{aligned}\right.\]\\
-    \begin{enumerate}
-        \item Viết bài toán đối ngẫu \big(D\big)
-        \item Cho biết $x^*$=$\left(0,14,6,5\right)$ là nghiệm tối ưu của bài toán $\left(P\right)$.Tìm nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$
-    \end{enumerate}
-\begin{center}
-    \textbf{Giải}
-\end{center}
-    i.Ta có bài toán đối ngẫu như sau:\\
-    \begin{center}
-         $\left(D\right)$: $g(y)=50y_1+16y_2+23y_3 \longrightarrow  Min$\\
-    \end{center}
-     \[\left\{\begin{aligned}
-        5y_1-3y_2+4y_3&\geq2 \\
-        y_1&\geq2 \\
-        y_1+y_2+3y_3&\geq1 \\
-        6y_1+2y_2+y_3&\geq1 \\
-        y_2\leq 0,y_3\geq 0
-     \end{aligned}\right.\]\\
-     Áp dụng định lí độ lệch bù của bài toán đối ngẫu đối xứng,với \textbf{PATƯ} của $\left(P\right)$ là $\left(0,14,6,5\right)$ có $x_2\geq 0,x_3\geq 0,x_4\geq 0$ ta suy ra :$\left\{\begin{aligned} 
-        y_1&=2 \\
-        y_1+y_2+3y_3&=1\quad;\qquad  \Longleftrightarrow \quad y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)\\
-        6y_1+2y_2+y_3&=1 
-     \end{aligned}\right.$\\
-     Vậy nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$ là $y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)$
+    \end{array}$
 
 \section{Tài liệu tham khảo}
 

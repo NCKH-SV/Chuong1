@@ -371,10 +371,10 @@
                         \end{center}
                         \textbf{Thuật toán đơn hình gồm các bước sau:} \\
                             \textbf{Bước 1 (xây dựng bản đơn hình xuất phát)}\\
-                                Giả sử ta có cơ sở $A_j,j \in J$ và phương án cực biên $x$. Tính ma trận nghịch đảo $A_J^{-1}$ rồi điền vào $m$ phần tử đầu tiên của các cột $q_1,\,\ldots\,,q_m$. Tính $m$ phần tử đầu của cột $q_0$ theo \eqref{3} và $q_{m+1,0}=\langle c_J,x_J \rangle$. Tính dòng $m+1$ ứng với các cột $q_1,\,\ldots\,,q_m$ theo công thức \eqref{7} : phần tử $q_{m+1,j}$ là tích vô hướng của cột $q_j$ với vector $c_j$. \\
+                                Giả sử ta có cơ sở $A_j,j \in J$ và phương án cực biên $x$. Tính ma trận nghịch đảo $A_J^{-1}$ rồi điền vào $m$ phần tử đầu tiên của các cột $q_1,\,\ldots\,,q_m$. Tính $m$ phần tử đầu của cột $q_0$ theo \eqref{3} và $q_{m+1,0}=\langle c_J,x_J \rangle$. Tính dòng $m+1$ ứng với các cột $q_1,\,\ldots\,,q_m$ theo công thức \eqref{7}: phần tử $q_{m+1,j}$ là tích vô hướng của cột $q_j$ với vector $c_J$. \\
                             \textbf{Bước 2 (Tìm cột quay và kiểm tra tối ưu)}\\
-                                Tính ước lượng các cột theo công thức \eqref{3} : $\Delta_j$ là tích vô hướng của dòng $m+1$ thuộc bảng 2 với cột $j$ của bảng 1 rồi trừ đi $c_j$. Nếu $\Delta_j \geq 0$ với mọi $j$ thì phương án cực biên đang xét là tối ưu. Trái lại, ta xác định vector $A_s$ đưa vào cơ sở theo công thức
-                                    \begin{equation}
+                                Tính ước lượng các cột theo công thức \eqref{2}: $\Delta_j$ là tích vô hướng của dòng $m+1$ thuộc bảng 2 với cột $j$ của bảng 1 rồi trừ đi $c_J$. Nếu $\Delta_j \geq 0$ với mọi $j$ thì phương án cực biên đang xét là tối ưu. Trái lại, ta xác định vector $A_s$ đưa vào cơ sở theo công thức
+                                    \begin{equation} 
                                         \Delta_s = min\{\Delta_j \mid \Delta_j < 0,j \in J \}
                                     \end{equation}
                             \textbf{Bước 3 (tìm dòng quay)}\\

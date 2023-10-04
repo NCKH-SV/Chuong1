@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  4 OCT 2023 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  4 OCT 2023 21:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1275,6 +1275,9 @@ L3 programming layer <2023-08-29>
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `Chuong1.out' has not changed.
 (rerunfilecheck)             Checksum: C5E941BCFC4DCBA234836B8AF3515AF5;3354.

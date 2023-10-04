@@ -176,7 +176,7 @@
     \subsection{Thuật toán cải biên và đối ngẫu}
             \subsubsection{Phương pháp đơn hình cải biên}
                 \begin{enumerate}
-                    \item \textbf{Giới thiệu} \\
+                    \subsection {Giới thiệu} \\
                         Xét bài toán quy hoạch tuyến tính ở dạng chính tắc
                             \begin{equation*}
                                 \langle c,x \rangle \rightarrow Max, \quad Ax = b, \quad \quad x \geq 0 \quad \nonumber
@@ -248,10 +248,10 @@
                         Từ hệ thức này và \eqref{5} ta suy ra
                             \begin{equation} \label{6}
                                 q_{jk}^{'}=
-                                \begin{cases}
-                                    q_{jk}-(\frac{q_{rk}}{z_{rs}})z_{js} \quad \text{nếu} \quad j \in J \quad \text{và} \quad j \neq r \\
-                                    \frac{q_{rk}}{z_{rs}} \quad \text{nếu} \quad j = s
-                                \end{cases}
+                                \[\left\{\begin{aligned}
+                                    & q_{jk}-(\frac{q_{rk}}{z_{rs}})z_{js} \quad \text{nếu} \quad j \in J \quad \text{và} \quad j \neq r \\
+                                    & \frac{q_{rk}}{z_{rs}} \quad \text{nếu} \quad j = s
+                                \end{aligned}\right.\]
                             \end{equation}     
                         \textbf{Thuật toán đơn hình cải biên} \\
                         Xét bài toán quy hoạch tuyến tính ở dạng chính tắc, quá trình tính toán theo phương pháp đơn hình cải biên được bố trí trong hai bảng sau. \\
@@ -396,6 +396,7 @@
                         \textbf{Bước 4 (Biến đổi ma trận nghịch đảo mở rộng)}\\
                             Đưa $A_s$ vào cơ sở thay cho $A_r$ và biến đổi toàn bộ các cột $q_0,q_1,\,\ldots\,,q_m$ theo công thức \eqref{6} (quy tắc hình chữ nhật), phần tử chính của phép biến đổi biến là $z_{rs}$. Quay lên Bước 2. 
                     \item \textbf{Ví dụ minh hoạ} \\
+                    \textbf{1. Cho bài toán quy hoạch tuyến tính như sau:}\\
                 \end{enumerate}
             \subsubsection{Phương pháp đơn hình đối ngẫu}
                 \begin{enumerate}
@@ -576,7 +577,7 @@
                 $$\text{Nếu } \sum_{i=1}^ma_{ij}y_i^* < c_j \text{ thì } x_j^*=0$$
             \end{dl}
     \subsection{Ví dụ minh hoạ}
-    \textbf{1.Cho bài toán quy hoạch tuyến tính như sau:}\\
+    \textbf{1. Cho bài toán quy hoạch tuyến tính như sau:}\\
 
     \big(P\big)\quad $f(x)=2x_1-3x_2+4x_3-6x_4\quad \longrightarrow Min$\\
     

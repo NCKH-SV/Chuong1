@@ -176,7 +176,7 @@
     \subsection{Thuật toán cải biên và đối ngẫu}
             \subsubsection{Phương pháp đơn hình cải biên}
                 \begin{enumerate}
-                    \item \textbf{Giới thiệu} \\
+                    \subsection {Giới thiệu} \\
                         Xét bài toán quy hoạch tuyến tính ở dạng chính tắc
                             \begin{equation*}
                                 \langle c,x \rangle \rightarrow Max, \quad Ax = b, \quad \quad x \geq 0 \quad \nonumber
@@ -199,11 +199,25 @@
                         $c_J = (c_1,c_2,\ldots,\,c_m)$ - vector hàng, hệ số hàm mục     tiêu ứng với cơ sở. \\
                         $x_J=(x_1,x_2,\,\ldots,x_m)^T$ - vector cột, các biến cơ sở. \\
                         Sử dụng các ký hiệu đó ta có thể viết: \\
-                        \begin{align}
-                            &A_k = A_J \overline{\rm Z}_k \rightarrow \overline{\rm Z}_k = A_J^{-1}A_k \\
-                            &\Delta_k = c_J\overline{\rm Z}_k - c_k = c_{J}A_J^{-1}A_k - c_k \\
-                            &A_{J}x_J = b \rightarrow x_J=A_J^{-1}b
-                        \end{align}    
+                        \vspace{-1.5cm}
+                        \begin{center}
+                        \begin{equation} \label{1}
+                            $A_k = A_J \overline{\rm Z}_k \rightarrow \overline{\rm Z}_k = A_J^{-1}A_k$
+                        \end{equation}
+                        \end{center}
+                        \vspace{-1.5cm}    
+                        \begin{center}
+                        \begin{equation} \label{2}
+                            $\Delta_k = c_J\overline{\rm Z}_k - c_k = c_{J}A_J^{-1}A_k - c_k$
+                        \end{equation}
+                        \end{center}
+                        \vspace{-1.5cm}
+                        \begin{center}
+                        \begin{equation} \label{3}
+                            $A_{J}x_J = b \rightarrow x_J=A_J^{-1}b$
+                        \end{equation}
+                        \end{center}
+                        \vspace{-0.5cm}   
                         Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_J^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_J$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_J^{-1}$ và bây giờ ta có $x^{'},J^{'},A_{J^{'}}^{-1}$. Ta xét ma trận đơn vị $V$ cấp m\\
                         Ta ký hiệu:
                             \begin{align*}
@@ -232,13 +246,13 @@
                                 \displaystyle V_k = \sum_{j \in J \setminus \{{r \}}} q_{jk}A_j + \left( \frac{q_{rk}}{z_{rs}}A_s - \frac{q_{rk}}{z_{rs}} \sum_{j \in J \setminus \{{r \}}}z_{js}A_j \right) = \sum_{j \in J \setminus \{{r \}}} \left(q_{jk} - \frac{q_{rk}}{z_{rs}}z_{js}\right)A_j + \frac{q_{rk}}{z_{rs}}A_s.
                             \end{align*}    
                         Từ hệ thức này và \eqref{5} ta suy ra
-                            \begin{align} 
+                            \begin{equation} \label{6}
                                 q_{jk}^{'}=
-                                \begin{cases}
-                                    q_{jk}-(\frac{q_{rk}}{z_{rs}})z_{js} \quad \text{nếu} \quad j \in J \quad \text{và} \quad j \neq r \\
-                                    \frac{q_{rk}}{z_{rs}} \quad \text{nếu} \quad j = s
-                                \end{cases}
-                            \end{align}     
+                                \[\left\{\begin{aligned}
+                                    & q_{jk}-(\frac{q_{rk}}{z_{rs}})z_{js} \quad \text{nếu} \quad j \in J \quad \text{và} \quad j \neq r \\
+                                    & \frac{q_{rk}}{z_{rs}} \quad \text{nếu} \quad j = s
+                                \end{aligned}\right.\]
+                            \end{equation}     
                         \textbf{Thuật toán đơn hình cải biên} \\
                         Xét bài toán quy hoạch tuyến tính ở dạng chính tắc, quá trình tính toán theo phương pháp đơn hình cải biên được bố trí trong hai bảng sau. \\
                             \begin{figure}[H]
@@ -338,7 +352,7 @@
                                             $ \\
                                             \hline
                                             \multicolumn{2}{c}{} & 
-                                            $q_{m+1,0}$ & 
+                                            \cellcolor[rgb]{1, .1, .0}$q_{m+1,0}$ & 
                                             \cellcolor[rgb]{0, .69, .941}$q_{m+1,1}$ & 
                                             \cellcolor[rgb]{0, .69, .941}$\ldots$ & 
                                             \cellcolor[rgb]{0, .69, .941}$q_{m+1,m}$ &
@@ -349,30 +363,40 @@
                                 \end{center}  
                             \end{figure}
                         Dòng cuối cùng chứa phương án của bài toán đối ngẫu được tính theo công thức:
-                        \vspace{-1.5cm}
+                        \vspace{-1cm}
                         \begin{center}
-                        \begin{equation} 
+                        \begin{equation} \label{7}
                             $(q_{m+1,1},\,\ldots\,,q_{m+1,m})=c_JA_J^{-1}$
                         \end{equation}
                         \end{center}
                         \textbf{Thuật toán đơn hình gồm các bước sau:} \\
-                            \textbf{Bước 1 (xây dựng bản đơn hình xuất phát)}\\
-                                Giả sử ta có cơ sở $A_j,j \in J$ và phương án cực biên $x$. Tính ma trận nghịch đảo $A_j^{-1}$ rồi điền vào $m$ phần tử đầu tiên của các cột $q_1,\ldots,q_m$. Tính $m$ phần tử đầu của cột $q_0$ theo \eqref{3da} và $q_{m+1,0}^{'}=\langle c_j,x_j \rangle$. Tính dòng $m+1$ ứng với các cột $q_1,\ldots,q_m$ theo công thức \eqref{7da} : phần tử $q_{m+1,j}$ là tích vô hướng của cột $q_j$ với vector $c_j$. \\
-                            \textbf{Bước 2 (Tìm cột quay và kiểm tra tối ưu)}\\
-                                Tính ước lượng các cột theo công thức \eqref{3da} : $\Delta_j$ là tích vô hướng của dòng $m+1$ thuộc bảng 2 với cột $j$ của bảng 1 rồi trừ đi $c_j$. Nếu $\Delta_j \geq 0$ với mọi $j$ thì phương án cực biên đang xét là tối ưu. Trái lại, ta xác định vector $A_s$ đưa vào cơ sở theo công thức
-                                    \begin{equation}
-                                        \Delta_s = min\{\Delta_j \mid \Delta_j < 0,j \in J \}
-                                    \end{equation}
-                            \textbf{Bước 3 (tìm dòng quay)}\\
-                                Trước tiên tính cột quay, tức là cột $A_s$ của bảng 2 theo công thức \eqref{3da}: lấy cột $A_s$ của bảng 1 nhân vô hướng với từng dòng của ma trận nghịch đảo $A_j^{-1}$ ta sẽ được từng phần tử của cột $A_s$ thuộc bảng 2. Phần từ cuối của cột $A_s$ thuộc bảng 2 là $\Delta_s$\\
-                                Nếu $z_{js} \leq 0, \forall j \in J$ thì hàm mục tiêu bài toán QHTT không bị chặn trên. Nếu trái lại ta xác định vector $A_r$ loại khỏi cơ cở theo công thức
-                                    \begin{equation}
-                                        \theta_r=\frac{q_{r0}}{z_{rs}}=min\{ \frac{q_{j0}}{z_{js}} \mid z_{js} > 0,j \in J \}
-                                    \end{equation}
-                                Cột $\theta$ trong bảng 2 để lưu $q_{j0}/q_{js},j \in J$.\\
-                            \textbf{Bước 4 (Biến đổi ma trận nghịch đảo mở rộng)}\\
-                                Đưa $A_s$ vào cơ sở thay ho $A_r$ và biến đổi toàn bộ các cột $q_0,q_1,\ldots,q_m$ theo công thức \eqref{6da} (quy tắc hình chữ nhật), phần tử chính của phép biến đổi biến là $z_{rs}$. Quay lên bước 2. 
+                        \textbf{Bước 1 (xây dựng bản đơn hình xuất phát)}\\
+                            Giả sử ta có cơ sở $A_j,j \in J$ và phương án cực biên $x$. Tính ma trận nghịch đảo $A_J^{-1}$ rồi điền vào $m$ phần tử đầu tiên của các cột $q_1,\,\ldots\,,q_m$. Tính $m$ phần tử đầu của cột $q_0$ theo \eqref{3} và $q_{m+1,0}=\langle c_J,x_J \rangle$. Tính dòng $m+1$ ứng với các cột $q_1,\,\ldots\,,q_m$ theo công thức \eqref{7}: phần tử $q_{m+1,j}$ là tích vô hướng của cột $q_j$ với vector $c_J$. \\
+                        \textbf{Bước 2 (Tìm cột quay và kiểm tra tối ưu)}\\
+                            Tính ước lượng các cột theo công thức \eqref{2}: $\Delta_j$ là tích vô hướng của dòng $m+1$ thuộc Bảng 2 với cột $j$ của Bảng 1 rồi trừ đi $c_J$. Nếu $\Delta_j \geq 0$ với mọi $j$ thì phương án cực biên đang xét là tối ưu. Trái lại, ta xác định vector $A_s$ đưa vào cơ sở theo công thức. \\
+                        \vspace{-1.5cm}    
+                        \begin{center}     
+                        \begin{equation} 
+                            $\Delta_s = min\{\Delta_j \mid \Delta_j < 0,j \notin J \}$
+                        \end{equation}
+                        \end{center}
+                        \vspace{-0.5cm}
+                        \textbf{Bước 3 (tìm dòng quay)}\\
+                            Trước tiên tính cột quay, tức là cột $A_s$ của Bảng 2 theo công thức \eqref{1}: lấy cột $A_s$ của Bảng 1 nhân vô hướng với từng dòng của ma trận nghịch đảo $A_J^{-1}$ ta sẽ được từng phần tử của cột $A_s$ thuộc Bảng 2. Phần từ cuối của cột $A_s$ thuộc Bảng 2 lấy là $\Delta_s$.\\
+                        \newpage
+                            Nếu $z_{js} \leq 0, \forall j \in J$ thì hàm mục tiêu bài toán quy hoạch tuyến tính không bị chặn trên. Nếu trái lại ta xác định vector $A_r$ loại khỏi cơ cở theo công thức
+                        \vspace{-1cm}
+                        \begin{center}
+                        \begin{equation}
+                            $\theta_r=\frac{q_{r0}}{z_{rs}}=min \left\{ \frac{q_{j0}}{z_{js}} \mid z_{js} > 0,j \in J \right\} $
+                        \end{equation}
+                        \end{center}
+                        \vspace{-0.5cm}
+                            Cột $\theta$ trong Bảng 2 để lưu $q_{j0}/q_{js},j \, \in \, J$.\\
+                        \textbf{Bước 4 (Biến đổi ma trận nghịch đảo mở rộng)}\\
+                            Đưa $A_s$ vào cơ sở thay cho $A_r$ và biến đổi toàn bộ các cột $q_0,q_1,\,\ldots\,,q_m$ theo công thức \eqref{6} (quy tắc hình chữ nhật), phần tử chính của phép biến đổi biến là $z_{rs}$. Quay lên Bước 2. 
                     \item \textbf{Ví dụ minh hoạ} \\
+                    \textbf{1. Cho bài toán quy hoạch tuyến tính như sau:}\\
                 \end{enumerate}
             \subsubsection{Phương pháp đơn hình đối ngẫu}
                 \begin{enumerate}
@@ -553,7 +577,7 @@
                 $$\text{Nếu } \sum_{i=1}^ma_{ij}y_i^* < c_j \text{ thì } x_j^*=0$$
             \end{dl}
     \subsection{Ví dụ minh hoạ}
-    \textbf{1.Cho bài toán quy hoạch tuyến tính như sau:}\\
+    \textbf{1. Cho bài toán quy hoạch tuyến tính như sau:}\\
 
     \big(P\big)\quad $f(x)=2x_1-3x_2+4x_3-6x_4\quad \longrightarrow Min$\\
     
@@ -574,42 +598,7 @@
     Cặp ràng buộc : $\begin{array}{cr} 
         x_1\geq 0\; \&(4) &y_2\leq 0\; \&(2)\\
         x_2\geq 0\; \&(5) &y_3\leq 0\; \&(3)\\
-    \end{array}$\\
-
-    \textbf{2.Cho bài toán quy hoạch tuyến tính như sau:}\\
-    \begin{center}
-        \big(P\big)\quad $f(x)=2x_1+2x_2+x_3+x_4 \longrightarrow Max$\\
-        \end{center}
-    \[\left\{\begin{aligned}
-        5x_1+x_2+x_3+6x_4&=50 \\
-        -3x_1+x_3+2x_4&\geq16 \\
-        4x_1+3x_3+x_4&\leq23 \\
-        x_i\geq 0,i=1,2,3,4 
-    \end{aligned}\right.\]\\
-    \begin{enumerate}
-        \item Viết bài toán đối ngẫu \big(D\big)
-        \item Cho biết $x^*$=$\left(0,14,6,5\right)$ là nghiệm tối ưu của bài toán $\left(P\right)$.Tìm nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$
-    \end{enumerate}
-\begin{center}
-    \textbf{Giải}
-\end{center}
-    i.Ta có bài toán đối ngẫu như sau:\\
-    \begin{center}
-         $\left(D\right)$: $g(y)=50y_1+16y_2+23y_3 \longrightarrow  Min$\\
-    \end{center}
-     \[\left\{\begin{aligned}
-        5y_1-3y_2+4y_3&\geq2 \\
-        y_1&\geq2 \\
-        y_1+y_2+3y_3&\geq1 \\
-        6y_1+2y_2+y_3&\geq1 \\
-        y_2\leq 0,y_3\geq 0
-     \end{aligned}\right.\]\\
-     Áp dụng định lí độ lệch bù của bài toán đối ngẫu đối xứng,với \textbf{PATƯ} của $\left(P\right)$ là $\left(0,14,6,5\right)$ có $x_2\geq 0,x_3\geq 0,x_4\geq 0$ ta suy ra :$\left\{\begin{aligned} 
-        y_1&=2 \\
-        y_1+y_2+3y_3&=1\quad;\qquad  \Longleftrightarrow \quad y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)\\
-        6y_1+2y_2+y_3&=1 
-     \end{aligned}\right.$\\
-     Vậy nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$ là $y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)$
+    \end{array}$
 
 \section{Tài liệu tham khảo}
 

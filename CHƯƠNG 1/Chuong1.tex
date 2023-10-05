@@ -598,7 +598,41 @@
     Cặp ràng buộc : $\begin{array}{cr} 
         x_1\geq 0\; \&(4) &y_2\leq 0\; \&(2)\\
         x_2\geq 0\; \&(5) &y_3\leq 0\; \&(3)\\
-    \end{array}$
+    \end{array}$\\
+    \textbf{2.Cho bài toán quy hoạch tuyến tính như sau:}\\
+    \begin{center}
+        \big(P\big)\quad $f(x)=2x_1+2x_2+x_3+x_4 \longrightarrow Max$\\
+        \end{center}
+    \[\left\{\begin{aligned}
+        5x_1+x_2+x_3+6x_4&=50 \\
+        -3x_1+x_3+2x_4&\geq16 \\
+        4x_1+3x_3+x_4&\leq23 \\
+        x_i\geq 0,i=1,2,3,4 
+    \end{aligned}\right.\]\\
+    \begin{enumerate}
+        \item Viết bài toán đối ngẫu \big(D\big)
+        \item Cho biết $x^*$=$\left(0,14,6,5\right)$ là nghiệm tối ưu của bài toán $\left(P\right)$.Tìm nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$
+    \end{enumerate}
+\begin{center}
+    \textbf{Giải}
+\end{center}
+    i.Ta có bài toán đối ngẫu như sau:\\
+    \begin{center}
+         $\left(D\right)$: $g(y)=50y_1+16y_2+23y_3 \longrightarrow  Min$\\
+    \end{center}
+     \[\left\{\begin{aligned}
+        5y_1-3y_2+4y_3&\geq2 \\
+        y_1&\geq2 \\
+        y_1+y_2+3y_3&\geq1 \\
+        6y_1+2y_2+y_3&\geq1 \\
+        y_2\leq 0,y_3\geq 0
+     \end{aligned}\right.\]\\
+     Áp dụng định lí độ lệch bù của bài toán đối ngẫu đối xứng,với \textbf{PATƯ} của $\left(P\right)$ là $\left(0,14,6,5\right)$ có $x_2\geq 0,x_3\geq 0,x_4\geq 0$ ta suy ra :$\left\{\begin{aligned} 
+        y_1&=2 \\
+        y_1+y_2+3y_3&=1\quad;\qquad  \Longleftrightarrow \quad y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)\\
+        6y_1+2y_2+y_3&=1 
+     \end{aligned}\right.$\\
+     Vậy nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$ là $y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)$
 
 \section{Tài liệu tham khảo}
 

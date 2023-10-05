@@ -173,7 +173,7 @@
                 $ $$\begin{cases}  x_1+4x_2+4x_3+x_4+x_5=5\\x_1+7x_2+8x_3+2x_4+    x_6=9\\x_i\geq 0,i=1,2,3,4,5,6 \end{cases}$$\\$
                 Ta có hai véc tơ cơ sở là $A_5,A_6$
                 \end{enumerate}
-    \subsection{Thuật toán cải biên và đối ngẫu}
+    \subsection{Thuật toán cải biên}
             \subsubsection{Phương pháp đơn hình cải biên}
                 \begin{enumerate}
                     \item \textbf{Giới thiệu} \\
@@ -382,28 +382,30 @@
                         \end{center}
                         \vspace{-0.5cm}
                         \textbf{Bước 3 (tìm dòng quay)}\\
-                            Trước tiên tính cột quay, tức là cột $A_s$ của Bảng 2 theo công thức \eqref{1}: lấy cột $A_s$ của Bảng 1 nhân vô hướng với từng dòng của ma trận nghịch đảo $A_J^{-1}$ ta sẽ được từng phần tử của cột $A_s$ thuộc Bảng 2. Phần từ cuối của cột $A_s$ thuộc Bảng 2 lấy là $\Delta_s$.\\
-                        \newpage
-                            Nếu $z_{js} \leq 0, \forall j \in J$ thì hàm mục tiêu bài toán quy hoạch tuyến tính không bị chặn trên. Nếu trái lại ta xác định vector $A_r$ loại khỏi cơ cở theo công thức
+                            Trước tiên tính cột quay, tức là cột $A_s$ của Bảng 2 theo công thức \eqref{1}: lấy cột $A_s$ của Bảng 1 nhân vô hướng với từng dòng của ma trận nghịch đảo $A_J^{-1}$ ta sẽ được từng phần tử của cột $A_s$ thuộc Bảng 2. Phần từ cuối của cột $A_s$ thuộc Bảng 2 lấy là $\Delta_s$. Nếu $z_{js} \leq 0, \forall j \in J$ thì hàm mục tiêu bài toán quy hoạch tuyến tính không bị chặn trên. Nếu trái lại ta xác định vector $A_r$ loại khỏi cơ cở theo công thức
                         \vspace{-1cm}
                         \begin{center}
                         \begin{equation}
                             $\theta_r=\frac{q_{r0}}{z_{rs}}=min \left\{ \frac{q_{j0}}{z_{js}} \mid z_{js} > 0,j \in J \right\} $
                         \end{equation}
                         \end{center}
-                        \vspace{-0.5cm}
-                            Cột $\theta$ trong Bảng 2 để lưu $q_{j0}/q_{js},j \, \in \, J$.\\
+                            Cột $\theta$ trong Bảng 2 để lưu $q_{j0}/q_{js},j \, \in \, J$.
+                        \newpage    
                         \textbf{Bước 4 (Biến đổi ma trận nghịch đảo mở rộng)}\\
                             Đưa $A_s$ vào cơ sở thay cho $A_r$ và biến đổi toàn bộ các cột $q_0,q_1,\,\ldots\,,q_m$ theo công thức \eqref{6} (quy tắc hình chữ nhật), phần tử chính của phép biến đổi biến là $z_{rs}$. Quay lên Bước 2. 
                     \item \textbf{Ví dụ minh hoạ} \\
                     \textbf{1. Cho bài toán quy hoạch tuyến tính như sau:}\\
-                \end{enumerate}
-            \subsubsection{Phương pháp đơn hình đối ngẫu}
-                \begin{enumerate}
-                    \item \textbf{Giới thiệu} \\
-                    \item \textbf{Nội dung} \\
-                \end{enumerate}
 
+    \big(P\big)\quad $f(x)=50x_1+60x_2\quad \longrightarrow Max$\\
+    
+    \[\left\{\begin{aligned}
+        &x_1+2x_2\leq 8 \quad(1)\\
+        &x_1+x_2\leq 5 \quad(2)\\
+        &9x_1+4x_2\leq 36 \quad(3)\\
+        &x_i\geq 0,\forall i=1,2,
+    \end{aligned}\right.\]\\
+
+                \end{enumerate}
 \section{Bài toán đối ngẫu}
     \subsection{Giới thiệu}
         Trong Lý thuyết tối ưu,với một bài toán tối ưu cho trước, người ta quan tâm làm sao thiết lập được bài toán liên kết với bài toán đã cho mà khi giải bài toán này ta thu được thông tin về bài toán ban đầu. Đó chíng là bài toán đối ngẫu. \\

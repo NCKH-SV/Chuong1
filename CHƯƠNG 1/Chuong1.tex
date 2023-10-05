@@ -16,6 +16,7 @@
 \usepackage{cases}
 \usepackage{braket}
 \usepackage{colortbl}
+\usepackage{color}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
 \newtheorem{lemma}[theorem]{Lemma}
@@ -199,25 +200,21 @@
                         $c_J = (c_1,c_2,\ldots,\,c_m)$ - vector hàng, hệ số hàm mục     tiêu ứng với cơ sở. \\
                         $x_J=(x_1,x_2,\,\ldots,x_m)^T$ - vector cột, các biến cơ sở. \\
                         Sử dụng các ký hiệu đó ta có thể viết: \\
-                        \vspace{-1.5cm}
                         \begin{center}
                         \begin{equation} \label{1}
-                            $A_k = A_J \overline{\rm Z}_k \rightarrow \overline{\rm Z}_k = A_J^{-1}A_k$
+                            A_k = A_J \overline{\rm Z}_k \rightarrow \overline{\rm Z}_k = A_J^{-1}A_k
                         \end{equation}
-                        \end{center}
-                        \vspace{-1.5cm}    
+                        \end{center}    
                         \begin{center}
                         \begin{equation} \label{2}
-                            $\Delta_k = c_J\overline{\rm Z}_k - c_k = c_{J}A_J^{-1}A_k - c_k$
+                            \Delta_k = c_J\overline{\rm Z}_k - c_k = c_{J}A_J^{-1}A_k - c_k
                         \end{equation}
                         \end{center}
-                        \vspace{-1.5cm}
                         \begin{center}
                         \begin{equation} \label{3}
-                            $A_{J}x_J = b \rightarrow x_J=A_J^{-1}b$
+                            A_{J}x_J = b \rightarrow x_J=A_J^{-1}b
                         \end{equation}
-                        \end{center}
-                        \vspace{-0.5cm}   
+                        \end{center}   
                         Như vậy tất cả các đại lượng cần tính toán đều có thể biễu diễn qua ma trận nghịch đảo $A_J^{-1}$. Tuy nhiên ở mỗi bước lặp không cần phải tính nghịch đảo lại toàn bộ ma trận $A_J$, vì nó chỉ khác ma trận nghịch đảo ở bước trước bởi sự thay thế một vector cột. Giả sử ở bước lặp trước ta có $x,J,A_J^{-1}$ và bây giờ ta có $x^{'},J^{'},A_{J^{'}}^{-1}$. Ta xét ma trận đơn vị $V$ cấp m\\
                         Ta ký hiệu:
                             \begin{align*}
@@ -229,12 +226,11 @@
                                 $\displaystyle A_{J}A_J^{-1} = V \Rightarrow \sum_{j\in J} \; a_{ij}q_{jk} = v_{ik} \Rightarrow \sum_{j\in J} \; q_{jk}A_j = V_k$
                             \end{split}
                             \end{equation}
-                        \newpage
                         Tương tự
                             \vspace{-1.5cm}
                             \begin{center}
                             \begin{equation} \label{5}
-                                $\displaystyle A_{J^{'}}A_{J^{'}}^{-1}= V \Rightarrow \sum_{j\in J^{'}}  q_{jk}^{'}A_j = V_k$
+                                \displaystyle A_{J^{'}}A_{J^{'}}^{-1}= V \Rightarrow \sum_{j\in J^{'}}  q_{jk}^{'}A_j = V_k
                             \end{equation}
                             \end{center}
                         Do 
@@ -351,7 +347,7 @@
                                             \cellcolor[rgb]{1, .1, .0}$z_{ms}$ & 
                                             $ \\
                                             \hline
-                                            \multicolumn{2}{c}{} & 
+                                            \multicolumn{2}{|c|}{} & 
                                             \cellcolor[rgb]{1, .1, .0}$q_{m+1,0}$ & 
                                             \cellcolor[rgb]{0, .69, .941}$q_{m+1,1}$ & 
                                             \cellcolor[rgb]{0, .69, .941}$\ldots$ & 
@@ -363,10 +359,9 @@
                                 \end{center}  
                             \end{figure}
                         Dòng cuối cùng chứa phương án của bài toán đối ngẫu được tính theo công thức:
-                        \vspace{-1cm}
                         \begin{center}
                         \begin{equation} \label{7}
-                            $(q_{m+1,1},\,\ldots\,,q_{m+1,m})=c_JA_J^{-1}$
+                            (q_{m+1,1},\,\ldots\,,q_{m+1,m})=c_JA_J^{-1}
                         \end{equation}
                         \end{center}
                         \textbf{Thuật toán đơn hình gồm các bước sau:} \\
@@ -414,46 +409,68 @@
             &9x_1+4x_2 \quad \quad \quad \quad \quad   + x_5 &= 36 \\
             &x_1,x_2,x_3,x_4,x_5\geq 0
         \end{aligned}\right.\]\\
+    \end{center}    
         Số liệu ban đầu của bài toán và các ước lượng ở mỗi bước lặp lưu trong bảng sau:
         \begin{figure}[H]
-                \begin{center}
-                    \begin{tabular}{|c|c|c|c|c|c|}
-                        \hline
-                        $b$ & 
-                        $A_{1}$ & 
-                        $A_{2}$ & 
-                        $A_{3}$ & 
-                        $A_{4}$ & 
-                        $A_{5}$ \\
-                        \hline
-                        \cellcolor[rgb]{0, .69, .941}$8$ & 
-                        \cellcolor[rgb]{1, .753, .0}$1$ & 
-                        \cellcolor[rgb]{1, .753, .0}$2$ & 
-                        \cellcolor[rgb]{1, .753, .0}$1$ & 
-                        \cellcolor[rgb]{1, .753, .0}$0$ & 
-                        \cellcolor[rgb]{1, .753, .0}$0$ \\
-                        \hline
-                        \cellcolor[rgb]{0, .69, .941}$5$ & 
-                        \cellcolor[rgb]{1, .753, .0}$1$ & 
-                        \cellcolor[rgb]{1, .753, .0}$1$ & 
-                        \cellcolor[rgb]{1, .753, .0}$0$ & 
-                        \cellcolor[rgb]{1, .753, .0}$1$ & 
-                        \cellcolor[rgb]{1, .753, .0}$0$ \\
-                        \hline
-                        $C$& 
-                        \cellcolor[rgb]{0, .69, .941}$50$ & 
-                        \cellcolor[rgb]{0, .69, .941}$60$ & 
-                        \cellcolor[rgb]{0, .69, .941}$0$ & 
-                        \cellcolor[rgb]{0, .69, .941}$0$ & 
-                        \cellcolor[rgb]{0, .69, .941}$0$ \\
-                        \hline
-                        $\Delta_{(1)}$ & $\Delta_1$ & $\ldots$ & $\Delta_s$ & $\ldots$ & $\Delta_n$ \\
-                        \hline
-                        $\Delta_{(2)}$ & $\Delta_1$ & $\ldots$ & $\Delta_s$ & $\ldots$ & $\Delta_n$ \\
-                        \hline    
-                    \end{tabular}
-                \end{center}  
-            \end{figure}
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|c|c|}
+                    \hline
+                    $b$ & 
+                    $A_{1}$ & 
+                    $A_{2}$ & 
+                    $A_{3}$ & 
+                    $A_{4}$ & 
+                    $A_{5}$ \\
+                    \hline
+                    \cellcolor[rgb]{0, .69, .941}$8$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$2$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ \\
+                    \hline
+                    \cellcolor[rgb]{0, .69, .941}$5$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ \\
+                    \hline
+                    $C$& 
+                    \cellcolor[rgb]{0, .69, .941}$50$ & 
+                    \cellcolor[rgb]{0, .69, .941}$60$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ \\
+                    \hline
+                    $\Delta_{1}$ & 
+                    \cellcolor[rgb]{1, .753, .0}$-50$ & 
+                    \cellcolor[rgb]{1, .753, .0}\textcolor{red}{$-60$} & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ \\
+                    \hline
+                    $\Delta_{2}$ & 
+                    \cellcolor[rgb]{1, .753, .0}\textcolor{red}{$-20$} & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$30$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ \\
+                    \hline
+                    $\Delta_{3}$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$10$ & 
+                    \cellcolor[rgb]{1, .753, .0}$40$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ \\
+                    \hline
+                \end{tabular}
+            \end{center}  
+        \end{figure}
+        Việc giải bài toán qua ba bảng đơn hình. \\
+            \item \textbf{Bước Lặp 1}: \\
+            Cơ sở xuất phát là ma trận đơn vị $A_j=\{A_3,A_4,A_5\}$, do đó ma trận nghịch đảo $A_J^{-1}$ cũng vẫn chính là ma trận đơn vị.
+
 
                 \end{enumerate}
 \section{Bài toán đối ngẫu}

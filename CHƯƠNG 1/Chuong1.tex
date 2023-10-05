@@ -468,9 +468,112 @@
             \end{center}  
         \end{figure}
         Việc giải bài toán qua ba bảng đơn hình. \\
-            \item \textbf{Bước Lặp 1}: \\
-            Cơ sở xuất phát là ma trận đơn vị $A_j=\{A_3,A_4,A_5\}$, do đó ma trận nghịch đảo $A_J^{-1}$ cũng vẫn chính là ma trận đơn vị.
-
+        \newpage
+        \item \textbf{Bước Lặp 1}: \\
+        Cơ sở xuất phát là ma trận đơn vị $A_J=\{A_3,A_4,A_5\}$, do đó ma trận nghịch đảo $A_J^{-1}$ cũng vẫn chính là ma trận đơn vị.
+        \begin{figure}[H]
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|c|c|c|c|}
+                    \hline
+                    $c_J$ & 
+                    $A_J$ & 
+                    $q_0$ & 
+                    $q_1$ & 
+                    $q_2$ & 
+                    $q_3$ &
+                    $A_1$ & 
+                     $\theta$ \\
+                    \hline
+                    $0$ & 
+                    $A_{3}$ & 
+                    \cellcolor[rgb]{0, .69, .941}$8$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ &
+                    \cellcolor[rgb]{1, .753, .0}$2$ & 
+                    \textcolor{red}{$4$} \\
+                    \hline
+                    $0$ & 
+                    $A_{4}$ & 
+                    \cellcolor[rgb]{0, .69, .941}$5$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ &
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    $5$ \\
+                    \hline
+                    $0$ & 
+                    $A_{5}$ & 
+                    \cellcolor[rgb]{0, .69, .941}$36$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ &
+                    \cellcolor[rgb]{1, .753, .0}$4$ & 
+                    $9$ \\
+                    \hline
+                    \multicolumn{2}{|c|}{} & 
+                    \cellcolor[rgb]{1, .1, .0}$0$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ &
+                    \cellcolor[rgb]{0, .69, .941}$-60$ & 
+                    $ \\
+                    \hline
+                \end{tabular}
+            \end{center}  
+        \end{figure}
+        \item \textbf{Bước Lặp 2}: \\
+        \begin{figure}[H]
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|c|c|c|c|}
+                    \hline
+                    $c_J$ & 
+                    $A_J$ & 
+                    $q_0$ & 
+                    $q_1$ & 
+                    $q_2$ & 
+                    $q_3$ &
+                    $A_1$ & 
+                     $\theta$ \\
+                    \hline
+                    $0$ & 
+                    $A_{3}$ & 
+                    \cellcolor[rgb]{0, .69, .941}$8$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ &
+                    \cellcolor[rgb]{1, .753, .0}$2$ & 
+                    \textcolor{red}{$4$} \\
+                    \hline
+                    $0$ & 
+                    $A_{4}$ & 
+                    \cellcolor[rgb]{0, .69, .941}$5$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ &
+                    \cellcolor[rgb]{1, .753, .0}$1$ & 
+                    $5$ \\
+                    \hline
+                    $0$ & 
+                    $A_{5}$ & 
+                    \cellcolor[rgb]{0, .69, .941}$36$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$0$ & 
+                    \cellcolor[rgb]{1, .753, .0}$1$ &
+                    \cellcolor[rgb]{1, .753, .0}$4$ & 
+                    $9$ \\
+                    \hline
+                    \multicolumn{2}{|c|}{} & 
+                    \cellcolor[rgb]{1, .1, .0}$0$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ & 
+                    \cellcolor[rgb]{0, .69, .941}$0$ &
+                    \cellcolor[rgb]{0, .69, .941}$-60$ & 
+                    $ \\
+                    \hline
+                \end{tabular}
+            \end{center}  
+        \end{figure}
 
                 \end{enumerate}
 \section{Bài toán đối ngẫu}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  5 OCT 2023 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  5 OCT 2023 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1404,107 +1404,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 396--398
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
-
- []
-
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:408: LaTeX Error: \begin{document} ended by \end{enumerate}.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:417: LaTeX Error: \begin{center} on input line 409 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408                 \end{enumerate}
+l.417                 \end{enumerate}
                                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:408: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.408                 \end{enumerate}
-                                     
-Things are pretty mixed up, but I think the worst is over.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--424
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 440--443
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--473
+Underfull \hbox (badness 10000) in paragraph at lines 449--452
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 492--496
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
+Underfull \hbox (badness 10000) in paragraph at lines 501--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--526
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 532--535
+Underfull \hbox (badness 10000) in paragraph at lines 533--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--544
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--593
+Underfull \hbox (badness 10000) in paragraph at lines 600--602
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--605
+Underfull \hbox (badness 10000) in paragraph at lines 608--614
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 613--614
+Underfull \hbox (badness 10000) in paragraph at lines 622--623
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
 
  []
 
@@ -1526,7 +1509,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,699b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Chuong1.pdf (13 pages, 324582 bytes).
+Output written on Chuong1.pdf (13 pages, 324528 bytes).
 PDF statistics:
  318 PDF objects out of 1000 (max. 8388607)
  74 named destinations out of 1000 (max. 500000)

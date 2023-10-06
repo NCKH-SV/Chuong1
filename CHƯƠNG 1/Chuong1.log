@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  3 OCT 2023 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.23)  5 OCT 2023 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex"
-(c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex
+**"c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex"
+(c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -582,26 +582,26 @@ File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
 \openout1 = `Chuong1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count325
@@ -625,7 +625,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 39.
  (Chuong1.out) (Chuong1.out)
 \@outlinefile=\write3
 \openout3 = `Chuong1.out'.
@@ -665,11 +665,11 @@ Package hyperref Info: Link coloring OFF on input line 38.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Chuong1.toc)
@@ -679,59 +679,59 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (45.95822pt too wide) in paragraph at lines 87--119
+Overfull \hbox (45.95822pt too wide) in paragraph at lines 88--120
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 [4]
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:190: Display math should end with $$.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:191: Display math should end with $$.
 <to be read again> 
                     
-l.190                             $ 
+l.191                             $ 
                                     \displaystyle A _ k = \sum_{j\in J} \; z...
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:190: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:191: Missing $ inserted.
 <inserted text> 
                 $
-l.190                             $ \displaystyle
+l.191                             $ \displaystyle
                                                   A _ k = \sum_{j\in J} \; z...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:191: LaTeX Error: Bad math environment delimiter.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:192: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.191                             \end{equation*}
+l.192                             \end{equation*}
                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:191: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:192: Missing $ inserted.
 <inserted text> 
                 $
-l.191                             \end{equation*}
+l.192                             \end{equation*}
                                                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -739,23 +739,23 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:191: Display math should end with $$.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:192: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.191                             \end{equation*}
+l.192                             \end{equation*}
                                                  
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--202
+Underfull \hbox (badness 10000) in paragraph at lines 195--203
 
  []
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:216: Missing } inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:227: Missing } inserted.
 <inserted text> 
                 }
-l.216                             \end{split}
+l.227                             \end{split}
                                              
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -763,35 +763,35 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:216: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:227: Missing $ inserted.
 <inserted text> 
                 $
-l.216                             \end{split}
+l.227                             \end{split}
                                              
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:216: Missing { inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:227: Missing { inserted.
 <inserted text> 
                 {
-l.216                             \end{split}
+l.227                             \end{split}
                                              
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:216: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:227: Missing $ inserted.
 <inserted text> 
                 $
-l.216                             \end{split}
+l.227                             \end{split}
                                              
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:216: Missing } inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:227: Missing } inserted.
 <inserted text> 
                 }
-l.216                             \end{split}
+l.227                             \end{split}
                                              
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -799,75 +799,99 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:216: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:227: Missing $ inserted.
 <inserted text> 
                 $
-l.216                             \end{split}
+l.227                             \end{split}
                                              
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:216: Missing { inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:227: Missing { inserted.
 <inserted text> 
                 {
-l.216                             \end{split}
+l.227                             \end{split}
                                              
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:216: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:227: Missing $ inserted.
 <inserted text> 
                 $
-l.216                             \end{split}
+l.227                             \end{split}
                                              
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [5]
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:223: Display math should end with $$.
-<to be read again> 
-                   \displaystyle 
-l.223 ...                           $\displaystyle
-                                                   A_{J^{'}}A_{J^{'}}^{-1}= ...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:223: Missing $ inserted.
-<inserted text> 
-                $
-l.223 ...                           $\displaystyle
-                                                   A_{J^{'}}A_{J^{'}}^{-1}= ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:224: LaTeX Error: Bad math environment delimiter.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:247: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224                             \end{equation}
+l.247                                 \[
+                                        \left\{\begin{aligned}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:250: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.250 ...                   \end{aligned}\right.\]
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:250: LaTeX Error: \begin{equation} on input line 245 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 ...                   \end{aligned}\right.\]
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:251: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251                             \end{equation}
                                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:224: You can't use `\eqno' in horizontal mode.
-\veqno ->\@kernel@eqno 
-                       \aftergroup \ignorespaces 
-l.224                             \end{equation}
-                                                
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:224: Missing $ inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:251: LaTeX Error: \begin{enumerate} on input line 179 ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251                             \end{equation}
+                                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:251: Missing $ inserted.
 <inserted text> 
                 $
-l.224                             \end{equation}
+l.251                             \end{equation}
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -875,264 +899,78 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:224: Display math should end with $$.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:251: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.224                             \end{equation}
+l.251                             \end{equation}
                                                 
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--280
+Underfull \hbox (badness 10000) in paragraph at lines 251--290
 
  []
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:303: Misplaced \noalign.
-<recently read> \noalign 
-                         
-l.303 ...                                   \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:303: You can't use `\hrule' here except with leaders.
-\vline ->\vrule 
-                \@width \arrayrulewidth 
-l.303 ...                                   \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:303: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.303 ...                                   \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:303: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.303 ...                                   \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:304: Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.304 ...                               $\ldots$ &
-                                                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:312: Misplaced \noalign.
-<recently read> \noalign 
-                         
-l.312 ...                                   \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:312: You can't use `\hrule' here except with leaders.
-\vline ->\vrule 
-                \@width \arrayrulewidth 
-l.312 ...                                   \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:312: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.312 ...                                   \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:312: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.312 ...                                   \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:313: Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.313 ...                               $c_{jr}$ &
-                                                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:321: Misplaced \noalign.
-<recently read> \noalign 
-                         
-l.321 ...                                   \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:321: You can't use `\hrule' here except with leaders.
-\vline ->\vrule 
-                \@width \arrayrulewidth 
-l.321 ...                                   \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:321: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.321 ...                                   \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:321: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.321 ...                                   \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:323: Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.323 ...                               $\ldots$ &
-                                                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:330: Misplaced \noalign.
-<recently read> \noalign 
-                         
-l.330 ...                                   \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:330: You can't use `\hrule' here except with leaders.
-\vline ->\vrule 
-                \@width \arrayrulewidth 
-l.330 ...                                   \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:330: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.330 ...                                   \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:330: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.330 ...                                   \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:333: Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.333 ...                               $q_{m0}$ &
-                                                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:339: Misplaced \noalign.
-<recently read> \noalign 
-                         
-l.339 ...                                   \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:339: You can't use `\hrule' here except with leaders.
-\vline ->\vrule 
-                \@width \arrayrulewidth 
-l.339 ...                                   \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:339: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.339 ...                                   \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:339: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.339 ...                                   \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:340: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.340 ...        \multicolumn{2}{unknown}{unknown}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-Runaway argument?
->{\begin {lrbox}\ar@cellbox \d@llarbegin }c<{\d@llarend \end {lrbox}\makebox \ETC.
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:340: Forbidden control sequence found while scanning use of \NC@find.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:313: Missing $ inserted.
 <inserted text> 
-                \par 
-l.340 ...      \multicolumn{2}{unknown}{unknown} &
+                $
+l.313 ...                                   \hline
                                                   
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/Chuong1/CHƯƠNG 1/Chuong1.tex:340: Missing \endgroup inserted.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:322: Missing $ inserted.
 <inserted text> 
-                \endgroup 
-l.340 ...      \multicolumn{2}{unknown}{unknown} &
+                $
+l.322 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:331: Missing $ inserted.
+<inserted text> 
+                $
+l.331 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:340: Missing $ inserted.
+<inserted text> 
+                $
+l.340 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:349: Missing $ inserted.
+<inserted text> 
+                $
+l.349 ...                                   \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:357: Missing $ inserted.
+<inserted text> 
+                $
+l.357 ...                                   \hline
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1141,119 +979,351 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [6]
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:375: Display math should end with $$.
+<to be read again> 
+                   \Delta 
+l.375                             $\Delta
+                                         _s = min\{\Delta_j \mid \Delta_j < ...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
-LaTeX Warning: Reference `3da' on page 7 undefined on input line 351.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:375: Missing $ inserted.
+<inserted text> 
+                $
+l.375                             $\Delta
+                                         _s = min\{\Delta_j \mid \Delta_j < ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Reference `3da' on page 7 undefined on input line 353.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:376: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376                         \end{equation}
+                                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:376: You can't use `\eqno' in horizontal mode.
+\veqno ->\@kernel@eqno 
+                       \aftergroup \ignorespaces 
+l.376                         \end{equation}
+                                            
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:376: Missing $ inserted.
+<inserted text> 
+                $
+l.376                         \end{equation}
+                                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:376: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.376                         \end{equation}
+                                            
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:384: Display math should end with $$.
+<to be read again> 
+                   \theta 
+l.384                             $\theta
+                                         _r=\frac{q_{r0}}{z_{rs}}=min \left\...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:384: Missing $ inserted.
+<inserted text> 
+                $
+l.384                             $\theta
+                                         _r=\frac{q_{r0}}{z_{rs}}=min \left\...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Reference `3da' on page 7 undefined on input line 358.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:385: LaTeX Error: Bad math environment delimiter.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.385                         \end{equation}
+                                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-LaTeX Warning: Reference `6da' on page 7 undefined on input line 365.
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:385: You can't use `\eqno' in horizontal mode.
+\veqno ->\@kernel@eqno 
+                       \aftergroup \ignorespaces 
+l.385                         \end{equation}
+                                            
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:385: Missing $ inserted.
+<inserted text> 
+                $
+l.385                         \end{equation}
+                                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
-
- []
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:385: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.385                         \end{equation}
+                                            
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:391: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.391                     \item \textbf
+                                       {Ví dụ minh hoạ} \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 391
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--408
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:472: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.472         \item \textbf
+                           {Bước Lặp 1}: \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 472
+[][]
  []
 
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:521: Missing $ inserted.
+<inserted text> 
+                $
+l.521                     \hline
+                                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--461
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:525: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.525         \item \textbf
+                           {Bước Lặp 2}: \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 525
+[][]
+ []
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:573: Missing $ inserted.
+<inserted text> 
+                $
+l.573                     \hline
+                                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--576
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:578: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.578         \item \textbf
+                           {Bước Lặp 3}: \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 578
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--619
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:621: LaTeX Error: \begin{document} ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.621                 \end{enumerate}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/ASUS/OneDrive/Documents/GitHub/nckh/Chuong1/CHƯƠNG 1/Chuong1.tex:621: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.621                 \end{enumerate}
+                                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--500
+Underfull \hbox (badness 10000) in paragraph at lines 635--637
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 543--544
+Underfull \hbox (badness 10000) in paragraph at lines 653--656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--548
+Underfull \hbox (badness 10000) in paragraph at lines 684--686
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 705--709
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 730--731
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--739
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 745--748
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 804--806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--818
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 826--827
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--835
 
  []
 
 No file Chuong1.bbl.
-[12] (Chuong1.aux)
+[15] (Chuong1.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Chuong1.out' has not changed.
-(rerunfilecheck)             Checksum: C5E941BCFC4DCBA234836B8AF3515AF5;3354.
- )
-(\end occurred when \iftrue on line 340 was incomplete) 
+(rerunfilecheck)             Checksum: 5AD78D23E310F467FA4898FB51B579E1;3018.
+ ) 
 Here is how much of TeX's memory you used:
- 14854 strings out of 475248
- 238537 string characters out of 5758285
+ 14858 strings out of 475248
+ 238441 string characters out of 5758285
  1945801 words of memory out of 5000000
- 36082 multiletter control sequences out of 15000+600000
+ 36081 multiletter control sequences out of 15000+600000
  578449 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,79p,639b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Chuong1.pdf (12 pages, 311912 bytes).
+ 75i,17n,79p,699b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb>
+Output written on Chuong1.pdf (15 pages, 330864 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

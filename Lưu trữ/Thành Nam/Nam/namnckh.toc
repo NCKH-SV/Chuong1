@@ -1,5 +1,14 @@
+\babel@toc {vietnamese}{}\relax 
 \contentsline {section}{\numberline {1}Lời nói đầu}{1}{section.1}%
-\contentsline {section}{\numberline {2}Chương 1 Cơ sở lý thuyết quy hoạch tuyến tính}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Phương pháp đơn hình}{2}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Bài toán M}{2}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Bài toán 2 pha}{2}{subsubsection.2.1.2}%
+\contentsline {section}{\numberline {2}Chương 1| Cơ sở lý thuyết quy hoạch tuyến tính}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Bài toán đơn hình}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Thuật toán M}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Thuật toán 2 pha}{2}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Bài toán cải biên}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Thuật toán đơn hình cải biên}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Thuật toán đơn hình đối ngẫu}{2}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Bài toán đối ngẫu}{2}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Qui tắc cho bài toán đối ngẫu }{2}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Lý thuyết đối ngẫu dạng chuẩn tắc}{3}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Lý thuyết đối ngẫu dạng chính tắc}{4}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Ví dụ minh hoạ}{5}{subsubsection.2.3.4}%

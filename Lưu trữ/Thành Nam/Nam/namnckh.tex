@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[utf8]{vietnam} 
+\usepackage[vietnamese]{babel}
 \usepackage[T5]{fontenc} % Để sử dụng Tiếng Việt 
 \usepackage[fontsize=13pt]{scrextend} % Set fontsize=13pt
 \usepackage[paperheight=29.7cm,paperwidth=21cm,right=2cm,left=3cm,top=2cm,bottom=2.5cm]{geometry} % Chuẩn A4, căn lề phải, trái, trên, dưới.
@@ -23,6 +24,20 @@
 \setcounter{tocdepth}{3}
 \setcounter{tocdepth}{4}
 \setcounter{tocdepth}{5}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\setlength\tabcolsep{10pt}
+\setlength\arraycolsep{10pt}
+\setlength\extrarowheight{10pt}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+\newtheorem{dl}{Định lý}
+\newtheorem{md}{Mệnh đề}
+\newtheorem{bd}{Bổ đề}
+\newtheorem{hq}{Hệ quả}
+\newtheorem{cy}{Chú ý}
 
 \renewcommand{\baselinestretch}{1.2} % Giản dòng 1.2
 \setlength{\parskip}{6pt} % Spacing after
@@ -36,11 +51,11 @@
     \draw [line width=3pt]
         ($ (current page.north west) + (3.0cm,-2.0cm) $)
         rectangle
-        ($ (current page.south east) + (-2.0cm,2.5cm) $)
+        ($ (current page.south east) + (-2.0cm,2.5cm) $);
     \draw [line width=0.5pt]
         ($ (current page.north west) + (3.1cm,-2.1cm) $)
         rectangle
-        ($ (current page.south east) + (-2.1cm,2.6cm) $)
+        ($ (current page.south east) + (-2.1cm,2.6cm) $);
     \end{tikzpicture}
     \begin{center}
         \vspace{-15pt} TRƯỜNG ĐẠI HỌC SÀI GÒN\\
@@ -82,11 +97,11 @@
             \draw [line width=3pt]
                 ($ (current page.north west) + (3.0cm,-2.0cm) $)
                 rectangle
-                ($ (current page.south east) + (-2.0cm,2.5cm) $)
+                ($ (current page.south east) + (-2.0cm,2.5cm) $);
             \draw [line width=0.5pt]
                 ($ (current page.north west) + (3.1cm,-2.1cm) $)
                 rectangle
-                ($ (current page.south east) + (-2.1cm,2.6cm) $)
+                ($ (current page.south east) + (-2.1cm,2.6cm) $);
             \end{tikzpicture}
             \begin{center}
                 \vspace{-15pt} TRƯỜNG ĐẠI HỌC SÀI GÒN\\
@@ -137,10 +152,190 @@ sdfsdfsdfssdfsdfsdfsd
 sdfsdfsdfsdfsd
 dfsddfsdfsdfsdf
 \cleardoublepage
-\section{Chương 1 Cơ sở lý thuyết quy hoạch tuyến tính}
-\subsection{Phương pháp đơn hình}
-\subsubsection{Bài toán M}
-\subsubsection{Bài toán 2 pha}
+\section{Chương 1| Cơ sở lý thuyết quy hoạch tuyến tính}
+\subsection{Bài toán đơn hình}
+\subsubsection{Thuật toán  M}
+\subsubsection{Thuật toán 2 pha}
+\subsection{Bài toán cải biên}
+\subsubsection{Thuật toán đơn hình cải biên}
+\subsubsection{Thuật toán đơn hình đối ngẫu}
+\subsection{Bài toán đối ngẫu}
+\subsubsection{Qui tắc cho bài toán đối ngẫu }
+\begin{equation}
+    \begin{split}
+        M &= \{1,2,3, \ldots , m\} , M_1 = \{ 1,2,3, \ldots , m_1 \} , m_1 \leq m \\
+        N &= \{ 1,2,3, \ldots , n\} , N_1 = \{ 1,2,3, \ldots , n_1\} , n_1 \leq n
+    \end{split}
+\end{equation}
+Trường hợp 1: $(P) \: Min \rightarrow (D) Max$ \\
+\begin{center}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        & Gốc $(P)$ & $\Rightarrow$& Đối ngẫu $(D)$ \\
+        \hline
+        1. & $c^Tx \rightarrow min$ && $b^Ty \rightarrow max$ \\
+        \hline
+        2. &  $\sum_{j=1}^n a_{ij} \geq b_i$ & $i \in M_1$ & $y_i \geq  0 , i \in M_1$ \\
+        \hline
+        3. & $\sum_{j=1}^n a_{ij} = b_i$ & $i \in M \backslash M_1$ & $y_i$ tự do , $i \in M\backslash M_1$ \\
+        \hline
+        4. & $x_j \geq 0$ & $j \in N_1$ & $\sum_{i=1}^m a_{ij}y_i \leq c_j , j \in N_1$ \\
+        \hline
+        5. & $x_j$ có dấu tuỳ ý & $j \in N_1$ & $\sum_{i=1}^m a_{ij} y_i = c_j , j \in N\backslash N_1$ \\
+        \hline
+        6. & $x_j \leq 0$ & $j \in N_2$ & $\sum_{i=1}^m a_{ij}y_i \geq c_j , j \in N_2$ \\
+        \hline
+    \end{tabular}
+\end{center}
+Chú ý: Nếu có $\sum_{j=1}^n \leq b_i$, thì theo nguyên tắc đối ngẫu sẽ ứng với biến $y_i \leq 0$. Trong thực tế nên chuyển về trường hợp 2 bằng cách nhân cả hai vế của bđt cho $-1$. \\
+\vspace{20pt}
+\\            
+Trường hợp 2: $(P) \: Max \rightarrow (D) Min$ \\
+\begin{center}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        & Gốc $(P)$ & $\Rightarrow$ & Đối ngẫu $(D)$ \\
+        \hline
+        1. & $c^Tx \rightarrow max$ && $b^Ty \rightarrow min$ \\
+        \hline
+        2. &  $\sum_{j=1}^n a_{ij} \leq b_i$ & $i \in M_1$ & $y_i$ tự do, $i \in M_1$ \\
+        \hline
+        3. & $\sum_{j=1}^n a_{ij} = b_i$ & $i \in M \backslash M_1$ & $y_i$ tự do , $i \in M\backslash M_1$ \\
+        \hline
+        4. & $x_j \geq 0$ & $j \in N_1$ & $\sum_{i=1}^m a_{ij}y_i \geq c_j , j \in N_1$ \\
+        \hline
+        5. & $x_j$ có dấu tuỳ ý & $j \in N_1$ & $\sum_{i=1}^m a_{ij} y_i = c_j , j \in N\backslash N_1$ \\
+        \hline
+        6. & $x_j \leq 0$ & $j \in N_2$ & $\sum_{i=1}^m a_{ij}y_i \leq c_j , j \in N_2$ \\
+        \hline
+    \end{tabular}
+\end{center}
+Chú ý: Nếu có $\sum_{j=1}^n a_{ij} \geq b_i$, thì theo nguyên tắc đối ngẫu sẽ ứng với biến $y_i \leq 0$. Trong thực tế nên chuyển về trường hợp 2 bằng cách nhân cả hai vế của bất đẳng thức cho $-1$. (Các ràng buộc ẩn tự do thường ta không cần ghi và bỏ qua nó).
+\subsubsection{Lý thuyết đối ngẫu dạng chuẩn tắc}
+Bài toán chuẩn tắc có dạng như sau, với $A \in M_{m \times n},b \in R^m, c \in R^n$ \\ 
+\begin{equation}
+    \begin{split}
+        (P) \quad c^Tx &\rightarrow Min \\
+        Ax &\geq b \\
+        x &\geq 0 
+    \end{split}
+\end{equation}
+Với bài toán như trên ta có bài toán đối ngẫu như sau với $y \in R^m$ : \\
+\begin{equation}
+    \begin{split}
+        (D) \quad b^Ty &\rightarrow Max \\
+        A^Ty &\leq c \\
+        y &\geq 0
+    \end{split}
+\end{equation}
+Cặp bài toán trên được gọi là cặp bài toán đối ngẫu đối xứng vì chứa đủ ba phần : Hàm mục tiêu,ràng buộc đẳng thức (bất đẳng thức) và biến không âm. \\
+\begin{dl}
+    Với mọi phương án $x$ của bài toán $(P)$ và mọi phương án y của bài toán $(P^*)/(D)$, ta có $$g(y) \leq f(x)$$
+\end{dl}
+\begin{dl}
+    \item Nếu bài toán $(P)$ có phương án tối ưu thì bài toán $(P^*)/(D)$ cũng có phương án tối ưu và ngược lại. Đồng thời $V(P)=V(P^*)$.
+    \item Nếu hàm mục tiêu của bài toán này không bị chặn thì tập các phương án của bài toán kia là rỗng.
+\end{dl}
+\begin{hq}
+    Nếu các bài toán $(P)$ và $(P^*)$ đều có các phương án khác rỗng thì chúng đều có phương án tối ưu.
+\end{hq}
+\begin{hq}
+    Giả sử $x^*$ và $y^*$ lần lượt là các phương án tối ưu tương ứng của bài toán $(P)$ và $(P^*)$. Ta có:
+   \[V(P)=f(x^*)=g(y^*)=V(P^*)\]
+\end{hq}
+\begin{hq}
+    Giả sử $x^*$ và $y^*$ tương ứng là các phương án chấp nhận được của các bài toán $(P)$ và $(P^*)/(D)$. Nếu $f(x^*)=g(y^*)$ thì $x^*$ và $y^*$ lần lượt là phương án tối ưu của $(P)$ và $(P^*)/(D)$.
+\end{hq}
+\begin{dl}{\textbf{Độ lệch bù trong đối ngẫu đối xứng}}\\
+    Cho $x^*$ và $y^*$ tương ứng là phương án của bài toán $(P)$ và $(P^*)$. Phương án $x^*$ và $y^*$ tối ưu khi và chỉ khi:
+    \[\left\{\begin{aligned}
+        & x_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}y_i^*=c_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}y_i^* < c_j\Longrightarrow x_j^* =0,j=\overline{1,n}\\
+        & y_j^* > 0 \Longrightarrow \displaystyle\sum\limits_{i=1}^na_{ij}x_i^*=b_j \;\vee\;\displaystyle\sum\limits_{i=1}^na_{ij}x_i^* < b_j\Longrightarrow y_j^* =0,j=\overline{1,m}
+    \end{aligned}\right.\]
+\end{dl}
+\subsubsection{Lý thuyết đối ngẫu dạng chính tắc}
+Bài toán chính tắc có dạng như sau, với $A \in M_{m \times n},b \in R^m, c \in R^n$:
+\begin{equation}
+    \begin{split}
+        (P) \quad c^Tx &\rightarrow Min \\
+        Ax&=b \\
+        x &\geq 0
+    \end{split}
+\end{equation}
+Với bài toán như trên ta có bài toán đối ngẫu như sau với $y \in R^m$:
+\begin{equation}
+    \begin{split}
+        (D) \quad b^Ty &\rightarrow Max \\
+        A^Ty &\leq c
+    \end{split}
+\end{equation}
+"Bài toán đối ngẫu không đối xứng như trên có tất cả cá tính chất như đối ngẫu đối xứng". \\
+Định lí về độ lệch bù trong đối ngẫu không đối xứng (hay còn gọi là độ lệch bù yếu).
+\begin{dl}
+Cặp $(x^*,y^*)$ tướng ứng là nghiệm tối ưu của bài toán $(1)$ và $(2)$ khi và chỉ khi
+\[\text{Nếu } x_j^* > 0 \text{ thì } \sum_{i=1}^ma_{ij}y_i^*=c_j \text{ hoặc}\] \\
+\[\text{Nếu } \sum_{i=1}^ma_{ij}y_i^* < c_j \text{ thì } x_j^*=0\]
+\end{dl}
+\subsubsection{Ví dụ minh hoạ}
+\textbf{1. Cho bài toán quy hoạch tuyến tính như sau:}\\
+\begin{center}
+$\left(P\right)$ \quad $f(x)=2x_1-3x_2+4x_3-6x_4\longrightarrow Min$\\
+\end{center}\\
+
+\[\left\{\begin{aligned}
+x_1+2x-2+3x_3-x_4&=20 \quad(1)\\
+-3x_1-x_2+7x_3+7x_4&\leq 32 \quad(2)\\
+2x_1+4x_2+x_3+x_4&\geq 18 \quad(3)\\
+x_i\geq 0,\forall i=1,2,3
+\end{aligned}\right.\]\\
+$\Longrightarrow$Ta có bài toán đối ngẫu như sau :$ \big(D\big)\quad g(y)=20y_1+32y_2+18y_3 \longrightarrow Max$ \\
+\[\left\{\begin{aligned}
+y_1-3y_2+2y_3&\leq 2 \quad(4)\\
+2y_1-y_2+4y_3&\leq-3 \quad(5)\\
+3y_1+7y_2+y_3&\leq 4 \quad(6)\\
+-y_1+7y_2+y_3&=-6 \quad(7)\\
+y_2\leq 0,y_3\geq 0
+\end{aligned}\right.\]\\
+Cặp ràng buộc : $\begin{array}{cr} 
+x_1\geq 0\; \&(4) &y_2\leq 0\; \&(2)\\
+x_2\geq 0\; \&(5) &y_3\leq 0\; \&(3)\\
+\end{array}$\\
+\textbf{2.Cho bài toán quy hoạch tuyến tính như sau:}\\
+\begin{center}
+\big(P\big)\quad $f(x)=2x_1+2x_2+x_3+x_4 \longrightarrow Max$\\
+\end{center}
+\[\left\{\begin{aligned}
+5x_1+x_2+x_3+6x_4&=50 \\
+-3x_1+x_3+2x_4&\geq16 \\
+4x_1+3x_3+x_4&\leq23 \\
+x_i\geq 0,i=1,2,3,4 
+\end{aligned}\right.\]\\
+\begin{enumerate}
+\item Viết bài toán đối ngẫu \big(D\big)
+\item Cho biết $x^*$=$\left(0,14,6,5\right)$ là nghiệm tối ưu của bài toán $\left(P\right)$.Tìm nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$
+\end{enumerate}
+\begin{center}
+\textbf{Giải}
+\end{center}
+i.Ta có bài toán đối ngẫu như sau:\\
+\begin{center}
+$\left(D\right)$: $g(y)=50y_1+16y_2+23y_3 \longrightarrow  Min$\\
+\end{center}
+\[\left\{\begin{aligned}
+5y_1-3y_2+4y_3&\geq2 \\
+y_1&\geq2 \\
+y_1+y_2+3y_3&\geq1 \\
+6y_1+2y_2+y_3&\geq1 \\
+y_2\leq 0,y_3\geq 0
+\end{aligned}\right.\]\\
+Áp dụng định lí độ lệch bù của bài toán đối ngẫu đối xứng,với \textbf{PATƯ} của $\left(P\right)$ là $\left(0,14,6,5\right)$ có $x_2\geq 0,x_3\geq 0,x_4\geq 0$ ta suy ra :$\left\{\begin{aligned} 
+y_1&=2 \\
+y_1+y_2+3y_3&=1\quad;\qquad  \Longleftrightarrow \quad y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)\\
+6y_1+2y_2+y_3&=1 
+\end{aligned}\right.$\\
+Vậy nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$ là $y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)$
+
+
 
 
 

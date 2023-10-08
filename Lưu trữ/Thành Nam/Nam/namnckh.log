@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  7 OCT 2023 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  8 OCT 2023 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -807,48 +807,36 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 \c@bd=\count325
 \c@hq=\count326
 \c@cy=\count327
- (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
-Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box114
-\beforetitleunit=\skip59
-\aftertitleunit=\skip60
-\ttl@plus=\dimen282
-\ttl@minus=\dimen283
-\ttl@toksa=\toks44
-\titlewidth=\dimen284
-\titlewidthlast=\dimen285
-\titlewidthfirst=\dimen286
-)
-LaTeX Font Info:    Trying to load font information for T5+ptm on input line 47.
+LaTeX Font Info:    Trying to load font information for T5+ptm on input line 46.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
-\l__pdf_internal_box=\box115
+\l__pdf_internal_box=\box114
 ) (namnckh.aux)
 \openout1 = `namnckh.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -887,23 +875,23 @@ LaTeX Font Info:    ... okay on input line 47.
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count329
-\scratchdimen=\dimen287
-\scratchbox=\box116
+\scratchdimen=\dimen282
+\scratchbox=\box115
 \nofMPsegments=\count330
 \nofMParguments=\count331
-\everyMPshowfont=\toks45
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count332
-\MPscratchDim=\dimen288
+\MPscratchDim=\dimen283
 \MPnumerator=\count333
 \makeMPintoPDFobject=\count334
-\everyMPtoPDFconversion=\toks46
+\everyMPtoPDFconversion=\toks45
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 46.
  (namnckh.out) (namnckh.out)
 \@outlinefile=\write4
 \openout4 = `namnckh.out'.
@@ -911,47 +899,47 @@ Package hyperref Info: Link coloring OFF on input line 47.
 <imge/logodhsg.png, id=58, 1223.57124pt x 1223.57124pt>
 File: imge/logodhsg.png Graphic file (type png)
 <use imge/logodhsg.png>
-Package pdftex.def Info: imge/logodhsg.png  used on input line 66.
+Package pdftex.def Info: imge/logodhsg.png  used on input line 65.
 (pdftex.def)             Requested size: 170.70135pt x 170.70135pt.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 82.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 82.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 81.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 81.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 82.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 81.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 82.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 81.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 82.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 81.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 82.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 81.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.62007> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.80008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
  [1
 
 {C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc} <./imge/logodhsg.png>]
 File: imge/logodhsg.png Graphic file (type png)
 <use imge/logodhsg.png>
-Package pdftex.def Info: imge/logodhsg.png  used on input line 112.
+Package pdftex.def Info: imge/logodhsg.png  used on input line 111.
 (pdftex.def)             Requested size: 170.70135pt x 170.70135pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142             \end{titlepage}
+l.141             \end{titlepage}
                                   [1
 
 
@@ -963,17 +951,17 @@ l.142             \end{titlepage}
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \cleardoublepage
+l.153 \cleardoublepage
                        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--194
+Underfull \hbox (badness 10000) in paragraph at lines 189--193
 
  []
 
@@ -981,88 +969,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--194
 
 
 {C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--233
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/namnckh.tex:284: LaTeX Error: There's no line here to end.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/namnckh.tex:283: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 
+l.283 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--292
+Underfull \hbox (badness 10000) in paragraph at lines 289--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--304
+Underfull \hbox (badness 10000) in paragraph at lines 297--303
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 
-Overfull \hbox (66.52881pt too wide) in paragraph at lines 330--337
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+Overfull \hbox (66.52881pt too wide) in paragraph at lines 332--338
 []$ \T5/ptm/m/n/13 c� $\OML/ztmcm/m/it/13 x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0\OML/ztmcm/m/it/13 ; x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0\OML/ztmcm/m/it/13 ; x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0$ \T5/ptm/m/n/13 ta suy ra :$[]$ 
  []
 
-[6] (namnckh.aux)
+[6] [7
+
+
+] (namnckh.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `namnckh.out' has not changed.
-(rerunfilecheck)             Checksum: 13FE16B6C95A277288DDE3D8BCD7786B;2691.
+(rerunfilecheck)             Checksum: 0137DF50BCDDA4013A3BD521B76CCD22;2694.
  ) 
 Here is how much of TeX's memory you used:
- 25792 strings out of 475248
- 467514 string characters out of 5758285
+ 25504 strings out of 475248
+ 463617 string characters out of 5758285
  1932785 words of memory out of 5000000
- 46809 multiletter control sequences out of 15000+600000
+ 46520 multiletter control sequences out of 15000+600000
  621561 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,107p,500b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on namnckh.pdf (8 pages, 869785 bytes).
+Output written on namnckh.pdf (9 pages, 871706 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
  122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

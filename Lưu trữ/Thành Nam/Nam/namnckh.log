@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  8 OCT 2023 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  9 OCT 2023 09:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1032,8 +1032,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--331
  []
 
 
-Overfull \hbox (66.52881pt too wide) in paragraph at lines 332--338
+Overfull \hbox (66.52881pt too wide) in paragraph at lines 332--337
 []$ \T5/ptm/m/n/13 câ $\OML/ztmcm/m/it/13 x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0\OML/ztmcm/m/it/13 ; x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0\OML/ztmcm/m/it/13 ; x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0$ \T5/ptm/m/n/13 ta suy ra :$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--337
+
  []
 
 [6] [7
@@ -1056,7 +1061,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,15n,107p,500b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on namnckh.pdf (9 pages, 871706 bytes).
+Output written on namnckh.pdf (9 pages, 871653 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)

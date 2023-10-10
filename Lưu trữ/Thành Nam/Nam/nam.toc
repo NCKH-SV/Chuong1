@@ -1,0 +1,3 @@
+\contentsline {section}{\numberline {1}Một số Code thoong dụng trong toán học}{1}{section.1}%
+\contentsline {section}{\numberline {2}Mathematical formulas and explanations in ViệtNam}{1}{section.2}%
+\contentsline {section}{\numberline {3}Một số cách edit theme cho section,tạo kiểu,chỉnh gọn}{5}{section.3}%

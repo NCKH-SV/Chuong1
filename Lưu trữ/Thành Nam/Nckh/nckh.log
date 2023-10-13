@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  29 SEP 2023 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  7 OCT 2023 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex"
-(c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex
+**"c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex"
+(c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -736,7 +736,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:52: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:52: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
 
 See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -750,7 +750,7 @@ Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:56: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:56: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
 
 See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -796,7 +796,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.80008> not available
 
 {C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc} <./imge/logodhsg.png>]
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:94: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:94: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
 
 See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -807,7 +807,7 @@ l.94 \draw
 (That was another \errmessage.)
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:98: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:98: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
 
 See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -894,7 +894,7 @@ l.237 \newpage
 LaTeX Warning: File `Images/hinh31.png' not found on input line 246.
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:246: Package pdftex.def Error: File `Images/hinh31.png' not found: using draft setting.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:246: Package pdftex.def Error: File `Images/hinh31.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -909,7 +909,7 @@ LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 24
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:270: Missing number, treated as zero.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:270: Missing number, treated as zero.
 <to be read again> 
                    \relax 
 l.270     \end{tabularx}
@@ -918,7 +918,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:270: Illegal unit of measure (pt inserted).
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:270: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
 l.270     \end{tabularx}
@@ -930,7 +930,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:270: Missing number, treated as zero.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:270: Missing number, treated as zero.
 <to be read again> 
                    \relax 
 l.270     \end{tabularx}
@@ -939,7 +939,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:270: Illegal unit of measure (pt inserted).
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:270: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
 l.270     \end{tabularx}
@@ -951,7 +951,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:270: Missing number, treated as zero.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:270: Missing number, treated as zero.
 <to be read again> 
                    \relax 
 l.270     \end{tabularx}
@@ -960,7 +960,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:270: Illegal unit of measure (pt inserted).
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:270: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
 l.270     \end{tabularx}
@@ -972,7 +972,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:270: Missing number, treated as zero.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:270: Missing number, treated as zero.
 <to be read again> 
                    \relax 
 l.270     \end{tabularx}
@@ -981,7 +981,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/Nckh/nckh.tex:270: Illegal unit of measure (pt inserted).
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nckh/nckh.tex:270: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
 l.270     \end{tabularx}
@@ -1008,12 +1008,12 @@ Package rerunfilecheck Info: File `nckh.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  23004 strings out of 475248
- 431654 string characters out of 5758285
+ 431786 string characters out of 5758285
  1926785 words of memory out of 5000000
  44107 multiletter control sequences out of 15000+600000
  601520 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,107p,948b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,10n,107p,959b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
 Output written on nckh.pdf (13 pages, 816850 bytes).
 PDF statistics:

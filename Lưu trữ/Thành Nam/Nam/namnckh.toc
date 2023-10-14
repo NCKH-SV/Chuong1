@@ -1,14 +1,14 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {subsection}{\numberline {0.1}Bài toán đơn hình}{2}{subsection.0.1}%
-\contentsline {subsubsection}{\numberline {0.1.1}Thuật toán M}{2}{subsubsection.0.1.1}%
-\contentsline {subsubsection}{\numberline {0.1.2}Thuật toán 2 pha}{2}{subsubsection.0.1.2}%
-\contentsline {subsection}{\numberline {0.2}Bài toán cải biên}{2}{subsection.0.2}%
-\contentsline {subsubsection}{\numberline {0.2.1}Thuật toán đơn hình cải biên}{2}{subsubsection.0.2.1}%
-\contentsline {subsubsection}{\numberline {0.2.2}Thuật toán đơn hình đối ngẫu}{2}{subsubsection.0.2.2}%
-\contentsline {subsection}{\numberline {0.3}Bài toán đối ngẫu}{2}{subsection.0.3}%
-\contentsline {subsubsection}{\numberline {0.3.1}Qui tắc cho bài toán đối ngẫu }{2}{subsubsection.0.3.1}%
-\contentsline {subsubsection}{\numberline {0.3.2}Lý thuyết đối ngẫu dạng chuẩn tắc}{3}{subsubsection.0.3.2}%
-\contentsline {subsubsection}{\numberline {0.3.3}Lý thuyết đối ngẫu dạng chính tắc}{4}{subsubsection.0.3.3}%
-\contentsline {subsubsection}{\numberline {0.3.4}Ví dụ minh hoạ}{5}{subsubsection.0.3.4}%
-\contentsline {subsection}{\numberline {0.4}Tài liệu tham khảo}{6}{subsection.0.4}%
-\contentsline {subsection}{\numberline {0.5}Tối ưu tuyến tính chứa tham số hàm mục tiêu}{7}{subsection.0.5}%
+\contentsline {subsection}{\numberline {1.1}Bài toán đơn hình}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Thuật toán M}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Thuật toán 2 pha}{2}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Bài toán cải biên}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Thuật toán đơn hình cải biên}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Thuật toán đơn hình đối ngẫu}{2}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}Bài toán đối ngẫu}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Qui tắc cho bài toán đối ngẫu }{2}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Lý thuyết đối ngẫu dạng chuẩn tắc}{3}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Lý thuyết đối ngẫu dạng chính tắc}{4}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Ví dụ minh hoạ}{5}{subsubsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.4}Tài liệu tham khảo}{6}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Tối ưu tuyến tính chứa tham số hàm mục tiêu}{7}{subsection.1.5}%

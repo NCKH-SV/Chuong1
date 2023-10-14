@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  14 OCT 2023 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  14 OCT 2023 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -911,165 +911,175 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 [1
 
 {C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/nam.tex:115: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 93--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--106
+
+ []
+
+
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/nam.tex:122: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 
+l.122 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--135
-
- []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/nam.tex:145: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/nam.tex:152: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 
+l.152 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
@@ -1079,47 +1089,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--168
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 185--188
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
 
  []
 
@@ -1134,13 +1149,13 @@ Package rerunfilecheck Info: File `nam.out' has not changed.
 Here is how much of TeX's memory you used:
  24656 strings out of 475248
  443497 string characters out of 5758285
- 1932785 words of memory out of 5000000
+ 1933785 words of memory out of 5000000
  45738 multiletter control sequences out of 15000+600000
  569642 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,89p,484b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,89p,484b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb>
-Output written on nam.pdf (5 pages, 144176 bytes).
+Output written on nam.pdf (5 pages, 144486 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)

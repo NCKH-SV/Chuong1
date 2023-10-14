@@ -11,19 +11,22 @@
 \usepackage{float} % Set vị trì chèn ảnh 
 \usepackage{tikz} % Thư viện tạo khung bìa 
 \usepackage{multicol}
+\usepackage{sectsty} %thư viện căn lề section
 \usepackage{enumerate} %thư viện liệt kê,đánh số có cấp độ
 \usepackage{fontawesome}% thư viện kí tự đặc biệt của Latex
 \usepackage{xcolor} % Sử dụng gói xcolor
 \usepackage{colortbl} % Sử dụng gói colortbl
 \usepackage{multicol}
-\usepackage{enumerate} % Thư viện liệt kê đánh số có cấp độ
 \usetikzlibrary{calc} % Thư viện tikz
 \usepackage{indentfirst} % Thư viện thụt đầu dòng 
+\usepackage{ulem}
+\sectionfont{\centering} 
 \setcounter{tocdepth}{1}
 \setcounter{tocdepth}{2}
 \setcounter{tocdepth}{3}
 \setcounter{tocdepth}{4}
 \setcounter{tocdepth}{5}
+\setcounter{section}{1}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
 \newtheorem{lemma}[theorem]{Lemma}
@@ -151,7 +154,7 @@ sdfsdfsdfssdfsdfsdfsd
 sdfsdfsdfsdfsd
 dfsddfsdfsdfsdf
 \cleardoublepage
-\section*{Chương 1. Lý thuyết quy hoạch tuyến tính}
+\section*{\uline{Chương 1. Lý thuyết quy hoạch tuyến tính}}
 \subsection{Bài toán đơn hình}
 \subsubsection{Thuật toán  M}
 \subsubsection{Thuật toán 2 pha}
@@ -343,7 +346,7 @@ Vậy nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$ là $y^
 
 
 \cleardoublepage
-\section*{Chương 2. Tối ưu tuyến tính chứa tham số}
+\section*{\uline{Chương 2. Tối ưu tuyến tính chứa tham số}}
 \subsection{Tối ưu tuyến tính chứa tham số hàm mục tiêu}
 
 

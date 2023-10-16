@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  14 OCT 2023 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  16 OCT 2023 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -918,7 +918,7 @@ Package hyperref Info: Link coloring OFF on input line 49.
 \@outlinefile=\write4
 \openout4 = `namnckh.out'.
 
-<imge/logodhsg.png, id=58, 1223.57124pt x 1223.57124pt>
+<imge/logodhsg.png, id=70, 1223.57124pt x 1223.57124pt>
 File: imge/logodhsg.png Graphic file (type png)
 <use imge/logodhsg.png>
 Package pdftex.def Info: imge/logodhsg.png  used on input line 68.
@@ -965,7 +965,15 @@ l.144             \end{titlepage}
                                   [1
 
 
-] (namnckh.toc)
+] (namnckh.toc
+LaTeX Font Info:    Calculating math sizes for size <15.59996> on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.59996> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.54405> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.36006> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+)
 \tf@toc=\write5
 \openout5 = `namnckh.toc'.
 
@@ -973,17 +981,17 @@ l.144             \end{titlepage}
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \cleardoublepage
+l.152 \cleardoublepage
                        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--196
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
 
  []
 
@@ -991,79 +999,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--196
 
 
 {C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[5]
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-
- []
-
-
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/namnckh.tex:286: LaTeX Error: There's no line here to end.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/namnckh.tex:285: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.286 
+l.285 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--294
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--306
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 314--316
+Underfull \hbox (badness 10000) in paragraph at lines 299--305
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 313--315
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Overfull \hbox (66.52881pt too wide) in paragraph at lines 336--342
-[]$ \T5/ptm/m/n/13 c� $\OML/ztmcm/m/it/13 x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0\OML/ztmcm/m/it/13 ; x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0\OML/ztmcm/m/it/13 ; x[] \OMS/ztmcm/m/n/13 ^^U \OT1/ztmcm/m/n/13 0$ \T5/ptm/m/n/13 ta suy ra :$[]$ 
+Overfull \hbox (232.42616pt too wide) in paragraph at lines 335--341
+\T5/ptm/m/n/15.59996 c�a $[]$ l� $[]$ c� $\OML/ztmcm/m/it/15.59996 x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0\OML/ztmcm/m/it/15.59996 ; x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0\OML/ztmcm/m/it/15.59996 ; x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0$ \T5/ptm/m/n/15.59996 ta suy ra :$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--342
+Underfull \hbox (badness 10000) in paragraph at lines 335--341
 
  []
 
-[6] [7
+[7] [8
 
 
 ] (namnckh.aux)
@@ -1072,20 +1081,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `namnckh.out' has not changed.
-(rerunfilecheck)             Checksum: 2E92FA547B28FA8F1CFC8527B59DFEF5;2694.
+(rerunfilecheck)             Checksum: 137068D150797F1673C39B604DB06AD8;3903.
  ) 
 Here is how much of TeX's memory you used:
- 25706 strings out of 475248
- 466612 string characters out of 5758285
- 1932785 words of memory out of 5000000
- 46713 multiletter control sequences out of 15000+600000
- 621667 words of font info for 102 fonts, out of 8000000 for 9000
+ 25742 strings out of 475248
+ 467291 string characters out of 5758285
+ 1930785 words of memory out of 5000000
+ 46747 multiletter control sequences out of 15000+600000
+ 633285 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,15n,107p,500b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,15n,107p,675b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on namnckh.pdf (9 pages, 872002 bytes).
+Output written on namnckh.pdf (10 pages, 877896 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

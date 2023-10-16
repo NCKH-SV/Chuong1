@@ -11,7 +11,7 @@
 \usepackage{float} % Set vị trì chèn ảnh 
 \usepackage{tikz} % Thư viện tạo khung bìa 
 \usepackage{multicol}
-\usepackage{sectsty} %thư viện căn lề section
+\usepackage{sectsty} %thư viện căn giữa lề section
 \usepackage{enumerate} %thư viện liệt kê,đánh số có cấp độ
 \usepackage{fontawesome}% thư viện kí tự đặc biệt của Latex
 \usepackage{xcolor} % Sử dụng gói xcolor
@@ -19,7 +19,7 @@
 \usepackage{multicol}
 \usetikzlibrary{calc} % Thư viện tikz
 \usepackage{indentfirst} % Thư viện thụt đầu dòng 
-\usepackage{ulem}
+\usepackage{ulem} % lệnh gạch dưới
 \sectionfont{\centering} 
 \setcounter{tocdepth}{1}
 \setcounter{tocdepth}{2}
@@ -47,7 +47,7 @@
 \setlength{\parindent}{1cm} % Set khoảng cách thụt đầu dòng mỗi đoạn 
 
 \begin{document}
- 
+ \large
 \begin{titlepage}
     \begin{tikzpicture}[overlay,remember picture]
     \draw [line width=3pt]
@@ -61,7 +61,7 @@
     \end{tikzpicture}
     \begin{center}
         \vspace{-15pt} TRƯỜNG ĐẠI HỌC SÀI GÒN\\
-        \textbf{\fontsize{16pt}{0pt}\selectfont KHOA TOÁN ỨNG DỤNG}
+        \textbf{\fontsize{16pt}{0pt}\selectfont KHOA TOÁN-ỨNG DỤNG}
         \vspace{0.5cm}
         \begin{figure}[H]
             \centering
@@ -78,7 +78,7 @@
         \begin{center}
         \textbf{\fontsize{20pt}{0pt}\selectfont TỐI ƯU TUYẾN TÍNH CÓ THAM SỐ} 
         \end{center}
-        \vspace{1cm}
+        \vspace{-0.5cm}
         \begin{table}[H]
             \centering
             \begin{tabular}{l l}
@@ -107,7 +107,7 @@
             \end{tikzpicture}
             \begin{center}
                 \vspace{-15pt} TRƯỜNG ĐẠI HỌC SÀI GÒN\\
-                \textbf{\fontsize{16pt}{0pt}\selectfont KHOA TOÁN ỨNG DỤNG}
+                \textbf{\fontsize{16pt}{0pt}\selectfont KHOA TOÁN-ỨNG DỤNG}
                 \vspace{0.5cm}
                 \begin{figure}[H]
                     \centering
@@ -138,23 +138,22 @@
                
                 \end{tabular}
                 \end{table}
-                \vspace{0.5cm}
+                \vspace{-0.5cm}
                 \fontsize{14pt}{0pt}\selectfont Thành phố Hồ Chí Minh, tháng 9 năm 2023
                 \end{center}
             \end{titlepage}
             \cleardoublepage
 \tableofcontents
-\section*{Lời nói đầu}
-jhskjhdfhaksgfkjsbvckcvbxzvck
-àdsfsfdsjhfd
-sdfsdf
-sdfsdf
-sdfsd\\
-sdfsdfsdfssdfsdfsdfsd
-sdfsdfsdfsdfsd
-dfsddfsdfsdfsdf
+\section*{\textbf{\fontsize{25}{25}\selectfont Lời nói đầu}}
+
+\begin{center}
+\textbf{\fontsize{25}{25}\selectfont Lời cam đoan}
+\end{center}
 \cleardoublepage
-\section*{\uline{Chương 1. Lý thuyết quy hoạch tuyến tính}}
+\section*{\uline{Chương 1}\\
+\centering
+ Lý thuyết quy hoạch tuyến tính}
+\addcontentsline {toc} {section} {Chương 1. Lý thuyết quy hoạch tuyến tính}
 \subsection{Bài toán đơn hình}
 \subsubsection{Thuật toán  M}
 \subsubsection{Thuật toán 2 pha}
@@ -346,8 +345,21 @@ Vậy nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$ là $y^
 
 
 \cleardoublepage
-\section*{\uline{Chương 2. Tối ưu tuyến tính chứa tham số}}
-\subsection{Tối ưu tuyến tính chứa tham số hàm mục tiêu}
+\section*{\uline{Chương 2}\\
+\centering
+ TỐI ƯU TUYẾN TÍNH CHỨA THAM SỐ}
+ \addcontentsline {toc} {section} {Chương 2. Tối ưu tuyến tính chứa tham số}
+ Trong thực tế,ở một số mô hình Bài toán Quy hoạch tuyến tính, 
+ các hệ số ban đầu như
+  $a_{ij},b_i,c_j,i=\overline{1,m},j=\overline{1.n}$,
+  có thể không xác định một cách chính xác mà có thể dao động,
+   biến đổi phụ thuộc vào một hay nhiều tham số như thời gian,\ bão lụt,\ tắc đường,\ nguyên liệu v.v\ldots
+
+
+
+\subsection{PHƯƠNG PHÁP ĐƠN HÌNH GIẢI BÀI TOÁN 
+QUY HOẠCH TUYẾN TÍNH THAM SỐ Ở HÀM MỤC TIÊU}
+\subsection{Tối ưu tuyến tính chứa tham số vế phải ràng buộc}
 
 
 

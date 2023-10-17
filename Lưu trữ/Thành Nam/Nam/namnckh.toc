@@ -8,10 +8,11 @@
 \contentsline {subsubsection}{\numberline {1.2.2}Thuật toán đơn hình đối ngẫu}{2}{subsubsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.3}Bài toán đối ngẫu}{2}{subsection.1.3}%
 \contentsline {subsubsection}{\numberline {1.3.1}Qui tắc cho bài toán đối ngẫu }{2}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Lý thuyết đối ngẫu dạng chuẩn tắc}{3}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.2}Lý thuyết đối ngẫu dạng chuẩn tắc}{4}{subsubsection.1.3.2}%
 \contentsline {subsubsection}{\numberline {1.3.3}Lý thuyết đối ngẫu dạng chính tắc}{5}{subsubsection.1.3.3}%
 \contentsline {subsubsection}{\numberline {1.3.4}Ví dụ minh hoạ}{6}{subsubsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.4}Tài liệu tham khảo}{7}{subsection.1.4}%
-\contentsline {section}{Chương 2. Tối ưu tuyến tính chứa tham số}{8}{section*.4}%
-\contentsline {subsection}{\numberline {1.5}PHƯƠNG PHÁP ĐƠN HÌNH GIẢI BÀI TOÁN QUY HOẠCH TUYẾN TÍNH THAM SỐ Ở HÀM MỤC TIÊU}{8}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Tối ưu tuyến tính chứa tham số vế phải ràng buộc}{8}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.4}Tài liệu tham khảo}{8}{subsection.1.4}%
+\contentsline {section}{Chương 2. Tối ưu tuyến tính chứa tham số}{9}{section*.4}%
+\contentsline {subsection}{\numberline {1.5}Phương pháp giải Bài toán QHTT chứa tham số ở hàm mục tiêu}{9}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Cơ sở lý thuyết và thuật toán}{9}{subsubsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.6}Phương pháp giải Bài toán QHTT chứa tham số vế phải ràng buộc}{9}{subsection.1.6}%

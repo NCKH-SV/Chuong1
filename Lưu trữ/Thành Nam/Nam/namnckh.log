@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  16 OCT 2023 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  17 OCT 2023 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -918,7 +918,7 @@ Package hyperref Info: Link coloring OFF on input line 49.
 \@outlinefile=\write4
 \openout4 = `namnckh.out'.
 
-<imge/logodhsg.png, id=70, 1223.57124pt x 1223.57124pt>
+<imge/logodhsg.png, id=74, 1223.57124pt x 1223.57124pt>
 File: imge/logodhsg.png Graphic file (type png)
 <use imge/logodhsg.png>
 Package pdftex.def Info: imge/logodhsg.png  used on input line 68.
@@ -986,12 +986,7 @@ l.152 \cleardoublepage
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--195
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
@@ -999,80 +994,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--195
 
 
 {C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 192--199
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 231--234
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
 
-[5]
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/namnckh.tex:285: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
+
+ []
+
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/namnckh.tex:295: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 
+l.295 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--305
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Overfull \hbox (232.42616pt too wide) in paragraph at lines 335--341
+Overfull \hbox (36.38121pt too wide) in paragraph at lines 347--353
 \T5/ptm/m/n/15.59996 c�a $[]$ l� $[]$ c� $\OML/ztmcm/m/it/15.59996 x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0\OML/ztmcm/m/it/15.59996 ; x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0\OML/ztmcm/m/it/15.59996 ; x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0$ \T5/ptm/m/n/15.59996 ta suy ra :$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--341
+Underfull \hbox (badness 10000) in paragraph at lines 347--353
 
  []
 
-[7] [8
+[7] [8] [9
 
 
 ] (namnckh.aux)
@@ -1081,20 +1065,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `namnckh.out' has not changed.
-(rerunfilecheck)             Checksum: 137068D150797F1673C39B604DB06AD8;3903.
+(rerunfilecheck)             Checksum: 67FABF66077D3E59E0C82B18BA54D396;4105.
  ) 
 Here is how much of TeX's memory you used:
  25742 strings out of 475248
- 467291 string characters out of 5758285
- 1930785 words of memory out of 5000000
- 46747 multiletter control sequences out of 15000+600000
+ 467301 string characters out of 5758285
+ 1933785 words of memory out of 5000000
+ 46748 multiletter control sequences out of 15000+600000
  633285 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,15n,107p,675b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,15n,107p,563b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on namnckh.pdf (10 pages, 877896 bytes).
+Output written on namnckh.pdf (11 pages, 879700 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 224 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

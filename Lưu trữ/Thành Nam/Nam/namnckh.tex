@@ -20,7 +20,7 @@
 \usetikzlibrary{calc} % Thư viện tikz
 \usepackage{indentfirst} % Thư viện thụt đầu dòng 
 \usepackage{ulem} % lệnh gạch dưới
-\sectionfont{\centering} 
+\sectionfont{\centering} % căn giữa section
 \setcounter{tocdepth}{1}
 \setcounter{tocdepth}{2}
 \setcounter{tocdepth}{3}
@@ -150,9 +150,10 @@
 \textbf{\fontsize{25}{25}\selectfont Lời cam đoan}
 \end{center}
 \cleardoublepage
-\section*{\uline{Chương 1}\\
+\section*{\uuline{Chương 1}\\
 \centering
- Lý thuyết quy hoạch tuyến tính}
+\vspace{0.5cm}
+CƠ SỞ LÝ THUYẾT QUY HOẠCH TUYẾN TÍNH}
 \addcontentsline {toc} {section} {Chương 1. Lý thuyết quy hoạch tuyến tính}
 \subsection{Bài toán đơn hình}
 \subsubsection{Thuật toán  M}
@@ -162,12 +163,12 @@
 \subsubsection{Thuật toán đơn hình đối ngẫu}
 \subsection{Bài toán đối ngẫu}
 \subsubsection{Qui tắc cho bài toán đối ngẫu }
-\begin{equation}
+\begin{equation*}
     \begin{split}
         M &= \{1,2,3, \ldots , m\} , M_1 = \{ 1,2,3, \ldots , m_1 \} , m_1 \leq m \\
         N &= \{ 1,2,3, \ldots , n\} , N_1 = \{ 1,2,3, \ldots , n_1\} , n_1 \leq n
     \end{split}
-\end{equation}
+\end{equation*}
 Trường hợp 1: $(P) \: Min \rightarrow (D) Max$ \\
 \begin{center}
     \begin{tabular}{|c|c|c|c|}
@@ -188,7 +189,10 @@ Trường hợp 1: $(P) \: Min \rightarrow (D) Max$ \\
         \hline
     \end{tabular}
 \end{center}
-Chú ý: Nếu có $\sum_{j=1}^n \leq b_i$, thì theo nguyên tắc đối ngẫu sẽ ứng với biến $y_i \leq 0$. Trong thực tế nên chuyển về trường hợp 2 bằng cách nhân cả hai vế của bđt cho $-1$. \\
+Chú ý: Nếu có $\sum_{j=1}^n \leq b_i$, thì theo nguyên 
+tắc đối ngẫu sẽ ứng với biến $y_i \leq 0$. 
+Trong thực tế nên chuyển về trường hợp 2 bằng cách
+ nhân cả hai vế của bất đẳng thức(bđt) cho $-1$. \\
 \vspace{20pt}
 \\            
 Trường hợp 2: $(P) \: Max \rightarrow (D) Min$ \\
@@ -211,24 +215,28 @@ Trường hợp 2: $(P) \: Max \rightarrow (D) Min$ \\
         \hline
     \end{tabular}
 \end{center}
-Chú ý: Nếu có $\sum_{j=1}^n a_{ij} \geq b_i$, thì theo nguyên tắc đối ngẫu sẽ ứng với biến $y_i \leq 0$. Trong thực tế nên chuyển về trường hợp 2 bằng cách nhân cả hai vế của bất đẳng thức cho $-1$. (Các ràng buộc ẩn tự do thường ta không cần ghi và bỏ qua nó).
+Chú ý: Nếu có $\sum_{j=1}^n a_{ij} \geq b_i$, thì theo nguyên tắc 
+đối ngẫu sẽ ứng với biến $y_i \leq 0$. Trong thực tế nên chuyển về
+ trường hợp 2 bằng cách nhân cả hai vế của bđt cho $-1$. (Các ràng
+  buộc ẩn tự do thường ta không cần ghi và bỏ qua nó).
 \subsubsection{Lý thuyết đối ngẫu dạng chuẩn tắc}
-Bài toán chuẩn tắc có dạng như sau, với $A \in M_{m \times n},b \in R^m, c \in R^n$ \\ 
-\begin{equation}
+Bài toán chuẩn tắc có dạng như sau,
+ với $A \in M_{m \times n},b \in R^m, c \in R^n$ \\ 
+\begin{equation*}
     \begin{split}
         (P) \quad c^Tx &\rightarrow Min \\
         Ax &\geq b \\
         x &\geq 0 
     \end{split}
-\end{equation}
+\end{equation*}
 Với bài toán như trên ta có bài toán đối ngẫu như sau với $y \in R^m$ : \\
-\begin{equation}
+\begin{equation*}
     \begin{split}
         (D) \quad b^Ty &\rightarrow Max \\
         A^Ty &\leq c \\
         y &\geq 0
     \end{split}
-\end{equation}
+\end{equation*}
 Cặp bài toán trên được gọi là cặp bài toán đối ngẫu đối xứng vì chứa đủ ba phần : Hàm mục tiêu,ràng buộc đẳng thức (bất đẳng thức) và biến không âm. \\
 \begin{dl}
     Với mọi phương án $x$ của bài toán $(P)$ và mọi phương án y của bài toán $(P^*)/(D)$, ta có $$g(y) \leq f(x)$$
@@ -278,7 +286,9 @@ Cặp $(x^*,y^*)$ tướng ứng là nghiệm tối ưu của bài toán $(1)$ v
 \[\text{Nếu } \sum_{i=1}^ma_{ij}y_i^* < c_j \text{ thì } x_j^*=0\]
 \end{dl}
 \subsubsection{Ví dụ minh hoạ}
-\textbf{1. Cho bài toán quy hoạch tuyến tính như sau:}\\
+\hspace{-1cm}
+\textbf{1. Cho bài toán quy hoạch tuyến tính (QHTT) như sau:}\\
+\vspace{-0.4cm}
 \begin{center}
 $\left(P\right)$ \quad $f(x)=2x_1-3x_2+4x_3-6x_4\longrightarrow Min$\\
 \end{center}\\
@@ -301,7 +311,8 @@ Cặp ràng buộc : $\begin{array}{cr}
 x_1\geq 0\; \&(4) &y_2\leq 0\; \&(2)\\
 x_2\geq 0\; \&(5) &y_3\leq 0\; \&(3)\\
 \end{array}$\\
-\textbf{2.Cho bài toán quy hoạch tuyến tính như sau:}\\
+\textbf{2.Cho bài toán QHTT như sau:}\\
+\vspace{-0.4cm}
 \begin{center}
 \big(P\big)\quad $f(x)=2x_1+2x_2+x_3+x_4 \longrightarrow Max$\\
 \end{center}
@@ -320,6 +331,7 @@ x_i\geq 0,i=1,2,3,4
 \textbf{Giải}
 \end{center}
 i.Ta có bài toán đối ngẫu như sau:\\
+\vspace{-0.5cm}
 \begin{center}
 $\left(D\right)$: $g(y)=50y_1+16y_2+23y_3 \longrightarrow  Min$\\
 \end{center}
@@ -335,9 +347,11 @@ y_2\leq 0,y_3\geq 0
 Áp dụng định lí độ lệch bù của bài toán đối ngẫu đối xứng,với \textbf{PATƯ} của $\left(P\right)$ là 
 $\left(0,14,6,5\right)$ có $x_2\geq 0,x_3\geq 0,x_4\geq 0$ ta suy ra :$\left\{\begin{aligned} 
 y_1&=2 \\
-y_1+y_2+3y_3&=1\quad;\qquad  \Longleftrightarrow \quad y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)\\
+y_1+y_2+3y_3&=1\quad;\\
 6y_1+2y_2+y_3&=1 
 \end{aligned}\right.$\\
+
+$\Longleftrightarrow \quad y^*=\left(2,\frac{-32}{5},\frac{9}{5}\right)$
 
 Vậy nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$ là $y^*=\left(2,\dfrac{-32}{5},\dfrac{9}{5}\right)$
 
@@ -347,19 +361,33 @@ Vậy nghiệm tối ưu của bài toán đối ngẫu $\left(D\right)$ là $y^
 \cleardoublepage
 \section*{\uline{Chương 2}\\
 \centering
+\vspace{0.5cm}
  TỐI ƯU TUYẾN TÍNH CHỨA THAM SỐ}
  \addcontentsline {toc} {section} {Chương 2. Tối ưu tuyến tính chứa tham số}
- Trong thực tế,ở một số mô hình Bài toán Quy hoạch tuyến tính, 
+ Trong thực tế,ở một số mô hình Bài toán QHTT, 
  các hệ số ban đầu như
   $a_{ij},b_i,c_j,i=\overline{1,m},j=\overline{1.n}$,
   có thể không xác định một cách chính xác mà có thể dao động,
-   biến đổi phụ thuộc vào một hay nhiều tham số như thời gian,\ bão lụt,\ tắc đường,\ nguyên liệu v.v\ldots
+   biến đổi phụ thuộc vào một hay nhiều tham số như thời gian,
+\ bão lụt,\ tắc đường,\ nguyên liệu v.v\ldots Đồng thời sẽ phải giải từng bài 
+toán quy hoạch  tuyến tính ứng với từng giá trị khác nhau của tham số đấy thì
+chi phí tính toán phát sinh rất lớn.Do đó việc tìm phương án tối ưu
+ cho bài toán QHTT sẽ bị mất đi ý nghĩa kinh tế của nó.\\
+ \qquad Để khắc phục tình trạng này,
 
 
 
-\subsection{PHƯƠNG PHÁP ĐƠN HÌNH GIẢI BÀI TOÁN 
-QUY HOẠCH TUYẾN TÍNH THAM SỐ Ở HÀM MỤC TIÊU}
-\subsection{Tối ưu tuyến tính chứa tham số vế phải ràng buộc}
+
+
+
+
+\subsection{Phương pháp giải Bài toán QHTT chứa tham số ở hàm mục tiêu}
+\subsubsection{Cơ sở lý thuyết và thuật toán}
+Ta xét Bài toán quy hoạch sau đây:\\
+\textit{Tìm giá trị của $x_1,x_2.\ldots,x_n$ làm cực tiểu hàm
+ mục tiêu}
+
+\subsection{Phương pháp giải Bài toán QHTT chứa tham số vế phải ràng buộc}
 
 
 

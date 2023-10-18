@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  18 OCT 2023 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  18 OCT 2023 21:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -502,6 +502,9 @@ LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/cases\cases.sty
+Package: cases 2020/03/29 ver 3.2
+\numc@numwid=\dimen165
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count288
@@ -511,8 +514,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box54
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks29
-\pgfutil@tempdima=\dimen165
-\pgfutil@tempdimb=\dimen166
+\pgfutil@tempdima=\dimen166
+\pgfutil@tempdimb=\dimen167
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box55
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -527,16 +530,16 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks32
 ))
-\pgf@x=\dimen167
-\pgf@y=\dimen168
-\pgf@xa=\dimen169
-\pgf@ya=\dimen170
-\pgf@xb=\dimen171
-\pgf@yb=\dimen172
-\pgf@xc=\dimen173
-\pgf@yc=\dimen174
-\pgf@xd=\dimen175
-\pgf@yd=\dimen176
+\pgf@x=\dimen168
+\pgf@y=\dimen169
+\pgf@xa=\dimen170
+\pgf@ya=\dimen171
+\pgf@xb=\dimen172
+\pgf@yb=\dimen173
+\pgf@xc=\dimen174
+\pgf@yc=\dimen175
+\pgf@xd=\dimen176
+\pgf@yd=\dimen177
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count289
@@ -580,7 +583,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen177
+\pgfmath@dimen=\dimen178
 \pgfmath@count=\count296
 \pgfmath@box=\box56
 \pgfmath@toks=\toks36
@@ -590,28 +593,28 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 \c@pgfmathroundto@lastzeros=\count297
 )) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen178
-\pgf@picmaxx=\dimen179
-\pgf@picminy=\dimen180
-\pgf@picmaxy=\dimen181
-\pgf@pathminx=\dimen182
-\pgf@pathmaxx=\dimen183
-\pgf@pathminy=\dimen184
-\pgf@pathmaxy=\dimen185
-\pgf@xx=\dimen186
-\pgf@xy=\dimen187
-\pgf@yx=\dimen188
-\pgf@yy=\dimen189
-\pgf@zx=\dimen190
-\pgf@zy=\dimen191
+\pgf@picminx=\dimen179
+\pgf@picmaxx=\dimen180
+\pgf@picminy=\dimen181
+\pgf@picmaxy=\dimen182
+\pgf@pathminx=\dimen183
+\pgf@pathmaxx=\dimen184
+\pgf@pathminy=\dimen185
+\pgf@pathmaxy=\dimen186
+\pgf@xx=\dimen187
+\pgf@xy=\dimen188
+\pgf@yx=\dimen189
+\pgf@yy=\dimen190
+\pgf@zx=\dimen191
+\pgf@zy=\dimen192
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen192
-\pgf@path@lasty=\dimen193
+\pgf@path@lastx=\dimen193
+\pgf@path@lasty=\dimen194
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen194
-\pgf@shorten@start@additional=\dimen195
+\pgf@shorten@end@additional=\dimen195
+\pgf@shorten@start@additional=\dimen196
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box57
@@ -620,12 +623,12 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picture@serial@count=\count298
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen196
+\pgflinewidth=\dimen197
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen197
-\pgf@pt@y=\dimen198
-\pgf@pt@temp=\dimen199
+\pgf@pt@x=\dimen198
+\pgf@pt@y=\dimen199
+\pgf@pt@temp=\dimen256
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -634,10 +637,10 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen256
+\pgfarrowsep=\dimen257
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen257
+\pgf@max=\dimen258
 \pgf@sys@shading@range@num=\count299
 \pgf@shadingcount=\count300
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
@@ -660,14 +663,14 @@ File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen258
-\pgf@nodesepend=\dimen259
+\pgf@nodesepstart=\dimen259
+\pgf@nodesepend=\dimen260
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen260
-\pgffor@skip=\dimen261
+\pgffor@iter=\dimen261
+\pgffor@skip=\dimen262
 \pgffor@stack=\toks39
 \pgffor@toks=\toks40
 )) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
@@ -675,16 +678,16 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count301
-\pgfplotmarksize=\dimen262
+\pgfplotmarksize=\dimen263
 )
-\tikz@lastx=\dimen263
-\tikz@lasty=\dimen264
-\tikz@lastxsaved=\dimen265
-\tikz@lastysaved=\dimen266
-\tikz@lastmovetox=\dimen267
-\tikz@lastmovetoy=\dimen268
-\tikzleveldistance=\dimen269
-\tikzsiblingdistance=\dimen270
+\tikz@lastx=\dimen264
+\tikz@lasty=\dimen265
+\tikz@lastxsaved=\dimen266
+\tikz@lastysaved=\dimen267
+\tikz@lastmovetox=\dimen268
+\tikz@lastmovetoy=\dimen269
+\tikzleveldistance=\dimen270
+\tikzsiblingdistance=\dimen271
 \tikz@figbox=\box62
 \tikz@figbox@bg=\box63
 \tikz@tempbox=\box64
@@ -706,22 +709,22 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count310
 \mult@box=\box66
-\multicol@leftmargin=\dimen271
+\multicol@leftmargin=\dimen272
 \c@unbalance=\count311
 \c@collectmore=\count312
 \doublecol@number=\count313
 \multicoltolerance=\count314
 \multicolpretolerance=\count315
-\full@width=\dimen272
-\page@free=\dimen273
-\premulticols=\dimen274
-\postmulticols=\dimen275
+\full@width=\dimen273
+\page@free=\dimen274
+\premulticols=\dimen275
+\postmulticols=\dimen276
 \multicolsep=\skip54
 \multicolbaselineskip=\skip55
 \partial@page=\box67
 \last@line=\box68
 \mc@boxedresult=\box69
-\maxbalancingoverflow=\dimen276
+\maxbalancingoverflow=\dimen277
 \mult@rightbox=\box70
 \mult@grightbox=\box71
 \mult@firstbox=\box72
@@ -765,9 +768,9 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@minrows=\count316
 \c@columnbadness=\count317
 \c@finalcolumnbadness=\count318
-\last@try=\dimen277
-\multicolovershoot=\dimen278
-\multicolundershoot=\dimen279
+\last@try=\dimen278
+\multicolovershoot=\dimen279
+\multicolundershoot=\dimen280
 \mult@nat@firstbox=\box110
 \colbreak@box=\box111
 \mc@col@check@num=\count319
@@ -795,9 +798,9 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen280
+\col@sep=\dimen281
 \ar@mcellbox=\box112
-\extrarowheight=\dimen281
+\extrarowheight=\dimen282
 \NC@list=\toks42
 \extratabsurround=\skip56
 \backup@length=\skip57
@@ -815,12 +818,12 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 \UL@hyphenbox=\box115
 \UL@skip=\skip59
 \UL@hook=\toks44
-\UL@height=\dimen282
+\UL@height=\dimen283
 \UL@pe=\count321
-\UL@pixel=\dimen283
+\UL@pixel=\dimen284
 \ULC@box=\box116
 Package: ulem 2019/11/18
-\ULdepth=\dimen284
+\ULdepth=\dimen285
 )
 \c@theorem=\count322
 \c@corollary=\count323
@@ -829,7 +832,7 @@ Package: ulem 2019/11/18
 \c@bd=\count326
 \c@hq=\count327
 \c@cy=\count328
-LaTeX Font Info:    Trying to load font information for T5+ptm on input line 49.
+LaTeX Font Info:    Trying to load font information for T5+ptm on input line 50.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -839,26 +842,26 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (namnckh.aux)
 \openout1 = `namnckh.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -897,13 +900,13 @@ LaTeX Font Info:    ... okay on input line 49.
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count330
-\scratchdimen=\dimen285
+\scratchdimen=\dimen286
 \scratchbox=\box118
 \nofMPsegments=\count331
 \nofMParguments=\count332
 \everyMPshowfont=\toks45
 \MPscratchCnt=\count333
-\MPscratchDim=\dimen286
+\MPscratchDim=\dimen287
 \MPnumerator=\count334
 \makeMPintoPDFobject=\count335
 \everyMPtoPDFconversion=\toks46
@@ -913,7 +916,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 50.
  (namnckh.out) (namnckh.out)
 \@outlinefile=\write4
 \openout4 = `namnckh.out'.
@@ -921,47 +924,47 @@ Package hyperref Info: Link coloring OFF on input line 49.
 <imge/logodhsg.png, id=74, 1223.57124pt x 1223.57124pt>
 File: imge/logodhsg.png Graphic file (type png)
 <use imge/logodhsg.png>
-Package pdftex.def Info: imge/logodhsg.png  used on input line 68.
+Package pdftex.def Info: imge/logodhsg.png  used on input line 69.
 (pdftex.def)             Requested size: 170.70135pt x 170.70135pt.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 84.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 84.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 85.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 85.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 84.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 85.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 84.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 85.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 84.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 85.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 84.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 85.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.62007> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.80008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
  [1
 
 {C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc} <./imge/logodhsg.png>]
 File: imge/logodhsg.png Graphic file (type png)
 <use imge/logodhsg.png>
-Package pdftex.def Info: imge/logodhsg.png  used on input line 114.
+Package pdftex.def Info: imge/logodhsg.png  used on input line 115.
 (pdftex.def)             Requested size: 170.70135pt x 170.70135pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.144             \end{titlepage}
+l.145             \end{titlepage}
                                   [1
 
 
@@ -981,12 +984,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.36006> not available
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 \cleardoublepage
+l.153 \cleardoublepage
                        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
@@ -994,72 +997,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
 
 {C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 192--199
+Underfull \hbox (badness 10000) in paragraph at lines 193--200
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--242
+Underfull \hbox (badness 10000) in paragraph at lines 240--243
 
  []
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/namnckh.tex:295: LaTeX Error: There's no line here to end.
+c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Lưu trữ/Thành Nam/Nam/namnckh.tex:296: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.295 
+l.296 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 324--326
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 
-Overfull \hbox (36.38121pt too wide) in paragraph at lines 347--353
+Overfull \hbox (36.38121pt too wide) in paragraph at lines 348--354
 \T5/ptm/m/n/15.59996 c�a $[]$ l� $[]$ c� $\OML/ztmcm/m/it/15.59996 x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0\OML/ztmcm/m/it/15.59996 ; x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0\OML/ztmcm/m/it/15.59996 ; x[] \OMS/ztmcm/m/n/15.59996 ^^U \OT1/ztmcm/m/n/15.59996 0$ \T5/ptm/m/n/15.59996 ta suy ra :$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 348--354
 
  []
 
 [7] [8] [9
 
 
-] (namnckh.aux)
+] [10] (namnckh.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1068,17 +1071,17 @@ Package rerunfilecheck Info: File `namnckh.out' has not changed.
 (rerunfilecheck)             Checksum: 67FABF66077D3E59E0C82B18BA54D396;4105.
  ) 
 Here is how much of TeX's memory you used:
- 25743 strings out of 475248
- 467313 string characters out of 5758285
+ 25789 strings out of 475248
+ 468212 string characters out of 5758285
  1933785 words of memory out of 5000000
- 46748 multiletter control sequences out of 15000+600000
+ 46789 multiletter control sequences out of 15000+600000
  633285 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,107p,563b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on namnckh.pdf (11 pages, 880430 bytes).
+Output written on namnckh.pdf (12 pages, 882147 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
  154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,6 +8,7 @@
 \usepackage{graphicx} % Thư viện chèn ảnh
 \usepackage{hyperref}
 \usepackage{amsfonts,amsmath,amssymb} % Khai báo công thức toán học
+\usepackage{cases}
 \usepackage{float} % Set vị trì chèn ảnh 
 \usepackage{tikz} % Thư viện tạo khung bìa 
 \usepackage{multicol}
@@ -389,9 +390,21 @@ Ta xét Bài toán quy hoạch sau đây:\;
  mục tiêu}\;
 
  \begin{equation}
-  f(x)=\displaystyle\sum\limits_{j=1}^n(c_j+d_jt)x_j
+  f(x)=\displaystyle\sum\limits_{j=1}^n(c_j+d_jt)x_j 
    \longrightarrow Min
  \end{equation}\;
+
+ \textit{ứng với các ràng buộc đẳng thức như sau :}\;
+
+\begin{equation}
+    \begin{cases}
+ \displaystyle\sum\limits_{j=1}^na_{ij}x_j=b_i  & i=\overline{1,m}\\ 
+ x_j\geq 0 & j=\overline{1,n}\\ 
+ u\leq t \leq v\\ 
+ \end{cases}
+\end{equation}
+
+
 
 
 

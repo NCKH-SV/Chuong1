@@ -7,6 +7,7 @@
 \usepackage{mathptmx} % Time New Roman
 \usepackage{graphicx} % Thư viện chèn ảnh
 \usepackage{hyperref}
+\usepackage{witharrows} % thuư viện dấu ngoặc ngọn vuông
 \usepackage{amsfonts,amsmath,amssymb} % Khai báo công thức toán học
 \usepackage{cases}
 \usepackage{float} % Set vị trì chèn ảnh 
@@ -396,14 +397,11 @@ Ta xét Bài toán quy hoạch sau đây:\;
 
  \textit{ứng với các ràng buộc đẳng thức như sau :}\;
 
-\begin{equation}
-    \begin{cases}
- \displaystyle\sum\limits_{j=1}^na_{ij}x_j=b_i  & i=\overline{1,m}\\ 
- x_j\geq 0 & j=\overline{1,n}\\ 
- u\leq t \leq v\\ 
- \end{cases}
-\end{equation}
-
+ \begin{DispWithArrows}<>
+    \qquad \displaystyle\sum\limits_{j=1}^na_{ij}x_j=b_i\quad  & i=\overline{1,m}\\ 
+    x_j\geq 0\quad & j=\overline{1,n}\\
+    & u\leq t\leq v
+   \end{DispWithArrows}
 
 
 

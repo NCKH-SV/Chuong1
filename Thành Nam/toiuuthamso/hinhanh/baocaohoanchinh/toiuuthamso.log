@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  28 OCT 2023 08:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  29 OCT 2023 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/nam.tex"
-(c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/nam.tex
+**"c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/toiuuthamso/hinhanh/baocaohoanchinh/toiuuthamso.tex"
+(c:/Users/Home/OneDrive/Tài liệu/GitHub/Chuong1/Thành Nam/toiuuthamso/hinhanh/baocaohoanchinh/toiuuthamso.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -536,7 +536,7 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes.sty)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefault.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemedefault.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemedefault.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemedefault.sty
 \beamer@dima=\dimen292
 \beamer@dimb=\dimen293
-) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemesplit.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemewhale.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemesplit.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemestructurebold.sty)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vietnam.sty
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vietnam.sty
 Package: vietnam 2009/07/12 v1.3 support for Vietnamese
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
@@ -721,7 +721,11 @@ Package textpos Info: choosing support for LaTeX3 on input line 60.
 Grid set 16 x 16 = 22.7622pt x 17.07166pt
 \TPboxrulesize=\dimen298
 \TP@tbargs=\toks48
-)
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeWarsaw.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemerounded.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemeshadow.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemesplit.sty)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemeorchid.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemewhale.sty))
 \c@dn=\count334
 \c@dl=\count335
 \c@tc=\count336
@@ -765,16 +769,12 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 765.
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write5
- Excluding comment 'comment') (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemeprofessionalfonts.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeDarmstadt.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemesmoothbars.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemerounded.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemeorchid.sty)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ Excluding comment 'comment') (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemeprofessionalfonts.sty) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeDarmstadt.sty (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemesmoothbars.sty)) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box79
-) (nam.aux
-
-LaTeX Warning: Label `tc' multiply defined.
-
-)
-\openout1 = `nam.aux'.
+) (toiuuthamso.aux)
+\openout1 = `toiuuthamso.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
@@ -855,9 +855,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 47.
- (nam.out) (nam.out)
+ (toiuuthamso.out) (toiuuthamso.out)
 \@outlinefile=\write6
-\openout6 = `nam.out'.
+\openout6 = `toiuuthamso.out'.
 
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -871,9 +871,9 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (nam.nav)
-Overfull \hbox (126.61365pt too wide) detected at line 47
-  [] [][][] [][] [][] [][] [][] [][]  
+) (toiuuthamso.nav)
+Overfull \hbox (9.48724pt too wide) detected at line 47
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 
@@ -881,199 +881,225 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 53.
 
 
-Overfull \hbox (126.61365pt too wide) detected at line 69
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) detected at line 69
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 
-Overfull \vbox (41.37933pt too high) detected at line 69
+Overfull \vbox (40.6212pt too high) detected at line 69
  []
 
 
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [1{C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-Overfull \hbox (126.61365pt too wide) detected at line 75
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) detected at line 73
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
-(nam.toc)
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+(toiuuthamso.toc)
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [2
 
 ]
-Overfull \hbox (126.61365pt too wide) detected at line 84
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) detected at line 94
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 105.
-(C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
-File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 105.
- (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+(C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 105.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
  (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \vbox (14.60751pt too high) detected at line 105
- []
-
-
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [3
 
 ]
-Overfull \hbox (126.61365pt too wide) detected at line 108
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) detected at line 109
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [4
 
 ]
-Overfull \hbox (126.61365pt too wide) detected at line 121
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) detected at line 132
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
+ []
+
+<anh1vidu1.png, id=360, 440.847pt x 290.2845pt>
+File: anh1vidu1.png Graphic file (type png)
+<use anh1vidu1.png>
+Package pdftex.def Info: anh1vidu1.png  used on input line 132.
+(pdftex.def)             Requested size: 153.64493pt x 101.167pt.
+
+Overfull \vbox (20.10954pt too high) detected at line 132
  []
 
 
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [5
 
-]
-Overfull \hbox (126.61365pt too wide) detected at line 128
-  [] [][][] [][] [][] [][] [][] [][]  
+ <./anh1vidu1.png>]
+Overfull \hbox (9.48724pt too wide) detected at line 159
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
+<anh3vidu1.png, id=423, 476.37975pt x 343.2825pt>
+File: anh3vidu1.png Graphic file (type png)
+<use anh3vidu1.png>
+Package pdftex.def Info: anh3vidu1.png  used on input line 159.
+(pdftex.def)             Requested size: 153.64493pt x 110.71692pt.
 
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [6
 
-]
-Overfull \hbox (126.61365pt too wide) detected at line 145
-  [] [][][] [][] [][] [][] [][] [][]  
+ <./anh3vidu1.png>]
+Overfull \hbox (9.48724pt too wide) detected at line 182
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{tc}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.157 }
-       
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [7
 
 ]
-Overfull \hbox (126.61365pt too wide) detected at line 161
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) detected at line 197
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [8
 
 ]
-Overfull \hbox (126.61365pt too wide) detected at line 195
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) detected at line 207
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 
-LaTeX Font Warning: Font shape `T5/cmss/m/it' in size <10> not available
-(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 195.
-
-
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [9
 
- <C:/Users/Home/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>]
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+]
+Overfull \hbox (9.48724pt too wide) detected at line 235
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
+ []
+
+
+Overfull \hbox (10.01385pt too wide) in paragraph at lines 235--235
+ [] 
+ []
+
+
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [10
 
-
 ]
-Overfull \hbox (126.61365pt too wide) detected at line 202
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) detected at line 244
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 
-LaTeX Font Warning: Font shape `T5/cmss/m/it' in size <20.74> not available
-(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 202.
-
-
-Overfull \hbox (126.61365pt too wide) has occurred while \output is active
-  [] [][][] [][] [][] [][] [][] [][]  
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
  []
 
 [11
 
 ]
+Overfull \hbox (9.48724pt too wide) detected at line 263
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
+ []
+
+
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
+ []
+
+[12
+
+ <C:/Users/Home/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>]
+Overfull \hbox (9.48724pt too wide) detected at line 271
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
+ []
+
+
+LaTeX Font Warning: Font shape `T5/cmss/m/it' in size <20.74> not available
+(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 271.
+
+
+Overfull \hbox (9.48724pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][] [][][]  
+ []
+
+[13
+
+]
 \tf@nav=\write7
-\openout7 = `nam.nav'.
+\openout7 = `toiuuthamso.nav'.
 
 \tf@toc=\write8
-\openout8 = `nam.toc'.
+\openout8 = `toiuuthamso.toc'.
 
 \tf@snm=\write9
-\openout9 = `nam.snm'.
+\openout9 = `toiuuthamso.snm'.
 
- (nam.aux)
+ (toiuuthamso.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `nam.out' has not changed.
-(rerunfilecheck)             Checksum: C6BD9382A137D6068EB7FECBB7528355;1251.
+Package rerunfilecheck Info: File `toiuuthamso.out' has not changed.
+(rerunfilecheck)             Checksum: 8C090037FB55FF7D70B2B3F10B21FAE5;982.
  ) 
 Here is how much of TeX's memory you used:
- 23319 strings out of 475248
- 452399 string characters out of 5758285
- 1938785 words of memory out of 5000000
- 44275 multiletter control sequences out of 15000+600000
- 581640 words of font info for 69 fonts, out of 8000000 for 9000
+ 23466 strings out of 475248
+ 456050 string characters out of 5758285
+ 1941785 words of memory out of 5000000
+ 44432 multiletter control sequences out of 15000+600000
+ 573620 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,615b,815s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Home\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssbx10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssi17.pfb>
-Output written on nam.pdf (11 pages, 278069 bytes).
+ 128i,20n,123p,513b,795s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssbx10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssi17.pfb>
+Output written on toiuuthamso.pdf (13 pages, 343628 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 963 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

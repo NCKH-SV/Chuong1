@@ -1,5 +1,5 @@
 \documentclass{beamer}
-\setbeamertemplate{bibliography item}{}
+%\setbeamertemplate{bibliography item}{}
 \usepackage[utf8]{vietnam}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -7,9 +7,9 @@
 \usepackage{textpos}
 \usepackage{enumerate}
 \usepackage{graphicx}
-\usepackage{booktabs}
+%\usepackage{booktabs}
 \usepackage{cite}
-\usepackage{natbib}
+%\usepackage{natbib}
 \usetheme{Warsaw}
 \newtheorem{dn}{Định nghĩa}[section]
 \newtheorem{dl}{Định lý}[section]
@@ -74,131 +74,129 @@ NGÀNH: TOÁN ỨNG DỤNG}}
 
 \section{Mục đích nghiên cứu}
 
-\begin{frame}{Mục đích nghiên cứu}
-    $\bullet$ Tối ưu tuyến tính là một nội dung quan trọng trong chương trình đào tạo Cử nhân Toán ứng dụng. Kiến thức về lý thuyết, phương pháp giải bài toán tối ưu tuyến tính đã được cung cấp cho sinh viên Khoa Toán-Ứng dụng. 
+\begin{frame}{\bf Mục đích nghiên cứu}
+    $\bullet$ Quy hoạch tuyến tính là một môn học trong chương trình đào tạo Cử nhân Toán ứng dụng. Lý thuyết về các phương pháp giải bài toán tối ưu tuyến tính đã được giới thiệu.
     
-    $\bullet$ Với kiến thức đó, trong đề tài nghiên cứu này sẽ tìm hiểu và mở rộng thêm về dạng bài toán mà trong đó sẽ có tham số nhiễu lên bài toán Tối ưu tuyến tính được gọi là Tối ưu tuyến tính chứa tham số. 
+    \medskip
+    $\bullet$ Quy hoạch tuyến tính có nhiều ứng dụng trong các bài toán kinh tế. Các bài toán ấy có thể mô hình hóa dưới dạng:
+ $$
+\begin{array}{cl}
+{\rm Max \,(Min)} & \langle c,x \rangle\\
+{\rm s.t.}& Ax \ge (\le)\, b,\\
+& x \ge 0.  
+\end{array}
+$$
+Trong đó, $A$ là ma trận thực cấp $m \times n$,      các véc tơ $c \in \mathbb{R}^n, b \in \mathbb{R}^m$ và $x\in \mathbb{R}^n$ là ẩn cần tìm để  tối ưu hóa hàm mục tiêu $\langle c,x \rangle$.
+
+\medskip
+    
+ $\bullet$ Thực tế cho thấy rằng với một bài toán kinh tế đã xác lập xong có thể sẽ chịu những tác động khác, tức là có hiện tượng nhiễu. Đề tài nghiên cứu này  tìm hiểu  về dạng bài toán tối ưu tuyến tính có nhiễu với tên gọi  là bài toán Tối ưu tuyến tính  có chứa tham số. 
 \end{frame}
-%bo
-\begin{frame}{Ví dụ 1}
-$\bullet$ Cho bài toán tối ưu tuyến tính như sau:
+
+\begin{frame}{\bf Một số hiện tượng nhiễu}
+
+Qua quan sát người ta nhận thấy rằng hiện tượng nhiễu có thể xảy ra ở:
+\begin{itemize}
+\item Hàm mục tiêu;
+\item Véc tơ hằng ở ràng buộc vế phải;
+\item Hệ số gắn với từng biến.
+\end{itemize}
+
+Điều này cho thấy các vấn đề nêu trên có liên quan đến một tham số nhiễu và cần tìm hiểu tác động của tham số ấy vào mục tiêu của bài toán.
+
+
+
+\end{frame}
+
+\begin{frame}{Ví dụ}
+$\bullet$ Bài toán tối ưu tuyến tính dưới đây có mục tiêu xác định không phù hợp (không bị chặn), cần phải điều chỉnh hàm mục tiêu.
+
+$$
+    \begin{array}{ll}            
+        {\rm Min}&f(x)=-x_1+2x_2\\
+            & \begin{cases}
+                  x_1+x_2 \ge 1 \\
+                  -x_1+x_2 \ge 1 \\
+                  x_i\geq 0,\forall i=1,2.
+           \end{cases} 
+     \end{array}
+$$
 
 \begin{center}
-    $\left(P\right)$ \quad$f(x)=-x_1+2x_2 \quad \longrightarrow $Min
+\begin{figure}[ht]
+ \includegraphics[width=0.50\linewidth]   {anh1vidu1.png}  
+\caption{Hàm mục tiêu không bị chặn}
+\end{figure}
 \end{center}
-\[\left\{\begin{aligned}
-    x_1+x_2 \geq 1\\
-    -x_1+x_2\leq 1\\
-    x_1,x_2\geq 0
-\end{aligned}\right.\]
 
-
-
+\end{frame}
 
  
-\end{frame}
+
 %bo
-\begin{frame}{Ví dụ 1}
-   \begin{center}
-        \begin{figure}[ht]
-            \begin{center}
-
-            \includegraphics[width=0.75\linewidth]{hinhanh/anh1vidu1.png}  
-            
-            Hình minh hoạ bài toán
-            \end{center}
-      \end{figure}
-      \end{center}
-
-      Hướng di chuyển đường mức của bài toán tìm Min ở trên làm cho hàm mục tiêu không bị chặn và không có giá trị tối ưu.
-\end{frame}
 
 
-\begin{frame}{Ví dụ 1}
- Lúc này, với mong muốn bài toán có nghiệm, ta sẽ nhiễu  bằng cách thay đổi hàm mục tiêu. Giả sử với bài toán trên, ta thay đổi hệ số của nó đi một chút:
- \[\begin{aligned}
-     f(x)=-x_1+2x_2 \longrightarrow f(x)=x_1+2x_2
- \end{aligned}\]
+
+\begin{frame}
+Bằng cách thay đổi hàm mục tiêu, bài toán có nghiệm.
+$$
+    \begin{array}{ll}            
+        {\rm Min}&f(x)=x_1+2x_2\\
+            & \begin{cases}
+                  x_1+x_2 \ge 1 \\
+                  -x_1+x_2 \ge 1 \\
+                  x_i\geq 0,\forall i=1,2.
+           \end{cases} 
+     \end{array}
+$$
 \begin{center}
-     Khi đó ta vẽ lại hình minh họa
-\end{center}
-
-
-    
-
-\end{frame}
-
-\begin{frame}{Ví dụ 1}
-    \begin{center}
-        \begin{figure}[ht]
-            \begin{center}
-
-            \includegraphics[width=0.75\linewidth]{hinhanh/anh3vidu1.png}  
-            
-            Hình minh hoạ bài toán
-            \end{center}
-      \end{figure}
-      Dễ thấy bài toán đạt tối ưu tại điểm $(1;0)$
-      \end{center}
+\begin{figure}[ht]
+ \includegraphics[width=0.5\linewidth]{anh3vidu1.png}  
+\caption{Bài toán đạt tối ưu tại điểm $(1;0)$}
+ \end{figure}
+ \end{center}
       
 \end{frame}
 
-
-\begin{frame}{Ví dụ 2}
-
-Một nhà máy sản xuất hai sản phẩm trên 2 máy:
-
+\begin{frame}
+Thực ra việc điều chỉnh hàm mục tiêu nêu trên là kết quả của quá trình nhiễu trên hàm mục tiêu:
 \begin{itemize}
-    \item Đơn vị sản phẩm I cần 2 giờ trên máy 1 và 1 giờ trên máy 2.
-    \item Đơn vị sản phẩm II cần 1 giờ trên máy 1 và 3 giờ trên máy 2.
-    \item Doanh thu lần lượt cho từng đơn vị sản phẩm I,II là 30USD và 20USD.
-    \item Thời gian làm việc tối thiểu của mỗi máy là 8 giờ.
+\item Với véc tơ $c$ cần nhiễu
+\item Xác định véc tơ nhiễu $d$
+\item Với tham số nhiễu $t$, mục tiêu có nhiễu trở thành $c+td$.
 \end{itemize}
-Hãy tìm số đơn vị sản phẩm để thu được lợi nhuận cao nhất.
+\textcolor{red}{\bf Bài toán tối ưu tuyến tính có nhiễu ở hàm mục tiêu với tham số nhiễu $t$ có dạng:}
+$$
+    \begin{array}{lll}            
+        {\rm Max (Min)}&f(x)=(c_1+td_1)x_1+\ldots+(c_n+td_n)x_n\\
+            & \begin{cases}
+            a_{11}x_1+\ldots+a_{1n}x_n =  b_1 \\
+            \vdots\\
+            a_{m1}x_1+\ldots+a_{mn}x_n =  b_m\\
+            x_i\geq 0,\forall i=1,2....n
+           \end{cases} 
+     \end{array}
+$$ 
 
+\textcolor{red}{\bf Nếu bài toán tối ưu tuyến tính có nhiễu ở vế phải thì bằng cách chuyển qua bài toán đối ngẫu, sẽ có bài toán nhiễu ở hàm mục tiêu.}
 \end{frame}
- \begin{frame}{Ví dụ 2}
-     Ta có bài toán tối ưu tuyến tính như sau
-     \begin{center}
-            $\left(P\right)$ $f(x)=30x_1+20x_2 \longrightarrow$Max
-     \end{center}
-  \[\left\{\begin{aligned}
-      2x_1+x_2\leq 8\\
-      x_1+3x_2\leq 8\\
-      x_1,x_2\geq 0
-  \end{aligned}\right.\]
-\begin{center}
-    Ta thu được nghiệm tối ưu của bài toán này là $(3.2,1.6)$ 
-     
-\end{center}
 
- \end{frame}
-    
-\begin{frame}{Ví dụ 2}
-    \begin{center}
-        \begin{figure}
-            
-            \includegraphics[width=0.8\linewidth]{hinhanh/anh2vidu2.png}
-      
-        \end{figure}
-        Hỉnh minh họa cho bài toán
-    \end{center}
-    
-\end{frame}
+
 
 \section{Nội dung nghiên cứu}
-\begin{frame}{Nội dung nghiên cứu}
+\begin{frame}{\bf Nội dung nghiên cứu}
     \begin{itemize}
     \item Hệ thống lại cơ sở lý thuyết và phương pháp giải các bài toán Tối ưu tuyến tính.
-    \item Từ đó mở rộng để tìm hiểu về bài toán tối ưu tuyến tính có tham số thông qua 2 dạng bài toán:
+    \item Đề tài này chọn lựa tìm hiểu về bài toán tối ưu tuyến tính có tham số thông qua 2 dạng bài toán:
     \begin{itemize}
     \item Tối ưu tuyến tính có tham số ở hàm mục tiêu.
     \item Tối ưu tuyến tính có tham số ở vế phải của ràng buộc.
     \end{itemize}
+    \item Trong các trường hợp trên đề tài sẽ tìm hiểu về ảnh hưởng  của tham số tác động đến sự tồn tại nghiệm và tập nghiệm tương ứng của bài toán.
     \end{itemize}
 \end{frame}
 \section{Dự kiến nội dung đề tài}
-\begin{frame}{Dự kiến nội dung đề tài}
+\begin{frame}{\bf Dự kiến nội dung đề tài}
     \begin{itemize}
     \item Chương 1:  Bao gồm các kiến thức chuẩn bị, nội dung có liên quan đến
     một số kiến thức cơ bản của quy hoạch tuyến tính để dùng
@@ -209,7 +207,7 @@ Hãy tìm số đơn vị sản phẩm để thu được lợi nhuận cao nh�
 \end{frame}
 \section{Tổ chức và phân công}
 \begin{frame}[shrink=20]
-    \frametitle{Tổ chức và phân công}
+    \frametitle{\bf Tổ chức và phân công}
     \vspace{1.5cm}
     \begin{table}
         \begin{tabular}{|p{2.5in}|c|c|}
@@ -247,21 +245,24 @@ Thời gian nghiên cứu chia làm 3 giai đoạn:
 
 
 \section{Tài liệu tham khảo}
-  \begin{frame}{Tài liệu tham khảo}
+
+\begin{frame}{Tài liệu tham khảo}
 \begin{thebibliography}{xxx}
 %1%
 \bibitem{T}   Tạ Quang Sơn, Bài giảng Quy hoạch tuyến tính, Đại học Sài Gòn, 2023.
 
 \bibitem{E} Elementary Linear Programming with Applications (1995, Academic Press).
-%2%
+
 \bibitem{H} Hu T.C.-Linear and Integer Programming Made Easy.
+
 \bibitem{L} Linear Programming - Foundations and Extensions - Springer US (2001).
-\bibitem{B}Bùi Phúc Trung, Nguyễn Thị Ngọc Thanh, Vũ Thị Bích Liên, Giáo trình Quy hoạch tuyến tính Tối ưu hóa-NXB Lao Động-Xã Hội-2003
-NXB Lao Động-Xã Hội-2003.
+
+\bibitem{B}Bùi Phúc Trung, Nguyễn Thị Ngọc Thanh, Vũ Thị Bích Liên, Giáo trình Quy hoạch tuyến tính Tối ưu hóa, NXB Lao Động-Xã Hội-2003
 
 \end{thebibliography}
 \end{frame}
-\begin{frame}\frametitle{Kết thúc}
+
+\begin{frame}
 \begin{block}{}
 \medskip
 \center{\huge \it \textcolor[rgb]{0.50,0.30,1.0}{Cảm ơn quý thầy cô và các anh chị đã quan tâm theo dõi!}}

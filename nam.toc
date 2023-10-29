@@ -1,6 +1,0 @@
-\beamer@sectionintoc {1}{Lý do chọn đề tài }{3}{0}{1}
-\beamer@sectionintoc {2}{Mục đích của luận văn}{5}{0}{2}
-\beamer@sectionintoc {3}{Dự kiến nội dung của luận văn}{6}{0}{3}
-\beamer@sectionintoc {4}{Dự kiến tiến độ thực hiện luận văn}{7}{0}{4}
-\beamer@sectionintoc {5}{Giới thiệu sơ lược vấn đề nghiên cứu}{8}{0}{5}
-\beamer@sectionintoc {6}{Tài liệu tham khảo}{9}{0}{6}

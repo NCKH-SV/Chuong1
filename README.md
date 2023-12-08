@@ -4,8 +4,19 @@ Cách gõ Markdown [[here]](https://www.markdownguide.org/)
 | Thành viên | Nội dung |
 |------------|----------|
 | Thư | Đơn hình (2 pha, M) |
-| Nam | Đối ngẫu |
 | ĐA | Đơn hình cải biên |
 | Bằng | Đơn hình đối ngẫu |
-## Fix
-[Latex Workshop Extension not working](https://github.com/VSCodium/vscodium/issues/486)
+| Nam | Đối ngẫu |
+
+## Ghi chú lỗi
+| Thành viên | Tổng line lỗi |
+|------------|----------|
+| Thư | 4 |
+| ĐA | 22 |
+| Bằng | 0 |
+| Nam | 0 |
+## Một số lệnh
+- Ngắt ra để sửa lỗi 
+```
+\iffalse . . . \fi
+```

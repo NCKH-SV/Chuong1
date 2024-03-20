@@ -1,0 +1,31 @@
+{
+    "background.useFront": false,
+    "background.useDefault": false,
+    "background.style": {
+
+    
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "background-position":"center",
+        "background-size": "1080 px 720px",
+        "opacity": 0.2
+        
+    },
+    "background.customImages": [
+
+        "https://i.pinimg.com/originals/21/9a/09/219a09d5c2d9e50e4c2d20c9a03e09af.gif"
+    ],
+    "background.customImageFolders": [
+
+    
+    ],
+    "CodeGPT.apiKey": "CodeGPT Plus",
+    "background.styles": [
+        
+        {},
+        {},
+        {}
+    ]
+}
